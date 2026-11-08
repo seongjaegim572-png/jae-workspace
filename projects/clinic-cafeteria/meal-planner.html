@@ -5,9 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>병원 식단 도우미</title>
 <style>
-:root{--bg:#faf9f6;--card:#fff;--ink:#1f2328;--sub:#5f6670;--line:#e3e1db;--accent:#2f6f5e;--warn:#9a5b00;--warnbg:#fff4e0;--kid:#3b5ba5;--dia:#8a3f8f}
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#16181b;--card:#1f2226;--ink:#e8e6e1;--sub:#a0a6ad;--line:#33373c;--accent:#6fc2a8;--warn:#f0b35a;--warnbg:#3a2c14;--kid:#8fa8e6;--dia:#d59ad9}}
-:root[data-theme="dark"]{--bg:#16181b;--card:#1f2226;--ink:#e8e6e1;--sub:#a0a6ad;--line:#33373c;--accent:#6fc2a8;--warn:#f0b35a;--warnbg:#3a2c14;--kid:#8fa8e6;--dia:#d59ad9}
+:root{--bg:#faf9f6;--card:#fff;--ink:#1f2328;--sub:#5f6670;--line:#e3e1db;--accent:#2f6f5e;--warn:#9a5b00;--warnbg:#fff4e0;--dia:#8a3f8f}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#16181b;--card:#1f2226;--ink:#e8e6e1;--sub:#a0a6ad;--line:#33373c;--accent:#6fc2a8;--warn:#f0b35a;--warnbg:#3a2c14;--dia:#d59ad9}}
+:root[data-theme="dark"]{--bg:#16181b;--card:#1f2226;--ink:#e8e6e1;--sub:#a0a6ad;--line:#33373c;--accent:#6fc2a8;--warn:#f0b35a;--warnbg:#3a2c14;--dia:#d59ad9}
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.55 -apple-system,"Apple SD Gothic Neo","Noto Sans KR",sans-serif}
 main{max-width:1000px;margin:0 auto;padding:20px 16px 60px}
@@ -25,7 +25,7 @@ h1{font-size:22px;margin:0 0 4px}h2{font-size:17px;margin:28px 0 10px}
 table{border-collapse:collapse;width:100%;font-size:13px}
 th,td{border-bottom:1px solid var(--line);padding:6px 8px;text-align:left;vertical-align:top}
 th{color:var(--sub);font-weight:600;white-space:nowrap}
-.k{color:var(--kid);font-size:12px}.d{color:var(--dia);font-size:12px}
+.d{color:var(--dia);font-size:12px}
 .grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:12px}
 .num{text-align:right;white-space:nowrap}
 @media print{.tabs,.counts,.noprint{display:none}body{background:#fff;color:#000}}
@@ -35,12 +35,11 @@ th{color:var(--sub);font-weight:600;white-space:nowrap}
 <main>
 <h1>병원 식단 도우미 <span class="sub">v0.1 초안</span></h1>
 <div class="sub">2주 식단 → 인원수별 재료 양 → 와이마트 / 쿠팡 장보기 목록</div>
-<div class="note">초안이야. 신장식·당뇨식 기준은 일반적인 원칙만 넣었어. 실제로 쓰기 전에 <b>원장님(또는 영양사) 확인 필수</b>. 양은 1인분 생재료 기준 추정치야.</div>
+<div class="note">초안이야. 당뇨식 기준은 일반적인 원칙만 넣었어. 실제로 쓰기 전에 <b>원장님(또는 영양사) 확인 필수</b>. 양은 1인분 생재료 기준 추정치야.</div>
 
 <h2>1. 이번 주 입원 인원</h2>
 <div class="card counts">
   <div><label>일반식</label><input id="n-normal" type="number" min="0" value="8"></div>
-  <div><label>신장식 (투석)</label><input id="n-kidney" type="number" min="0" value="5"></div>
   <div><label>당뇨식</label><input id="n-diabetes" type="number" min="0" value="3"></div>
   <div><label>손실 여유분 (%)</label><input id="n-buffer" type="number" min="0" value="10"></div>
 </div>
@@ -48,7 +47,7 @@ th{color:var(--sub);font-weight:600;white-space:nowrap}
 <h2>2. 2주 식단</h2>
 <div class="tabs" id="weekTabs"></div>
 <div class="card scroll"><table id="menu"></table></div>
-<div class="sub" style="margin-top:6px"><span class="k">■ 신장식</span>: 흰쌀밥, 국은 반 그릇(건더기 위주), 김치 대신 양배추찜, 칼륨 높은 나물은 데쳐서 물 버리고 양 절반. &nbsp;<span class="d">■ 당뇨식</span>: 잡곡밥(쌀 2/3 + 잡곡 1/3), 단 양념 줄이기.</div>
+<div class="sub" style="margin-top:6px"><span class="d">■ 당뇨식</span>: 잡곡밥(쌀 2/3 + 잡곡 1/3), 단 양념 줄이기.</div>
 
 <h2>3. 장보기 목록 <span class="sub" id="shopTitle"></span></h2>
 <div class="grid2">
@@ -56,7 +55,7 @@ th{color:var(--sub);font-weight:600;white-space:nowrap}
   <div class="card"><b>쿠팡</b> <span class="sub">쌀·건어물·냉동·양념 · 2주 1회</span><table id="shopC"></table></div>
 </div>
 <div class="card" style="margin-top:12px"><b>양념 (주 1회 재고 확인)</b>
-  <div class="sub">저염 간장, 국간장, 된장, 고추장, 고춧가루, 다진마늘, 참기름, 들기름, 식용유, 깨, 식초, 올리고당(당뇨식은 최소). 신장식에는 소금 대체제(칼륨 들어간 저나트륨 소금) <b>쓰지 않기</b>.</div>
+  <div class="sub">저염 간장, 국간장, 된장, 고추장, 고춧가루, 다진마늘, 참기름, 들기름, 식용유, 깨, 식초, 올리고당(당뇨식은 최소).</div>
 </div>
 <p class="sub noprint">인쇄하면 입력칸은 빠지고 표만 나와.</p>
 </main>
@@ -87,26 +86,24 @@ const MAINS=[
  {n:"돼지고기 수육",i:[["돼지 앞다리살",80,"Y"]]},
  {n:"소고기 버섯볶음",i:[["소고기 불고기용",60,"Y"],["느타리버섯",30,"Y"]]}
 ];
-// kid: ok | half(데쳐서 물 버리고 양 절반) | swap(신장식은 양배추찜으로)
 const SIDES=[
- {n:"콩나물무침",i:[["콩나물",50,"Y"]],kid:"ok"},
- {n:"무생채",i:[["무",50,"Y"]],kid:"ok"},
- {n:"애호박볶음",i:[["애호박",50,"Y"]],kid:"ok"},
- {n:"숙주나물",i:[["숙주",50,"Y"]],kid:"ok"},
- {n:"오이무침",i:[["오이",50,"Y"]],kid:"ok"},
- {n:"가지볶음",i:[["가지",50,"Y"]],kid:"ok"},
- {n:"구운김",i:[["조미 안 된 김",2,"C"]],kid:"ok"},
- {n:"계란말이",i:[["계란",30,"Y"]],kid:"ok"},
- {n:"시금치나물",i:[["시금치",50,"Y"]],kid:"half"},
- {n:"청경채볶음",i:[["청경채",50,"Y"]],kid:"ok"},
- {n:"마늘쫑볶음",i:[["마늘쫑",40,"Y"]],kid:"ok"},
- {n:"느타리버섯볶음",i:[["느타리버섯",50,"Y"]],kid:"half"},
- {n:"감자채볶음",i:[["감자",50,"Y"]],kid:"swap"},
- {n:"브로콜리 데침",i:[["브로콜리",50,"Y"]],kid:"half"},
- {n:"멸치볶음",i:[["잔멸치",8,"C"]],kid:"swap"},
- {n:"양배추찜",i:[["양배추",50,"Y"]],kid:"ok"}
+ {n:"콩나물무침",i:[["콩나물",50,"Y"]]},
+ {n:"무생채",i:[["무",50,"Y"]]},
+ {n:"애호박볶음",i:[["애호박",50,"Y"]]},
+ {n:"숙주나물",i:[["숙주",50,"Y"]]},
+ {n:"오이무침",i:[["오이",50,"Y"]]},
+ {n:"가지볶음",i:[["가지",50,"Y"]]},
+ {n:"구운김",i:[["조미 안 된 김",2,"C"]]},
+ {n:"계란말이",i:[["계란",30,"Y"]]},
+ {n:"시금치나물",i:[["시금치",50,"Y"]]},
+ {n:"청경채볶음",i:[["청경채",50,"Y"]]},
+ {n:"마늘쫑볶음",i:[["마늘쫑",40,"Y"]]},
+ {n:"느타리버섯볶음",i:[["느타리버섯",50,"Y"]]},
+ {n:"감자채볶음",i:[["감자",50,"Y"]]},
+ {n:"브로콜리 데침",i:[["브로콜리",50,"Y"]]},
+ {n:"멸치볶음",i:[["잔멸치",8,"C"]]},
+ {n:"양배추찜",i:[["양배추",50,"Y"]]}
 ];
-const SWAP={n:"양배추찜",i:[["양배추",50,"Y"]]};
 const DAYS=["월","화","수","목","금","토","일"], MEALS=["아침","점심","저녁"];
 
 function plan(){
@@ -121,20 +118,15 @@ const PLAN=plan();
 let week=0;
 
 function get(id){const v=parseFloat(document.getElementById(id).value);return isNaN(v)||v<0?0:v}
-function counts(){return{N:get("n-normal"),K:get("n-kidney"),D:get("n-diabetes"),B:get("n-buffer")}}
+function counts(){return{N:get("n-normal"),D:get("n-diabetes"),B:get("n-buffer")}}
 
-function sideLabel(s){
-  if(s.kid==="half")return s.n+' <span class="k">신장: 데쳐서 물 버리고 양 절반</span>';
-  if(s.kid==="swap")return s.n+' <span class="k">신장: 양배추찜</span>';
-  return s.n;
-}
 function renderMenu(){
   let h="<tr><th></th>"+MEALS.map(x=>"<th>"+x+"</th>").join("")+"</tr>";
   for(let d=0;d<7;d++){
     h+="<tr><th>"+DAYS[d]+"</th>";
     for(let t=0;t<3;t++){
       const p=PLAN[(week*7+d)*3+t];
-      h+="<td>밥 <span class='d'>(당뇨: 잡곡)</span><br>"+p.soup.n+"<br><b>"+p.main.n+"</b><br>"+sideLabel(p.s1)+"<br>"+sideLabel(p.s2)+"<br>배추김치 <span class='k'>(신장: 양배추찜)</span></td>";
+      h+="<td>밥 <span class='d'>(당뇨: 잡곡)</span><br>"+p.soup.n+"<br><b>"+p.main.n+"</b><br>"+p.s1.n+"<br>"+p.s2.n+"<br>배추김치</td>";
     }
     h+="</tr>";
   }
@@ -142,17 +134,14 @@ function renderMenu(){
 }
 function add(map,name,g,store){const k=store+"|"+name;map[k]=(map[k]||0)+g}
 function renderShop(){
-  const {N,K,D,B}=counts(), all=N+K+D, buf=1+B/100, map={};
+  const {N,D,B}=counts(), all=N+D, buf=1+B/100, map={};
   for(let x=week*21;x<week*21+21;x++){
     const p=PLAN[x];
-    add(map,"백미",90*(N+K)+60*D,"C"); add(map,"잡곡(현미·귀리 등)",30*D,"C");
-    p.soup.i.forEach(([n,g,s])=>add(map,n,g*(N+D)+g*0.5*K,s));
+    add(map,"백미",90*N+60*D,"C"); add(map,"잡곡(현미·귀리 등)",30*D,"C");
+    p.soup.i.forEach(([n,g,s])=>add(map,n,g*all,s));
     p.main.i.forEach(([n,g,s])=>add(map,n,g*all,s));
-    [p.s1,p.s2].forEach(sd=>{
-      sd.i.forEach(([n,g,s])=>add(map,n,g*(N+D)+(sd.kid==="ok"?g*K:sd.kid==="half"?g*0.5*K:0),s));
-      if(sd.kid==="swap")SWAP.i.forEach(([n,g,s])=>add(map,n,g*K,s));
-    });
-    add(map,"배추김치",40*(N+D),"C"); add(map,"양배추",40*K,"Y");
+    [p.s1,p.s2].forEach(sd=>sd.i.forEach(([n,g,s])=>add(map,n,g*all,s)));
+    add(map,"배추김치",40*all,"C");
   }
   const rows={Y:[],C:[]};
   Object.entries(map).forEach(([k,g])=>{const[s,n]=k.split("|");if(g>0)rows[s].push([n,g*buf])});
@@ -171,8 +160,7 @@ function renderTabs(){
 function render(){renderTabs();renderMenu();renderShop();
   try{localStorage.setItem("mealCounts",JSON.stringify(counts()))}catch(e){}}
 try{const c=JSON.parse(localStorage.getItem("mealCounts")||"null");
-  if(c){document.getElementById("n-normal").value=c.N;document.getElementById("n-kidney").value=c.K;
-  document.getElementById("n-diabetes").value=c.D;document.getElementById("n-buffer").value=c.B}}catch(e){}
+  if(c){document.getElementById("n-normal").value=c.N;document.getElementById("n-diabetes").value=c.D;document.getElementById("n-buffer").value=c.B}}catch(e){}
 document.querySelectorAll(".counts input").forEach(i=>i.oninput=render);
 render();
 </script>
