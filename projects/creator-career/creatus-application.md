@@ -108,6 +108,14 @@ Claude Code로 제 개인 작업 공간(GitHub 저장소)을 직접 만들어 �
 
 ## 100만 뷰 릴스 분석 (빈칸: Jae가 숫자 채우기)
 
+공개 페이지에서 확인한 것 (2026-11-10):
+- 릴스 A (DVaq8uakWoT): 2026-03-03 게시, 좋아요 36.8만, 댓글 4,391. 해시태그 #relatable #explorepage #onlinefriends #model #lowkey
+- 릴스 B (DR11wwEESwx): 2025-12-04 게시. 해시태그 #koreanboy #girlfriendgoals #funny. 좋아요·댓글 수는 공개 페이지에 안 나옴
+- 영상 안 내용(훅, 화면)은 로그인 없이 안 보여서 확인 못 함
+
+첫 패턴 (가설, Jae 확인 필요): 두 영상 다 **한국 남자 + 공감되는 연애·관계 유머**. 음악 콘텐츠가 아님.
+→ 이미 증명된 각도는 "한국 남자 × 미국식 연애·일상 공감"일 수 있음. `my-angle.md`의 ONE person 다시 볼 것.
+
 | 항목 | 릴스 A (DVaq8uakWoT) | 릴스 B (DR11wwEESwx) |
 |---|---|---|
 | 첫 문장 (말 훅) | | |
