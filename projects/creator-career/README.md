@@ -9,6 +9,7 @@
 - `playbook.md` — 받은 자료 4개 + 강의 슬라이드를 규칙 하나로 정리
 - `my-angle.md` — Jae 전용: 내 ONE person, 내 스토리, 바로 쓸 훅, 돈 버는 길
 - `creatus-application.md` — 크리투스 글로벌 콘텐츠 마케터 공고 요약 + 지원서 답변 초안
+- `plan-to-march.md` — 2027년 3월 정식 지원까지 성과 계획
 
 ## 받은 자료 (원본은 저장소에 안 넣음)
 1. Content Academy — *Graduating 1,000 View Jail* (실수 15개)
