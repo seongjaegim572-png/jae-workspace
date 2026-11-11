@@ -1,63 +1,155 @@
-# @coolkoreanboy_jae 대본 1~10 (초안)
+# @coolkoreanboy_jae — 30 scripts (draft)
 
-공통 규칙
-- 영어, 15~25초, 얼굴 가까이, 컬러 조명
-- 제품은 Jae가 **실제로 쓰는 것**만. [product]에 이름 넣기. 효과는 "내 피부에선" 경험으로만 말하고, 치료·완치 같은 말은 안 씀
-- 촬영: 부대 밖, 사복, 배경에 군 관련 물건 없음
-- 형식 = 공유되는 POV + 끝에 Jae 캐릭터 한 마디
+**ONE person:** An American 18 to 28 year old with sensitive or acne-prone skin who loves K-beauty but is overwhelmed by the 12-step hype.
+**Reason to follow:** A Korean guy with sensitive skin shows you what Koreans actually use, with jokes.
+**Format mix:** POV skits (shares) + Jae's own story (follows) + quick lists (saves).
+**Rules:** Only products Jae really uses go in [product]. Talk about results as "on my skin." Never say cure, treat or heal. Mark sponsored posts as #ad.
 
 ---
 
-### 1. Korean friend vs your 12-step routine (POV, 공유형)
-- 화면 글자: `POV: your Korean friend sees your 12-step routine`
-- 컷: ① 세면대 위 제품 12개 줄 세우기 (넓게) ② Jae 표정 클로즈업, 천천히 안경 내림 ③ 하나씩 밀어서 치우기 (빠른 컷 4개) ④ 3개만 남김
-- 대사 (끝): "Bro. Three. You need three."
-- 캡션 질문: "What's the one product you'd keep?"
+## A. POV skits (share engine)
 
-### 2. Sensitive skin starter pack (설명형, 저장 유도)
-- 훅 (말): "If your skin hates everything, this is what a Korean guy with sensitive skin actually uses."
-- 화면 글자: `sensitive skin? start here`
-- 컷: 제품 3개 각각 손에 들고 1.5초씩 → 바르는 손 클로즈업 → 거울 보는 Jae
-- 대사: "Cleanser: [product]. Doesn't sting. Moisturizer: [product]. Boring, works. Sunscreen: [product]. No white cast. That's it."
+**1. The 12-step intervention**
+- Text hook: `POV: your Korean friend sees your 12-step routine`
+- Beats: 12 products lined up (wide) → Jae slowly lowers glasses → swipes products away in 4 fast cuts → 3 left
+- Line: "Bro. Three. You need three."
+- Share to: the friend with the overflowing shelf · Music: Barbie inst. (chill, funny)
 
-### 3. What Koreans actually buy at Olive Young (현장형)
-- 훅: "Tourists buy the viral stuff. Koreans buy this."
-- 컷: 올리브영 입구 → 진열대 걷기 B-roll 5컷 (첫 5초에) → 장바구니 속 3개
-- 대사: 제품 3개 이름 + 한 줄 이유 / 끝: "Save this for your Seoul trip."
-- 촬영 메모: 매장 촬영 가능한지 직원에게 먼저 확인
+**2. Korean mom finds your skincare**
+- Text hook: `when your Korean mom finds your $200 skincare haul`
+- Beats: Jae plays mom (towel on head) holding receipt → slow zoom → mom pulls out one cheap tub from the fridge
+- Line (mom): "This. Since 1998."
+- Share to: anyone with an Asian mom · Music: Married Life (calm, funny contrast)
 
-### 4. My mom vs me buying skincare (상황극, 캐릭터형)
-- 화면 글자: `my mom vs me at a Korean pharmacy`
-- 컷: Jae가 1인 2역 (엄마 = 머리에 수건). 엄마: 하나 집고 끝 / Jae: 10분 성분표 읽기
-- 끝 대사: "She was right. Again."
+**3. Telling Americans you wear sunscreen in winter**
+- Text hook: `telling my American friends I wear sunscreen in December`
+- Beats: Jae applies sunscreen, snow or grey sky outside → cut to fake "friends" reactions (Jae in 2 hats)
+- Line: "The sun doesn't take holidays."
+- Music: Say Yes (upbeat, bubbly)
 
-### 5. Things Korean guys do that Americans think are weird (공유형)
-- 훅: "Things Korean guys do that my American friends think are weird."
-- 리스트 3개 (각 2초 컷): 선크림 매일 / 시트 마스크 / 수분 크림 들고 다니기
-- 끝: "Which one are you stealing?"
+**4. Your skin after one night of ramen**
+- Text hook: `my skin the morning after 11pm ramen`
+- Beats: ramen at night (B-roll 3 cuts) → morning puffy face close-up → Jae's "fix" with [product]
+- Share to: the ramen friend · Music: Doja inst. (chill swag)
 
-### 6. $10 vs $40 sunscreen (비교형)
-- 훅: "I tested a $10 Korean sunscreen against a $40 one."
-- 컷: 두 손등에 바르기 → 흰 끼 비교 클로즈업 → 저녁 사진 비교
-- 대사: 결과는 Jae가 실제로 느낀 대로만. 가격은 실제 가격 확인 후 넣기
+**5. When a Korean guy uses more skincare than his girlfriend**
+- Text hook: `POV: your boyfriend's skincare shelf is bigger than yours`
+- Beats: two shelves side by side, his is longer → Jae shrugs
+- Note: only with girlfriend's OK; otherwise use "your roommate"
+- Music: Barbie inst.
 
-### 7. Night routine in 20 seconds (루틴형, 반복 시청)
-- 화면 글자: `my 20-second Korean night routine`
-- 컷: 빠른 점프컷 6개 (세안, 토너, 크림, 립밤, 베개, 불 끄기). 음악 박자에 맞춤
-- 말 없음. 끝 글자: `goodnight from Korea 🇰🇷`
+**6. Olive Young with a Korean friend vs alone**
+- Text hook: `Olive Young alone vs with a Korean friend`
+- Beats: left = basket full of random viral stuff; right = Jae picks 3 and walks out
+- Line: "Rule one: ignore the display at the door."
+- Share to: friend planning a Seoul trip · Music: Miss Alissa (upbeat build)
 
-### 8. Reacting to American skincare TikTok (반응형)
-- 훅: "A Korean guy reacts to the skincare advice on your FYP."
-- 컷: 그린스크린 형식(인스타 앱 기능) 뒤에 유행 영상 → Jae 반응
-- 주의: 다른 사람 영상은 앱의 리믹스/그린스크린 기능으로만 사용
+**7. The face you make when someone skips sunscreen**
+- Text hook: `when they say "I don't burn, I tan"`
+- Beats: one long silent stare, slow push-in, single blink
+- Music: Hand Covers Bruise (dramatic, ironic)
 
-### 9. Barrier repair week, Day 1 (시리즈형, 팔로우형)
-- 훅: "Day 1 of fixing my skin barrier before I see my girlfriend."
-- 화면 글자: `Day 1/7`
-- 컷: 피부 클로즈업 → 오늘 쓴 제품 → 다짐 한 마디
-- 메모: 여자친구 언급은 여자친구 동의 후. 동의 없으면 "before my trip"으로
+**8. Korean dad's entire skincare routine**
+- Text hook: `my Korean dad's full skincare routine`
+- Beats: Jae as dad, one product, 2 seconds, done → Jae as himself, 6 steps, sighs
+- Music: Married Life
 
-### 10. UGC 샘플 (브랜드에 보여줄 포트폴리오용)
-- 훅: "I didn't expect a [product type] to fix my winter skin."
-- 구조: 문제(건조한 손등 클로즈업) → 제품 첫인상 → 쓰는 장면 → 결과 → "Link's in my bio" 대신 "Would you try it?"
-- 목적: 협찬 친구·브랜드에게 보낼 샘플. 실제 협찬 아니면 "not sponsored" 표기
+**9. Sheet mask in public**
+- Text hook: `wearing a sheet mask at a café in Korea vs America`
+- Beats: Jae with sheet mask sipping coffee, nobody reacts (Korea) → text card "in America:" → dramatic zoom
+- Music: Saturn inst. (mysterious, bubbly)
+
+**10. Sensitive skin people when a new product stings**
+- Text hook: `sensitive skin girlies when the new serum tingles`
+- Beats: apply → freeze → eyes go wide → slowly reach for the old moisturizer
+- Share to: the sensitive-skin friend · Music: Hand Covers Bruise
+
+## B. Jae's story (follow engine)
+
+**11. Is it possible to fix my skin barrier in 7 days? (series, Day 1)**
+- Hook: "Is it possible to fix a wrecked skin barrier in 7 days?" `[Mino: Is it possible to X in 1 week?]`
+- Text hook: `Day 1/7 · cheek redness 7/10`
+- Beats: close-up of dry patch → today's 3 products → one rule for the week
+- Follow trigger: "Day 2 tomorrow."
+
+**12. Day 7 result**
+- Hook: "Seven days ago my skin looked like this."
+- Beats: Day 1 clip vs Day 7 clip, same light → honest verdict, including what didn't work
+- Music: Gone Gone / Thank You ending (inspirational)
+
+**13. I spent $50 at Olive Young and…**
+- Hook: "I just spent $50 at Olive Young, and only 2 things were worth it." `[Mino: I just spent $X on thing, and…]`
+- Beats: haul on table → 2 winners close-up → 1 flop in the trash
+
+**14. I regret this skincare purchase**
+- Hook: "I regret buying this. Well, kind of." `[Mino: I regret X. Well, kind of.]`
+- Beats: product in hand → what went wrong → who it IS good for
+
+**15. A year ago I didn't own sunscreen**
+- Hook: "A year ago I didn't even own sunscreen." `[Mino: A year ago, I was…]`
+- Beats: old photo → current routine 3 cuts → one lesson
+- Music: Evergreen (hopecore)
+
+**16. Why I started caring about skincare**
+- Hook: "My skin used to keep me from taking photos."
+- Beats: Jae talks to camera, close, warm light → turning point → "So I started testing everything."
+- Music: Echo Sax (introspective)
+
+**17. Things I'd tell 17-year-old me about skin**
+- Hook: "If I could go back to 17, I'd sell my kidney to tell myself these 3 things." `[Mino: If I could teleport back…]`
+- Beats: 3 tips, 1 cut each
+
+**18. My 20-second night routine**
+- Text hook: `my 20-second night routine as a Korean guy`
+- Beats: 6 jump cuts on the beat (wash, toner, cream, lip balm, pillow, lights off). No talking.
+- Music: vacations - telephones sped up (calm, nostalgic)
+
+**19. My girlfriend tried my routine**
+- Note: only with her OK
+- Hook: "My girlfriend stole my skincare for a week."
+- Beats: her shelf → his shelf → her verdict (text on screen)
+
+**20. Q&A: what's the one product you'd keep?**
+- Hook: "You asked me what one product I'd keep. It's not what you think."
+- Beats: reply-to-comment sticker → answer → why
+
+## C. Quick lists and tests (save engine)
+
+**21. Sensitive skin starter pack**
+- Hook: "If your skin hates everything, start with these three." `[Mino: Here are the 3 easiest ways to…]`
+- Beats: cleanser / moisturizer / sunscreen, 2 sec each, hand + label close-up
+
+**22. $10 vs $40 sunscreen**
+- Hook: "I tested a $10 Korean sunscreen against a $40 one."
+- Beats: both on the back of each hand → white cast close-up → evening check. Real prices only.
+
+**23. 3 things Koreans do that Americans skip**
+- Hook: "Koreans do these 3 things every day. Most Americans skip all of them." `[Mino: 3 things you need to know…]`
+- Beats: double cleanse / sunscreen even indoors near windows / moisturizer on damp skin
+
+**24. Ingredients I avoid with sensitive skin**
+- Hook: "Sensitive skin? Check the label for these before you buy."
+- Beats: label close-ups, circle the word on screen. Say "these bother MY skin."
+
+**25. What Koreans actually buy at Olive Young**
+- Hook: "Tourists buy the viral stuff. Koreans buy this."
+- Beats: store walk B-roll, 5 cuts in first 5 sec → 3 picks. Ask staff before filming.
+
+**26. Korean pharmacy vs Olive Young**
+- Hook: "Skip Olive Young for these 2 things. Go to a pharmacy."
+- Beats: pharmacy sign → 2 products → price on screen
+
+**27. Winter skin in 3 steps**
+- Hook: "Here's exactly how to stop flaky winter skin. Three steps." `[Mino: Here's exactly how to NEVER…]`
+
+**28. The goated cheap moisturizer**
+- Hook: "The most underrated K-beauty moisturizer costs less than lunch." `[Mino: The most underrated X…]`
+
+**29. Dupes: Korean vs American**
+- Hook: "Your $60 cream has a $15 Korean cousin."
+- Beats: side by side, texture close-ups. Compare only what Jae tested.
+
+**30. UGC portfolio piece (for brands)**
+- Hook: "I didn't expect a [product type] to save my winter skin."
+- Structure: problem close-up → first impression → use → result → "Would you try it?"
+- Purpose: sample to show the cosmetics contact and brands. Mark "not sponsored" if it isn't.
