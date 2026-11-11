@@ -1,0 +1,18 @@
+User-agent: *
+Allow: /
+
+# AI 검색 (GEO/AEO): 답변에 인용될 수 있게 허용
+User-agent: GPTBot
+Allow: /
+User-agent: OAI-SearchBot
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: Google-Extended
+Allow: /
+User-agent: Yeti
+Allow: /
+
+Sitemap: https://YOUR-DOMAIN/sitemap.xml
