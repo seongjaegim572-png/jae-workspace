@@ -1,18 +1,24 @@
 User-agent: *
 Allow: /
 
-# AI 검색 (GEO/AEO): 답변에 인용될 수 있게 허용
+# AI 검색·네이버·다음: 답변에 인용될 수 있게 허용
 User-agent: GPTBot
 Allow: /
 User-agent: OAI-SearchBot
 Allow: /
+User-agent: ChatGPT-User
+Allow: /
 User-agent: ClaudeBot
+Allow: /
+User-agent: Claude-SearchBot
 Allow: /
 User-agent: PerplexityBot
 Allow: /
 User-agent: Google-Extended
 Allow: /
 User-agent: Yeti
+Allow: /
+User-agent: Daum
 Allow: /
 
 Sitemap: https://YOUR-DOMAIN/sitemap.xml

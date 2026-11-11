@@ -1,0 +1,51 @@
+{
+  "domain": "https://YOUR-DOMAIN",
+  "name": "미래연합의원",
+  "site_name": "남원 미래연합의원",
+  "name_en": "Mirae Yeonhap Clinic Namwon",
+  "phone": "063-636-7500",
+  "phone2": "010-8533-7500",
+  "road_address": "전북특별자치도 남원시 시청로 3",
+  "jibun_address": "죽항동 309",
+  "street": "시청로 3",
+  "locality": "남원시",
+  "region": "전북특별자치도",
+  "lat": 35.4112932,
+  "lng": 127.3928084,
+  "naver_map": "https://map.naver.com/p/entry/place/13267348",
+  "naver_place": "https://m.place.naver.com/hospital/13267348/home",
+  "kakao_map": "https://map.kakao.com/link/search/%EB%82%A8%EC%9B%90%20%EB%AF%B8%EB%9E%98%EC%97%B0%ED%95%A9%EC%9D%98%EC%9B%90",
+  "blog": "https://blog.naver.com/mirae_yeonhap",
+  "instagram": "https://www.instagram.com/namwon_miraeyeonhap",
+  "naver_verification": "",
+  "google_verification": "",
+  "hours": [
+    {"label": "평일 (월~금)", "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"], "opens": "08:40", "closes": "17:50", "note": "점심 12:10~13:30 · 접수 마감 17:40"},
+    {"label": "토요일", "days": ["Saturday"], "opens": "08:30", "closes": "13:00", "note": "점심시간 없음 · 접수 마감 12:50"}
+  ],
+  "closed": "일요일 휴진",
+  "holiday_note": "공휴일 진료는 전화로 확인해 주세요.",
+  "doctor": {
+    "name": "양윤정",
+    "title": "원장",
+    "specialty": "소아청소년과 전문의",
+    "career": [
+      "소아청소년과 전문의",
+      "인하대학교 의과대학 (입학 성적 우수 6년 장학생)",
+      "(전) 성남중앙병원 과장",
+      "(전) 남원의료원 소아청소년과장",
+      "(전) 남원 양소아과 원장",
+      "2015년 12월부터 미래연합의원 운영",
+      "남원에서 25년 이상 진료, 누적 7만 명 이상 진료",
+      "하버드 의과대학 노인 질환 연수, 미국 UC 샌디에이고 의대 연수",
+      "대한신장학회, 대한내과학회, 대한암학회, 대한노인의학회 등 학회 꾸준히 참석"
+    ]
+  },
+  "equipment": ["혈액투석용 인공신장기 13대", "초음파 진단기", "골밀도 검사기", "X-ray 촬영 장치", "원내 혈액·소변 검사"],
+  "parking": "정문 앞 넓은 무료 주차장, 장애인 주차구역",
+  "transit": "남원 공용버스터미널에서 버스를 타고 남원대교사거리 정류장에서 내려 요천 쪽으로 걸어오세요. 가까운 정류장: 남원대교사거리, 시청·전북은행, 죽항아파트",
+  "payment": "카드, 남원 지역화폐(지류·카드·모바일), 제로페이",
+  "amenities": ["무료 주차", "장애인 주차구역", "1층 인공신장실", "놀이방", "무선 인터넷", "입원실"],
+  "area_served": ["남원시", "임실군", "순창군", "장수군", "구례군", "함양군"],
+  "last_reviewed": "2026-11-11"
+}

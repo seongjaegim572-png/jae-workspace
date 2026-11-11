@@ -143,3 +143,13 @@ footer .kw { margin-top: 20px; color: #8fa19c; font-size: 13px; }
 .mobile-cta .tel { background: var(--green); color: #fff; }
 .mobile-cta .map-link { background: #fff; color: var(--green); border: 2px solid var(--green); }
 @media (max-width: 860px) { .mobile-cta { display: flex; } }
+
+/* 추가 */
+.logo { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; line-height: 1.2; }
+.logo small { width: 100%; padding-left: 36px; margin-top: -4px; }
+img.photo { object-fit: cover; width: 100%; height: auto; }
+a.link-card { text-decoration: none; color: inherit; transition: border-color .15s; }
+a.link-card:hover { border-color: var(--green); }
+#faq { border-top: 1px solid var(--line); }
+@media (max-width: 1040px) { .nav { display: none; } }
+@media (max-width: 1040px) { .mobile-cta { display: flex; } }
