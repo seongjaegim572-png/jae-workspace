@@ -119,11 +119,11 @@ def location_table():
 
 
 def doctor_list():
-    return '<ul class="check">' + "".join(f"<li>{esc(c)}</li>" for c in S["doctor"]["career"]) + "</ul>"
+    return '<ul class="list">' + "".join(f"<li>{esc(c)}</li>" for c in S["doctor"]["career"]) + "</ul>"
 
 
 def equipment_list():
-    return '<ul class="check">' + "".join(f"<li>{esc(e)}</li>" for e in S["equipment"]) + "</ul>"
+    return '<ul class="list">' + "".join(f"<li>{esc(e)}</li>" for e in S["equipment"]) + "</ul>"
 
 
 def header(active):
@@ -132,9 +132,9 @@ def header(active):
     )
     return f"""<header class="top">
   <div class="wrap">
-    <a class="logo" href="/"><img src="/assets/favicon.svg" alt="" width="28" height="28">{S['name']}<small>{S['locality']} {S['street']}</small></a>
+    <a class="logo" href="/"><img src="/assets/favicon.svg" alt="" width="30" height="30"><b>미래<em>연합</em>의원</b></a>
     <nav class="nav" aria-label="주요 메뉴">{links}</nav>
-    <a class="call-btn" href="{TEL}">전화하기</a>
+    <a class="call-btn" href="{TEL}">{S['phone']}</a>
   </div>
 </header>"""
 
@@ -164,7 +164,7 @@ def footer():
   </div>
 </footer>
 <div class="mobile-cta">
-  <a class="tel" href="{TEL}">📞 전화하기</a>
+  <a class="tel" href="{TEL}">전화하기</a>
   <a class="map-link" href="{S['naver_map']}" rel="noopener">길찾기</a>
 </div>"""
 
@@ -185,8 +185,8 @@ def fill(text):
         "{{doctor_list}}": doctor_list(), "{{equipment_list}}": equipment_list(), "{{parking}}": S["parking"],
         "{{doctor_name}}": S["doctor"]["name"],
         "{{doctor_photo}}": (
-            f'<img class="photo" src="/assets/doctor.jpg" alt="{S["name"]} {S["doctor"]["name"]} 원장" width="180" height="240" loading="lazy">'
-            if (ROOT / "assets/doctor.jpg").exists() else '<div class="photo">원장님 사진<br>(assets/doctor.jpg 넣으면 자동 표시)</div>'
+            f'<img class="photo" src="/assets/img/doctor.jpg" alt="{S["name"]} {S["doctor"]["name"]} 원장" width="300" height="375" loading="lazy">'
+            if (ROOT / "assets/img/doctor.jpg").exists() else '<div class="photo">원장님 사진<br>(assets/img/doctor.jpg)</div>'
         ),
     }
     for k, v in rep.items():
@@ -257,7 +257,7 @@ def render(src: Path):
 <meta name="geo.region" content="KR-13">
 <meta name="geo.placename" content="{S['locality']}">
 <meta name="geo.position" content="{S['lat']};{S['lng']}">
-<meta name="theme-color" content="#1f6f5c">
+<meta name="theme-color" content="#1b3f7a">
 <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://cdn.jsdelivr.net">
 <link rel="stylesheet" href="{FONT}">
