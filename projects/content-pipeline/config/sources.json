@@ -1,0 +1,59 @@
+{
+  "_설명": "RSS 주소를 넣어요. type: 'trend'(소재) 또는 'competitor'(경쟁사 스파이). persona: 어느 브랜드용인지. 구글 뉴스 검색어를 바꾸면 주제를 바꿀 수 있어요.",
+  "feeds": [
+    {
+      "name": "뉴스: 야간 투석",
+      "url": "https://news.google.com/rss/search?q=%EC%95%BC%EA%B0%84%20%ED%88%AC%EC%84%9D&hl=ko&gl=KR&ceid=KR:ko",
+      "type": "trend",
+      "persona": "clinic"
+    },
+    {
+      "name": "뉴스: 소아 독감",
+      "url": "https://news.google.com/rss/search?q=%EC%86%8C%EC%95%84%20%EB%8F%85%EA%B0%90%20%EC%98%88%EB%B0%A9%EC%A0%91%EC%A2%85&hl=ko&gl=KR&ceid=KR:ko",
+      "type": "trend",
+      "persona": "clinic"
+    },
+    {
+      "name": "경쟁: 전북 투석 병원",
+      "url": "https://news.google.com/rss/search?q=%EC%A0%84%EB%B6%81%20%ED%88%AC%EC%84%9D%20%EB%B3%91%EC%9B%90&hl=ko&gl=KR&ceid=KR:ko",
+      "type": "competitor",
+      "persona": "clinic"
+    },
+    {
+      "name": "News: hyperpop digicore",
+      "url": "https://news.google.com/rss/search?q=hyperpop%20OR%20digicore&hl=en-US&gl=US&ceid=US:en",
+      "type": "trend",
+      "persona": "jae"
+    },
+    {
+      "name": "News: AI music Suno",
+      "url": "https://news.google.com/rss/search?q=Suno%20AI%20music&hl=en-US&gl=US&ceid=US:en",
+      "type": "trend",
+      "persona": "jae"
+    },
+    {
+      "name": "r/WeAreTheMusicMakers",
+      "url": "https://www.reddit.com/r/WeAreTheMusicMakers/top/.rss?t=week",
+      "type": "trend",
+      "persona": "jae"
+    }
+  ],
+  "schedule_slots": {
+    "threads": [
+      "08:00",
+      "20:30"
+    ],
+    "instagram": [
+      "19:00"
+    ],
+    "naver_blog": [
+      "10:00"
+    ],
+    "youtube_shorts": [
+      "18:00"
+    ],
+    "tiktok": [
+      "21:00"
+    ]
+  }
+}
