@@ -17,6 +17,7 @@ S = json.loads((ROOT / "site.json").read_text(encoding="utf-8"))
 D = S["domain"].rstrip("/")
 TEL = "tel:" + S["phone"].replace("-", "")
 TEL2 = "tel:" + S["phone2"].replace("-", "")
+TELD = "tel:" + S["phone_dialysis"].replace("-", "")
 
 NAV = [
     ("dialysis", "/dialysis/", "인공신장실"),
@@ -102,7 +103,7 @@ def hours_table():
         for h in S["hours"]
     )
     rows += "<tr><th>일요일</th><td>휴진</td></tr>"
-    rows += f"<tr><th>공휴일</th><td>{esc(S['holiday_note'])}</td></tr>"
+    rows += "<tr><th>공휴일</th><td>휴진</td></tr>"
     return f'<div class="table-wrap"><table>{rows}</table></div>'
 
 
@@ -110,7 +111,7 @@ def location_table():
     return (
         '<div class="table-wrap"><table>'
         f"<tr><th>주소</th><td>{esc(S['road_address'])} {esc(S['name'])}<br><span class=\"notice\">지번: {esc(S['jibun_address'])}</span></td></tr>"
-        f"<tr><th>전화</th><td><a href=\"{TEL}\">{S['phone']}</a> · <a href=\"{TEL2}\">{S['phone2']}</a></td></tr>"
+        f"<tr><th>전화</th><td>대표 <a href=\"{TEL}\">{S['phone']}</a><br>직통 <a href=\"{TEL2}\">{S['phone2']}</a><br>투석 상담 <a href=\"{TELD}\">{S['phone_dialysis']}</a></td></tr>"
         f"<tr><th>주차</th><td>{esc(S['parking'])}</td></tr>"
         f"<tr><th>대중교통</th><td>{esc(S['transit'])}</td></tr>"
         f"<tr><th>결제</th><td>{esc(S['payment'])}</td></tr>"
@@ -149,7 +150,7 @@ def footer():
         <p>대표자: {S['doctor']['name']}</p>
         <p>주소: {S['road_address']}</p>
         <p>전화: <a href="{TEL}">{S['phone']}</a></p>
-        <p>진료: 평일 08:40~17:50 · 토 08:30~13:00 · 일 휴진</p>
+        <p>진료: 평일 08:40~17:50 · 토 08:30~13:00 · 일요일·공휴일 휴진</p>
       </div>
       <div><h4>진료 안내</h4>{menu}</div>
       <div>
@@ -179,7 +180,7 @@ def faq_html(faq, title):
 
 def fill(text):
     rep = {
-        "{{phone}}": S["phone"], "{{phone2}}": S["phone2"], "{{tel}}": TEL, "{{tel2}}": TEL2,
+        "{{phone}}": S["phone"], "{{phone2}}": S["phone2"], "{{tel}}": TEL, "{{tel2}}": TEL2, "{{phone_dialysis}}": S["phone_dialysis"], "{{tel_dialysis}}": TELD,
         "{{naver_map}}": S["naver_map"], "{{kakao_map}}": S["kakao_map"], "{{blog}}": S["blog"],
         "{{address}}": S["road_address"], "{{hours_table}}": hours_table(), "{{location_table}}": location_table(),
         "{{doctor_list}}": doctor_list(), "{{equipment_list}}": equipment_list(), "{{parking}}": S["parking"],
@@ -308,7 +309,7 @@ def main():
 
 ## 기본 정보
 - 주소: {S['road_address']} (지번 {S['jibun_address']})
-- 전화: {S['phone']}, {S['phone2']}
+- 전화: 대표 {S['phone']}, 직통 {S['phone2']}, 투석 상담 {S['phone_dialysis']}
 - 진료시간: {hours}, {S['closed']}. {S['holiday_note']}
 - 주차: {S['parking']}
 - 교통: {S['transit']}

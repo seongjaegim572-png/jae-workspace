@@ -44,7 +44,7 @@
     }
   ],
   "closed": "일요일 휴진",
-  "holiday_note": "공휴일 진료는 전화로 확인해 주세요.",
+  "holiday_note": "공휴일 휴진",
   "doctor": {
     "name": "양윤정",
     "title": "원장",
@@ -88,5 +88,6 @@
     "구례군",
     "함양군"
   ],
-  "last_reviewed": "2026-11-11"
+  "last_reviewed": "2026-11-11",
+  "phone_dialysis": "010-6291-7300"
 }
