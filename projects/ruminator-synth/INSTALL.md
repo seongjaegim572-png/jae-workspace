@@ -1,6 +1,17 @@
 # Ruminator 설치 (FL Studio)
 
-## Mac
+## Mac (가장 쉬운 방법: 내 Mac에서 직접 빌드)
+터미널에서:
+```
+xcode-select --install      # 처음 한 번
+brew install cmake          # 처음 한 번
+git clone https://github.com/seongjaegim572-png/jae-workspace.git
+cd jae-workspace && git checkout claude/blissful-lovelace-frpw52
+./projects/ruminator-synth/build-mac.sh
+```
+빌드 5~10분 걸리고, 끝나면 자동으로 플러그인 폴더에 설치돼요. 그다음 3번(스캔)부터 하면 돼요.
+
+## Mac (빌드된 파일이 있을 때)
 1. `Ruminator.vst3` 를 아래 폴더에 복사해요.
    `~/Library/Audio/Plug-Ins/VST3/`
    (AU도 쓰려면 `Ruminator.component` → `~/Library/Audio/Plug-Ins/Components/`)

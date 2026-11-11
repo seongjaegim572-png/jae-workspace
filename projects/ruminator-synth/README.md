@@ -19,6 +19,8 @@ Arturia Pigments 느낌의 신스를 직접 만든 것. FL Studio에서 VST3로 
 - 프리셋 9개: Init, Hyper Supersaw, Digicore Pluck, 808 Slide Bass, Formant Lead, Lo-fi Keys, Dream Pad, Rage Lead, Wobble Bass
 
 ## 받는 법
+> Mac: GitHub에서 Mac 빌드 서버가 이 계정에 안 열려서(작업이 바로 취소됨) `build-mac.sh` 로 직접 빌드해요. INSTALL.md 참고.
+
 1. GitHub 저장소 → **Actions** → "Ruminator synth build" → 최신 실행 클릭
 2. 아래 **Artifacts** 에서 `Ruminator-macOS` 또는 `Ruminator-Windows` 다운로드
 3. `INSTALL.md` 대로 설치
