@@ -3,5 +3,6 @@
 진행 중인 프로젝트를 넣는 폴더예요.
 
 - 프로젝트 하나에 폴더 하나를 만들어요. 예: `projects/music-release/`
+- 신스/플러그인: `ruminator-synth/`, `keys82/`, `halo-synth/` (공용 코드 `plugin-common/`, Mac 빌드 `build-mac.sh`)
 - 각 폴더에 짧은 `README.md`를 두고 목표와 다음 할 일을 적어요.
 - 비밀번호, API 키, 환자·건강·군 관련 정보는 넣지 않아요.

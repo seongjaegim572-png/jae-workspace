@@ -7,9 +7,9 @@ xcode-select --install      # 처음 한 번
 brew install cmake          # 처음 한 번
 git clone https://github.com/seongjaegim572-png/jae-workspace.git
 cd jae-workspace && git checkout claude/blissful-lovelace-frpw52
-./projects/ruminator-synth/build-mac.sh
+./projects/build-mac.sh        # 3개 다 (Ruminator, 82 Keys, Halo)
 ```
-빌드 5~10분 걸리고, 끝나면 자동으로 플러그인 폴더에 설치돼요. 그다음 3번(스캔)부터 하면 돼요.
+빌드 15~25분 걸리고, 끝나면 자동으로 플러그인 폴더에 설치돼요. 그다음 3번(스캔)부터 하면 돼요.
 
 ## Mac (빌드된 파일이 있을 때)
 1. `Ruminator.vst3` 를 아래 폴더에 복사해요.
@@ -23,7 +23,7 @@ cd jae-workspace && git checkout claude/blissful-lovelace-frpw52
 4. Channel rack `+` → **Ruminator** 선택.
 
 ## Windows
-1. `Ruminator.vst3` 폴더를 `C:\Program Files\Common Files\VST3\` 에 복사해요.
+1. `.vst3` 폴더(Ruminator / 82 Keys / Halo)를 `C:\Program Files\Common Files\VST3\` 에 복사해요.
 2. FL Studio → Options → Manage plugins → **Find more plugins**.
 3. Channel rack `+` → **Ruminator**.
 
