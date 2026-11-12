@@ -3,7 +3,7 @@
 #include <juce_core/juce_core.h>
 #include <vector>
 
-namespace rum
+namespace jae
 {
 constexpr int kTableSize = 2048;   // samples per frame
 constexpr int kNumFrames = 16;     // morph frames per wavetable ("Position")
@@ -41,4 +41,4 @@ private:
     WavetableBank();
     std::vector<Wavetable> tables;
 };
-} // namespace rum
+} // namespace jae

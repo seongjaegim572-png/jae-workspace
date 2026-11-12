@@ -2,7 +2,7 @@
 #include <juce_dsp/juce_dsp.h>
 #include <cmath>
 
-namespace rum
+namespace jae
 {
 juce::StringArray tableNames()
 {
@@ -221,4 +221,4 @@ WavetableBank::WavetableBank()
         tables.push_back (std::move (wt));
     }
 }
-} // namespace rum
+} // namespace jae

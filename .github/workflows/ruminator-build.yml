@@ -1,19 +1,28 @@
-name: Ruminator synth build
+name: Jae plugins build
 
 on:
   push:
     paths:
       - "projects/ruminator-synth/**"
+      - "projects/keys82/**"
+      - "projects/halo-synth/**"
+      - "projects/plugin-common/**"
       - ".github/workflows/ruminator-build.yml"
   workflow_dispatch:
-
-defaults:
-  run:
-    working-directory: projects/ruminator-synth
 
 jobs:
   linux-test:
     runs-on: ubuntu-24.04
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - { dir: ruminator-synth, name: Ruminator, tests: RuminatorTests }
+          - { dir: keys82, name: Keys82, tests: Keys82Tests }
+          - { dir: halo-synth, name: Halo, tests: HaloTests }
+    defaults:
+      run:
+        working-directory: projects/${{ matrix.dir }}
     steps:
       - uses: actions/checkout@v4
       - name: Install dependencies
@@ -22,58 +31,45 @@ jobs:
           sudo apt-get install -y ninja-build libasound2-dev libx11-dev libxrandr-dev libxinerama-dev \
             libxcursor-dev libxcomposite-dev libxext-dev libfreetype-dev libfontconfig1-dev \
             libgl1-mesa-dev xvfb fonts-dejavu-core
-      - name: Build tests
+      - name: Build tests + VST3
         run: |
-          cmake -S . -B build -G Ninja -DCMAKE_BUILD_TYPE=Release -DRUMINATOR_BUILD_TESTS=ON
-          cmake --build build --target RuminatorTests Ruminator_VST3
+          cmake -S . -B build -G Ninja -DCMAKE_BUILD_TYPE=Release -DBUILD_TESTS=ON -DRUMINATOR_BUILD_TESTS=ON
+          cmake --build build --target ${{ matrix.tests }} ${{ matrix.name }}_VST3
       - name: Run tests (render presets + UI screenshot)
         run: |
           mkdir -p test-output
-          xvfb-run -a "$(find build -type f -name RuminatorTests -perm -u+x | head -n 1)" "$PWD/test-output"
+          xvfb-run -a "$(find build -type f -name ${{ matrix.tests }} -perm -u+x | head -n 1)" "$PWD/test-output"
       - uses: actions/upload-artifact@v4
         with:
-          name: Ruminator-test-output
-          path: projects/ruminator-synth/test-output
-
-  macos:
-    runs-on: macos-14
-    steps:
-      - uses: actions/checkout@v4
-      - name: Build universal (Apple Silicon + Intel)
-        run: |
-          cmake -S . -B build -DCMAKE_BUILD_TYPE=Release \
-            -DCMAKE_OSX_ARCHITECTURES="arm64;x86_64" -DCMAKE_OSX_DEPLOYMENT_TARGET=10.13
-          cmake --build build --config Release -j 4 --target Ruminator_VST3 Ruminator_AU Ruminator_Standalone
-      - name: Sign (ad-hoc) and package
-        run: |
-          mkdir -p dist
-          VST3=$(find build -type d -name "Ruminator.vst3" | head -n 1)
-          AU=$(find build -type d -name "Ruminator.component" | head -n 1)
-          APP=$(find build -type d -name "Ruminator.app" | head -n 1)
-          for b in "$VST3" "$AU" "$APP"; do codesign --force --deep --sign - "$b"; done
-          cp -R "$VST3" "$AU" "$APP" dist/
-          cp INSTALL.md dist/
-      - uses: actions/upload-artifact@v4
-        with:
-          name: Ruminator-macOS
-          path: projects/ruminator-synth/dist
+          name: ${{ matrix.name }}-test-output
+          path: projects/${{ matrix.dir }}/test-output
 
   windows:
     runs-on: windows-2022
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - { dir: ruminator-synth, name: Ruminator }
+          - { dir: keys82, name: Keys82 }
+          - { dir: halo-synth, name: Halo }
+    defaults:
+      run:
+        working-directory: projects/${{ matrix.dir }}
     steps:
       - uses: actions/checkout@v4
       - name: Build
         run: |
           cmake -S . -B build -G "Visual Studio 17 2022" -A x64
-          cmake --build build --config Release --target Ruminator_VST3 Ruminator_Standalone
+          cmake --build build --config Release --target ${{ matrix.name }}_VST3
       - name: Package
         shell: bash
         run: |
           mkdir -p dist
-          cp -R build/Ruminator_artefacts/Release/VST3/Ruminator.vst3 dist/
-          cp build/Ruminator_artefacts/Release/Standalone/Ruminator.exe dist/
-          cp INSTALL.md dist/
+          find build -type d -name "*.vst3" -path "*Release/VST3*" -maxdepth 5 -exec cp -R {} dist/ \;
+          cp ../ruminator-synth/INSTALL.md dist/
+          ls dist
       - uses: actions/upload-artifact@v4
         with:
-          name: Ruminator-Windows
-          path: projects/ruminator-synth/dist
+          name: ${{ matrix.name }}-Windows
+          path: projects/${{ matrix.dir }}/dist

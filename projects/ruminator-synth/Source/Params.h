@@ -2,8 +2,12 @@
 
 #include <juce_audio_processors/juce_audio_processors.h>
 
+namespace jae {}
+
 namespace rum
 {
+using namespace jae; // shared code (wavetables, effects) lives in plugin-common
+
 constexpr int kNumOscs = 2;
 constexpr int kNumLfos = 2;
 constexpr int kNumSlots = 6;

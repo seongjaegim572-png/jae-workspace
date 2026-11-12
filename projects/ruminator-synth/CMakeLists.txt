@@ -38,14 +38,18 @@ juce_add_plugin(Ruminator
     AU_MAIN_TYPE kAudioUnitType_MusicDevice
     FORMATS ${RUMINATOR_FORMATS})
 
+set(COMMON_DIR ${CMAKE_CURRENT_SOURCE_DIR}/../plugin-common)
+
 set(RUMINATOR_SOURCES
     Source/Params.cpp
-    Source/Wavetables.cpp
+    ${COMMON_DIR}/Wavetables.cpp
+    ${COMMON_DIR}/UiKit.cpp
     Source/Presets.cpp
     Source/PluginProcessor.cpp
     Source/PluginEditor.cpp)
 
 target_sources(Ruminator PRIVATE ${RUMINATOR_SOURCES})
+target_include_directories(Ruminator PRIVATE ${COMMON_DIR})
 
 target_compile_definitions(Ruminator PUBLIC
     JUCE_WEB_BROWSER=0
@@ -67,7 +71,7 @@ option(RUMINATOR_BUILD_TESTS "Build the offline test app" OFF)
 if(RUMINATOR_BUILD_TESTS)
     juce_add_console_app(RuminatorTests PRODUCT_NAME "RuminatorTests")
     target_sources(RuminatorTests PRIVATE tests/main.cpp ${RUMINATOR_SOURCES})
-    target_include_directories(RuminatorTests PRIVATE Source)
+    target_include_directories(RuminatorTests PRIVATE Source ${COMMON_DIR})
     target_compile_definitions(RuminatorTests PRIVATE
         JUCE_WEB_BROWSER=0 JUCE_USE_CURL=0 JUCE_DISPLAY_SPLASH_SCREEN=0)
     target_link_libraries(RuminatorTests

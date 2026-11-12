@@ -4,7 +4,7 @@
 #include <vector>
 #include <cmath>
 
-namespace rum
+namespace jae
 {
 struct FxSettings
 {
@@ -12,6 +12,7 @@ struct FxSettings
     bool choOn = false;  float choRate = 0.8f, choDepth = 0.4f, choMix = 0.4f;
     bool dlyOn = false;  double dlyBeats = 0.75; float dlyFb = 0.35f, dlyMix = 0.25f;
     bool revOn = true;   float revSize = 0.6f, revDamp = 0.5f, revMix = 0.2f;
+    bool phsOn = false;  float phsRate = 0.4f, phsDepth = 0.6f, phsMix = 0.5f;
 };
 
 class PingPongDelay
@@ -82,6 +83,9 @@ public:
         chorus.setCentreDelay (7.0f);
         chorus.setFeedback (0.15f);
         reverb.prepare (spec);
+        phaser.prepare (spec);
+        phaser.setCentreFrequency (900.0f);
+        phaser.setFeedback (0.5f);
         delay.prepare (sampleRate);
     }
 
@@ -89,6 +93,7 @@ public:
     {
         chorus.reset();
         reverb.reset();
+        phaser.reset();
         delay.reset();
     }
 
@@ -112,6 +117,14 @@ public:
 
         juce::dsp::AudioBlock<float> block (buffer);
         juce::dsp::ProcessContextReplacing<float> ctx (block);
+
+        if (s.phsOn)
+        {
+            phaser.setRate (s.phsRate);
+            phaser.setDepth (s.phsDepth);
+            phaser.setMix (s.phsMix);
+            phaser.process (ctx);
+        }
 
         if (s.choOn)
         {
@@ -145,6 +158,7 @@ private:
     double sr = 44100.0;
     juce::dsp::Chorus<float> chorus;
     juce::dsp::Reverb reverb;
+    juce::dsp::Phaser<float> phaser;
     PingPongDelay delay;
 };
-} // namespace rum
+} // namespace jae

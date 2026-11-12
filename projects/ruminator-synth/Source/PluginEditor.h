@@ -3,70 +3,11 @@
 #include <juce_audio_processors/juce_audio_processors.h>
 #include <juce_gui_basics/juce_gui_basics.h>
 #include "PluginProcessor.h"
+#include "UiKit.h"
 
 namespace rum::ui
 {
-namespace colours
-{
-    const juce::Colour bg       { 0xff101016 };
-    const juce::Colour panel    { 0xff1a1a24 };
-    const juce::Colour panelHi  { 0xff242432 };
-    const juce::Colour accent   { 0xff8b5cf6 };
-    const juce::Colour accent2  { 0xff22d3ee };
-    const juce::Colour text     { 0xffe5e7eb };
-    const juce::Colour dim      { 0xff8b8b9a };
-}
-
-class LookAndFeel : public juce::LookAndFeel_V4
-{
-public:
-    LookAndFeel();
-    void drawRotarySlider (juce::Graphics&, int x, int y, int w, int h, float pos,
-                           float start, float end, juce::Slider&) override;
-    void drawLinearSlider (juce::Graphics&, int x, int y, int w, int h, float pos, float minPos, float maxPos,
-                           juce::Slider::SliderStyle, juce::Slider&) override;
-    void drawToggleButton (juce::Graphics&, juce::ToggleButton&, bool highlighted, bool down) override;
-};
-
-using APVTS = juce::AudioProcessorValueTreeState;
-
-struct Knob : juce::Component
-{
-    Knob (APVTS& s, const juce::String& pid, const juce::String& text, juce::Component* popupParent);
-    void resized() override;
-
-    juce::Slider slider;
-    juce::Label label;
-    std::unique_ptr<APVTS::SliderAttachment> attachment;
-};
-
-struct Choice : juce::Component
-{
-    Choice (APVTS& s, const juce::String& pid, const juce::String& text = {});
-    void resized() override;
-
-    juce::ComboBox box;
-    juce::Label label;
-    std::unique_ptr<APVTS::ComboBoxAttachment> attachment;
-};
-
-struct Toggle : juce::Component
-{
-    Toggle (APVTS& s, const juce::String& pid, const juce::String& text);
-    void resized() override { button.setBounds (getLocalBounds()); }
-
-    juce::ToggleButton button;
-    std::unique_ptr<APVTS::ButtonAttachment> attachment;
-};
-
-struct AmountBar : juce::Component
-{
-    AmountBar (APVTS& s, const juce::String& pid, juce::Component* popupParent);
-    void resized() override { slider.setBounds (getLocalBounds()); }
-
-    juce::Slider slider;
-    std::unique_ptr<APVTS::SliderAttachment> attachment;
-};
+using namespace jae::ui;
 
 class WavetableView : public juce::Component, private juce::Timer
 {
