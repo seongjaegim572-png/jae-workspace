@@ -2,7 +2,7 @@
 "rage" style: maximal, blown-out rage / digicore with a rave switch-up.
 Original material only (own chords, melodies, patterns, synthesised sounds).
 
-24 bars @ 152 BPM, F minor:
+24 bars @ 152 BPM, A minor (tempo/key/mix targets measured from reference previews):
   1-4    intro    filtered gated synth + vocal-chop hook, riser, tape stop
   5-12   drop A   half-time rage trap: gated supersaw stabs, gliding lead, blown-out 808, hat rolls, growl fills
   13-14  break    drums out, washed-out chords, chops, snare build
@@ -15,13 +15,13 @@ from make_beat import SR, mtof, bandlimited_table, osc, adsr, place, onepole_lp,
 from chaos import crush, decimate, dirt, resample, stutter, tape_stop, reverse_chunk, vox, supersaw, snare, hat
 
 CHORDS = [
-    [53, 56, 60, 63, 67],   # Fm9
-    [49, 53, 56, 60, 63],   # Dbmaj9
-    [46, 53, 56, 61, 65],   # Bbm7
-    [48, 52, 55, 58, 61],   # C7(b9)
+    [57, 60, 64, 67, 71],   # Am9
+    [53, 57, 60, 64, 67],   # Fmaj9
+    [50, 57, 60, 65, 69],   # Dm7
+    [52, 56, 59, 62, 65],   # E7(b9)
 ]
-ROOTS = [29, 25, 34, 24]                      # F1, Db1, Bb1, C1
-SCALE = [65, 68, 70, 72, 75, 77, 80, 82, 84]  # F minor pentatonic
+ROOTS = [33, 29, 26, 28]                      # A1, F1, D1, E1
+SCALE = [69, 72, 74, 76, 79, 81, 84, 86, 88]  # A minor pentatonic
 GATES = ["x..x..x.x..x.xx.", "x.xx..x...x.x..x", "x..x.xx.x..x..xx", "xx.x..x.x.x.xxxx"]
 
 
@@ -86,8 +86,11 @@ def ott(x):
     low = onepole_lp(x, 140)
     high = x - onepole_lp(x, 4500)
     mid = x - low - high
-    out = np.tanh(low * 2.6) * 0.75 + np.tanh(mid * 3.2) * 0.6 + np.tanh(high * 3.0) * 0.3
-    return np.clip(out * 1.5, -1, 1)          # hard clip = the blown-out sound
+    out = np.tanh(low * 1.1) * 1.0 + np.tanh(mid * 1.3) * 0.95 + np.tanh(high * 1.6) * 0.5
+    m, sd = (out[0] + out[1]) / 2, (out[0] - out[1]) / 2
+    sd = (sd - onepole_lp(sd, 250)) * 2.6        # widen everything above the bass
+    out = np.stack([m + sd, m - sd])
+    return np.clip(out * 1.0, -1, 1)          # clip only the peaks
 
 
 def build_rage(bpm=152, seed=82, bars=24):
@@ -108,7 +111,6 @@ def build_rage(bpm=152, seed=82, bars=24):
         chord = CHORDS[b % 4]
         n = int(bar * SR)
         layer = sum(supersaw(m, n, voices=7, spread_cents=35) for m in chord)
-        layer += supersaw(chord[0] - 12, n, voices=3, spread_cents=15)
         gate = np.zeros(n)
         if b in BREAK:
             gate[:] = 1.0
@@ -120,7 +122,8 @@ def build_rage(bpm=152, seed=82, bars=24):
                     s, ln = int(i * step * SR), int(step * SR * 0.8)
                     gate[s:s + ln] = adsr(ln, 0.002, 0.05, 0.8, 0.01, int(ln * 0.85))[: max(0, min(ln, n - s))]
                     notes["chords"] += [(b * 4 + i / 4, 0.2, m, 110) for m in chord]
-        layer = dirt(layer * 0.8, 5.0, fold=0.3) * gate
+        layer = dirt(layer * 0.8, 5.0, fold=0.3)
+        layer = (layer - onepole_lp(layer, 350)) * gate
         P["stab"][:, at(b):at(b) + n] += layer[:, : total - at(b)] * 0.2
 
     # --- gliding lead: 2-bar phrases, question / answer ---
@@ -137,7 +140,8 @@ def build_rage(bpm=152, seed=82, bars=24):
         seq = q if (b // 2) % 2 == 0 else a
         octave = 12 if b in B else 0
         y = glide_lead(seq, beat, octave)
-        place(P["lead"], y * 0.2, at(b), 0.1)
+        place(P["lead"], y * 0.16, at(b), -0.7)
+        place(P["lead"], y * 0.16, at(b) + int(0.013 * SR), 0.7)
         notes["melody"] += [(b * 4 + s, ln, m + octave, 115) for s, ln, m in seq]
 
     # --- vocal-chop hook: one 1-bar pattern that repeats and follows the chords ---
@@ -176,21 +180,21 @@ def build_rage(bpm=152, seed=82, bars=24):
                 hit("oh", oh, b, i + 0.5, 46, 0.9, -0.2)
             hit("c", cl, b, 1, 39); hit("c", cl, b, 3, 39)
             for i in range(16):
-                hit("h", hats[i % 3], b, i / 4, 42, 0.4 + 0.3 * rng.random(), 0.3)
+                hit("h", hats[i % 3], b, i / 4, 42, 0.8 + 0.5 * rng.random(), 0.5 * (1 if i % 2 else -1))
         else:                                                  # half-time rage trap
             for pos in [0, 0.75, 2.5] + ([1.5] if b % 2 else []) + ([3.25, 3.75] if b % 4 == 3 else []):
                 hit("k", k, b, pos, 36)
             hit("c", cl, b, 2, 39)
             pos = 0.0
             while pos < 4:
-                roll = rng.random() < 0.22
+                roll = rng.random() < 0.35
                 if roll:                                       # 1/32 or triplet roll
                     count, span = (4, 0.5) if rng.random() < 0.5 else (3, 0.5)
                     for r in range(count):
-                        hit("h", hats[r % 3], b, pos + r * span / count, 42, 0.5 + 0.5 * r / count, 0.3)
+                        hit("h", hats[r % 3], b, pos + r * span / count, 42, 0.8 + 0.7 * r / count, -0.5)
                     pos += span
                 else:
-                    hit("h", hats[int(pos * 4) % 3], b, pos, 42, 0.6 + 0.4 * rng.random(), 0.3)
+                    hit("h", hats[int(pos * 4) % 3], b, pos, 42, 1.0 + 0.6 * rng.random(), 0.5)
                     pos += 0.25
             if b % 2 == 1:
                 hit("oh", oh, b, 3.5, 46, 1.0, -0.2)
@@ -216,7 +220,7 @@ def build_rage(bpm=152, seed=82, bars=24):
             t = np.arange(n) / SR
             f = (mtof(prev) + (mtof(m) - mtof(prev)) * (1 - np.exp(-t * 35))) * (1 + 1.2 * np.exp(-t * 80))
             sine = np.sin(2 * np.pi * np.cumsum(f) / SR)
-            y = (np.clip(sine * 8, -1, 1) * 0.6 + sine * 0.7) * adsr(n, 0.001, 1.5, 0.85, 0.03, n)
+            y = (onepole_lp(np.clip(sine * 8, -1, 1), 900) * 0.3 + sine * 1.0) * adsr(n, 0.001, 1.5, 0.85, 0.03, n)
             place(P["bass"], y * 0.8, at(b, pos))
             prev = m
         if fill:
@@ -243,7 +247,7 @@ def build_rage(bpm=152, seed=82, bars=24):
             d = np.exp(-np.arange(int(0.2 * SR)) / SR * 13)
             e = min(total, s + len(d))
             kick_env[s:e] = np.maximum(kick_env[s:e], d[: e - s])
-    pump = 1 - 0.8 * kick_env
+    pump = 1 - 0.9 * kick_env
 
     stab = P["stab"]
     sweep = np.ones(total)
@@ -252,9 +256,13 @@ def build_rage(bpm=152, seed=82, bars=24):
     br0, br1 = at(12), at(14)
     stab[:, br0:br1] = onepole_lp(stab[:, br0:br1], 1200) * 0.8
 
-    music = (stab + P["lead"] + P["arp"] + P["vox"]) * pump
+    air = rng.standard_normal((2, total))
+    air = (air - onepole_lp(air, 5000)) * 0.012
+    air[:, :at(4)] *= np.linspace(0, 1, at(4)) ** 3
+    air[:, br0:br1] *= 0.3
+    music = (stab + P["lead"] + P["arp"] + P["vox"] + air) * pump ** 1.5
     wet = reverb(music * 0.6, seconds=2.0)
-    bus = music + wet * 0.7 + P["bass"] * pump ** 0.5 + P["drums"] + P["fx"]
+    bus = music + wet * 1.0 + P["bass"] * pump ** 0.8 + P["drums"] + P["fx"]
 
     # outro: crushed + decimated
     o0, o1 = at(22), at(24)
@@ -277,7 +285,6 @@ def build_rage(bpm=152, seed=82, bars=24):
     bus[:, at(14) - int(step * SR):at(14)] = 0.0
     tape_stop(bus, at(23, 2), 2 * beat)
 
-    bus = ott(bus)
-    bus = onepole_lp(bus, 11000) * 0.7 + bus * 0.3
+    bus = ott(bus * 0.85)
     bus *= 0.95 / (np.max(np.abs(bus)) + 1e-9)
     return bus, notes
