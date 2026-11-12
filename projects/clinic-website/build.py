@@ -186,7 +186,7 @@ def fill(text):
         "{{doctor_list}}": doctor_list(), "{{equipment_list}}": equipment_list(), "{{parking}}": S["parking"],
         "{{doctor_name}}": S["doctor"]["name"],
         "{{doctor_photo}}": (
-            f'<img class="photo" src="/assets/img/doctor.jpg" alt="{S["name"]} {S["doctor"]["name"]} 원장" width="300" height="375" loading="lazy">'
+            f'<img class="photo" src="/assets/img/doctor.jpg" alt="{S["name"]} {S["doctor"]["name"]} 원장" width="860" height="830" loading="lazy">'
             if (ROOT / "assets/img/doctor.jpg").exists() else '<div class="photo">원장님 사진<br>(assets/img/doctor.jpg)</div>'
         ),
     }
