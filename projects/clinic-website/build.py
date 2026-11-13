@@ -79,7 +79,7 @@ def clinic_node():
             {"@type": "LocationFeatureSpecification", "name": a, "value": True} for a in S["amenities"]
         ],
         "employee": {"@id": f"{D}/#doctor"},
-        "sameAs": [S["blog"], S["instagram"], S["naver_place"]],
+        "sameAs": [S["blog"], S["instagram"], S["threads"], S["naver_place"]],
     }
 
 
@@ -94,6 +94,7 @@ def doctor_node():
         "description": " / ".join(d["career"]),
         "alumniOf": {"@type": "CollegeOrUniversity", "name": "인하대학교 의과대학"},
         "worksFor": {"@id": f"{D}/#clinic"},
+        "sameAs": [S["facebook_doctor"]],
     }
 
 
@@ -159,6 +160,8 @@ def footer():
         <h4>소식</h4>
         <p><a href="{S['blog']}" rel="noopener">네이버 블로그</a></p>
         <p><a href="{S['instagram']}" rel="noopener">인스타그램</a></p>
+        <p><a href="{S['threads']}" rel="noopener">스레드</a></p>
+        <p><a href="{S['facebook_doctor']}" rel="noopener">원장님 페이스북</a></p>
         <p><a href="{S['naver_place']}" rel="noopener">네이버 플레이스</a></p>
       </div>
     </div>
@@ -321,6 +324,8 @@ def main():
 - 원장: {d['name']} ({d['specialty']}). {' / '.join(d['career'][1:])}
 - 네이버 블로그: {S['blog']}
 - 인스타그램: {S['instagram']}
+- 스레드: {S['threads']}
+- 원장 페이스북: {S['facebook_doctor']}
 - 네이버 플레이스: {S['naver_place']}
 
 ## 페이지
