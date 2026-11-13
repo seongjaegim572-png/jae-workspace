@@ -14,7 +14,7 @@
 html { scroll-behavior: smooth; }
 body {
   margin: 0; color: var(--ink); background: var(--bg);
-  font-family: "Pretendard", -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+  font-family: "Pretendard Variable", "Pretendard", -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
   font-size: 17px; line-height: 1.75; word-break: keep-all;
 }
 img { max-width: 100%; display: block; }

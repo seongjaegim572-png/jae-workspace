@@ -30,7 +30,8 @@ NAV = [
     ("location", "/#location", "진료시간·오시는 길"),
 ]
 
-FONT = "https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css"
+# 가변 글꼴 + 필요한 글자 조각만 받는 방식 (전체 글꼴 약 3MB → 약 0.4MB)
+FONT = "https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css"
 
 
 def esc(s):
@@ -344,6 +345,12 @@ def main():
     for name in ["index.html", "404.html", "sitemap.xml", "robots.txt", "llms.txt"]:
         shutil.copy2(ROOT / name, dist / name)
     shutil.copytree(ROOT / "assets", dist / "assets")
+    # 보안 머리말과 사진 캐시(하루). Cloudflare 가 읽는 파일.
+    (dist / "_headers").write_text(
+        "/*\n  X-Content-Type-Options: nosniff\n  Referrer-Policy: strict-origin-when-cross-origin\n  X-Frame-Options: SAMEORIGIN\n"
+        "/assets/img/*\n  Cache-Control: public, max-age=86400\n",
+        encoding="utf-8",
+    )
     for m in metas:
         if m["path"] != "/":
             sub = m["path"].strip("/")
