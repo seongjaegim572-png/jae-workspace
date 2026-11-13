@@ -18,6 +18,7 @@ HTML/CSS만 써서 무료 호스팅(Cloudflare Pages, Netlify, GitHub Pages)에 
 - **페이지 글, 자주 묻는 질문** → `_src/*.html` 에서 고쳐요. 질문은 맨 위 `faq` 목록에 넣으면 화면과 검색엔진용 데이터에 둘 다 들어가요.
 - 고친 뒤 `python3 build.py` 실행 → 모든 페이지, sitemap.xml, robots.txt, llms.txt 가 새로 만들어져요.
 - 만들어진 `index.html` 들은 직접 고치지 마세요 (다음 실행 때 덮어써져요).
+- `dist/` = 인터넷에 올라가는 파일만 모은 폴더 (build.py 가 자동으로 만듦). Cloudflare Pages 를 GitHub 에 연결할 때 출력 폴더를 `projects/clinic-website/dist` 로 지정.
 - 사진: `assets/img/` (네이버 플레이스에 병원이 올린 사진을 줄여서 사용). 원장님 사진은 `assets/img/doctor.jpg`.
 
 ## SEO / GEO / AEO 에서 한 것

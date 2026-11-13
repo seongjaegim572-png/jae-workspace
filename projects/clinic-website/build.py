@@ -6,10 +6,12 @@
 - 페이지 글은 _src/*.html 에서 고칩니다.
 - 실행하면 index.html, 각 폴더의 index.html, sitemap.xml, robots.txt, llms.txt 가 새로 만들어집니다.
   (만들어진 파일은 직접 고치지 마세요. 다음 실행 때 덮어써집니다.)
+- dist/ 폴더에 인터넷에 올릴 파일만 모입니다. Cloudflare Pages 는 이 폴더만 올립니다.
 """
 import html
 import json
 import re
+import shutil
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
@@ -329,7 +331,20 @@ def main():
 - 건강 정보는 일반 안내이며, 진단과 치료는 진료를 통해 받아야 합니다.
 """
     (ROOT / "llms.txt").write_text(llms, encoding="utf-8")
-    print(f"완료: 페이지 {len(metas)}개, sitemap.xml, robots.txt, llms.txt")
+    # 공개용 폴더 dist/ : 인터넷에 올라가는 파일만 모읍니다 (메모·원본 제외).
+    dist = ROOT / "dist"
+    if dist.exists():
+        shutil.rmtree(dist)
+    dist.mkdir()
+    for name in ["index.html", "404.html", "sitemap.xml", "robots.txt", "llms.txt"]:
+        shutil.copy2(ROOT / name, dist / name)
+    shutil.copytree(ROOT / "assets", dist / "assets")
+    for m in metas:
+        if m["path"] != "/":
+            sub = m["path"].strip("/")
+            (dist / sub).mkdir(parents=True)
+            shutil.copy2(ROOT / sub / "index.html", dist / sub / "index.html")
+    print(f"완료: 페이지 {len(metas)}개, sitemap.xml, robots.txt, llms.txt, dist/ (공개용)")
     if "YOUR-DOMAIN" in D:
         print("알림: site.json 의 domain 을 실제 주소로 바꾼 뒤 다시 실행하세요.")
 
