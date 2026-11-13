@@ -21,4 +21,4 @@ Allow: /
 User-agent: Daum
 Allow: /
 
-Sitemap: https://YOUR-DOMAIN/sitemap.xml
+Sitemap: https://namwonmiraeyeonhap.com/sitemap.xml
