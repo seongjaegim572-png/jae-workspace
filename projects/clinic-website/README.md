@@ -48,7 +48,8 @@ HTML/CSS만 써서 무료 호스팅(Cloudflare Pages, Netlify, GitHub Pages)에 
 - 자동 배포 (2026-11-13 설정): Cloudflare 프로젝트 `mirae-clinic-site` 가 GitHub `main` 브랜치를 보고 `dist/` 만 올림 (저장소 맨 위 `wrangler.jsonc`). 고친 뒤 `python3 build.py` → `main` 에 push 하면 반영.
 - 완료 (2026-11-13): 도메인(www 포함)을 새 프로젝트 `mirae-clinic-site` 로 옮김. 실제 주소에서 정상 확인.
 - 완료 (2026-11-13): 구글 서치콘솔 등록(도메인 방식, DNS 인증)·사이트맵 제출, 네이버 서치어드바이저 등록(HTML 태그 인증)·사이트맵 제출, Always Use HTTPS 켬.
-- 계획: 옛 Cloudflare 프로젝트 `namwonmiraeyeonhap` 삭제, 블로그·인스타 링크를 새 주소로 바꾸기 (Jae, 스마트플레이스는 2026-11-13 완료). 1~2주 뒤 검색 노출 확인.
+- 완료 (2026-11-13): 옛 Cloudflare 프로젝트 삭제, 스마트플레이스·블로그에 새 주소 추가. 인스타 프로필 링크는 네이버 지도(그대로 둠).
+- 계획: 1~2주 뒤 검색 노출 확인, 직원·가족 의견 반영.
 
 ## 결정 대기 (2026-11-11)
 - 아임웹(`miraenamwon.imweb.me`) 유지 vs 새 사이트로 이전 → 아버지께 확인 중
