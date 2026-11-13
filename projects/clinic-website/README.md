@@ -46,7 +46,8 @@ HTML/CSS만 써서 무료 호스팅(Cloudflare Pages, Netlify, GitHub Pages)에 
 - 의학 내용: 원장님 검토 완료 (2026-11-13)
 - 완료 (2026-11-13): 도메인 구매, Cloudflare Pages 배포 (zip 직접 올리기). https://namwonmiraeyeonhap.com 6개 페이지·www·404 정상 확인.
 - 자동 배포 (2026-11-13 설정): Cloudflare 프로젝트 `mirae-clinic-site` 가 GitHub `main` 브랜치를 보고 `dist/` 만 올림 (저장소 맨 위 `wrangler.jsonc`). 고친 뒤 `python3 build.py` → `main` 에 push 하면 반영.
-- 계획: 도메인을 새 프로젝트로 옮기기, 검색엔진 등록(네이버·구글)
+- 완료 (2026-11-13): 도메인(www 포함)을 새 프로젝트 `mirae-clinic-site` 로 옮김. 실제 주소에서 정상 확인.
+- 계획: 검색엔진 등록(네이버·구글), 옛 프로젝트 `namwonmiraeyeonhap` 삭제, Always Use HTTPS 켜기 (Jae)
 
 ## 결정 대기 (2026-11-11)
 - 아임웹(`miraenamwon.imweb.me`) 유지 vs 새 사이트로 이전 → 아버지께 확인 중
