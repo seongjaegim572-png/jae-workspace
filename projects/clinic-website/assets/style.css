@@ -148,3 +148,8 @@ footer .kw { margin-top: 24px; color: #8b96aa; font-size: 13px; }
 .mobile-cta .tel { background: var(--navy); color: #fff; }
 .mobile-cta .map-link { color: var(--navy); border: 1.5px solid var(--navy); }
 @media (max-width: 1040px) { .mobile-cta { display: flex; } }
+
+/* 하단 버튼 3개 */
+.mobile-cta a { padding: 13px 4px; font-size: 15px; white-space: nowrap; }
+.mobile-cta .tel2 { background: var(--red); color: #fff; }
+.split figure img { width: 100%; }

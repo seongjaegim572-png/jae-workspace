@@ -20,11 +20,11 @@ TEL2 = "tel:" + S["phone2"].replace("-", "")
 TELD = "tel:" + S["phone_dialysis"].replace("-", "")
 
 NAV = [
-    ("dialysis", "/dialysis/", "인공신장실"),
+    ("dialysis", "/dialysis/", "인공신장실(투석)"),
+    ("inpatient", "/inpatient/", "입원"),
     ("pediatrics", "/pediatrics/", "소아청소년과"),
     ("chronic", "/chronic-care/", "고혈압·당뇨"),
     ("pt", "/physical-therapy/", "도수·물리치료"),
-    ("inpatient", "/inpatient/", "입원"),
     ("location", "/#location", "진료시간·오시는 길"),
 ]
 
@@ -165,7 +165,8 @@ def footer():
   </div>
 </footer>
 <div class="mobile-cta">
-  <a class="tel" href="{TEL}">전화하기</a>
+  <a class="tel" href="{TELD}">투석 상담</a>
+  <a class="tel2" href="{TEL}">입원·진료 전화</a>
   <a class="map-link" href="{S['naver_map']}" rel="noopener">길찾기</a>
 </div>"""
 
