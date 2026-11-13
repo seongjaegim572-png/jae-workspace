@@ -1,0 +1,10 @@
+// Cloudflare 가 병원 홈페이지를 올릴 때 읽는 설정.
+// projects/clinic-website/dist 폴더(공개용 파일)만 인터넷에 올린다.
+{
+  "name": "mirae-clinic-site",
+  "compatibility_date": "2026-11-01",
+  "assets": {
+    "directory": "./projects/clinic-website/dist",
+    "not_found_handling": "404-page"
+  }
+}
