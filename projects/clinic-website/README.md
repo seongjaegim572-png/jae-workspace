@@ -43,7 +43,8 @@ HTML/CSS만 써서 무료 호스팅(Cloudflare Pages, Netlify, GitHub Pages)에 
 ## 상태
 - 완료: 페이지 6개, 구조화 데이터, sitemap/robots/llms.txt, OG 이미지, 404, 모바일·링크 검사
 - 의학 내용: 원장님 검토 완료 (2026-11-13)
-- 계획: 도메인 구매·배포, 검색엔진 등록
+- 완료 (2026-11-13): 도메인 구매, Cloudflare Pages 배포 (zip 직접 올리기). https://namwonmiraeyeonhap.com 6개 페이지·www·404 정상 확인.
+- 계획: 검색엔진 등록(네이버·구글), 나중에 GitHub 자동 배포로 전환
 
 ## 결정 대기 (2026-11-11)
 - 아임웹(`miraenamwon.imweb.me`) 유지 vs 새 사이트로 이전 → 아버지께 확인 중
