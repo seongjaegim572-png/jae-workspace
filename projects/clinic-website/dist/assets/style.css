@@ -28,6 +28,7 @@ a { color: var(--navy); }
 .logo img { width: 30px; height: 30px; }
 .logo b { font-size: 21px; font-weight: 800; letter-spacing: -0.03em; }
 .logo b em { font-style: normal; color: var(--red); }
+.logo b i { font-style: normal; color: #0b5a32; }
 .nav { display: flex; gap: 22px; }
 .nav a { color: var(--ink); text-decoration: none; font-size: 15px; font-weight: 600; padding: 4px 0; border-bottom: 2px solid transparent; }
 .nav a:hover, .nav a[aria-current="page"] { color: var(--navy); border-bottom-color: var(--navy); }

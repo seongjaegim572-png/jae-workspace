@@ -45,7 +45,7 @@ def clinic_node():
         "alternateName": [S["site_name"], S["name_en"]],
         "url": f"{D}/",
         "telephone": "+82-" + S["phone"][1:],
-        "image": f"{D}/assets/og-banner-v3.jpg",
+        "image": f"{D}/assets/og-cover-v4.jpg",
         "logo": f"{D}/assets/favicon.svg",
         "description": (
             f"{S['road_address']}에 있는 의원. 1층 인공신장실(혈액투석), 소아청소년과 전문의 진료, "
@@ -136,7 +136,7 @@ def header(active):
     )
     return f"""<header class="top">
   <div class="wrap">
-    <a class="logo" href="/"><img src="/assets/favicon.svg" alt="" width="30" height="30"><b>미래<em>연합</em>의원</b></a>
+    <a class="logo" href="/"><img src="/assets/favicon.svg" alt="" width="30" height="30"><b>미래<em>연합</em><i>의원</i></b></a>
     <nav class="nav" aria-label="주요 메뉴">{links}</nav>
     <a class="call-btn" href="{TEL}">{S['phone']}</a>
   </div>
@@ -256,7 +256,7 @@ def render(src: Path):
 <meta property="og:title" content="{esc(meta.get('og_title', meta['title']))}">
 <meta property="og:description" content="{esc(meta.get('og_description', meta['description']))}">
 <meta property="og:url" content="{url}">
-<meta property="og:image" content="{D}/assets/og-banner-v3.jpg">
+<meta property="og:image" content="{D}/assets/og-cover-v4.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:locale" content="ko_KR">
