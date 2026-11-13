@@ -345,6 +345,9 @@ def main():
     for name in ["index.html", "404.html", "sitemap.xml", "robots.txt", "llms.txt"]:
         shutil.copy2(ROOT / name, dist / name)
     shutil.copytree(ROOT / "assets", dist / "assets")
+    # IndexNow: 빙·네이버에 "이 주소가 바뀌었어요" 하고 바로 알릴 때 쓰는 확인 파일 (공개용 값, 비밀 아님).
+    if S.get("indexnow_key"):
+        (dist / f"{S['indexnow_key']}.txt").write_text(S["indexnow_key"], encoding="utf-8")
     # 보안 머리말과 사진 캐시(하루). Cloudflare 가 읽는 파일.
     (dist / "_headers").write_text(
         "/*\n  X-Content-Type-Options: nosniff\n  Referrer-Policy: strict-origin-when-cross-origin\n  X-Frame-Options: SAMEORIGIN\n"
