@@ -26,7 +26,7 @@ HTML/CSS만 써서 무료 호스팅(Cloudflare Pages, Netlify, GitHub Pages)에 
 - **지역(GEO)**: 모든 페이지에 `MedicalClinic` 구조화 데이터 (주소, 좌표, 요일별 진료시간, 주차·편의시설, 결제, 근처 지역). 네이버 플레이스와 정보가 같아요.
 - **답변(AEO)**: 질문형 제목 + 바로 아래 답 상자, 페이지마다 `FAQPage` (총 32개 질문)
 - **AI 검색**: `llms.txt` (병원 정보 + FAQ 전체 요약), robots.txt에서 ChatGPT·Claude·Perplexity·네이버(Yeti) 허용, 원장 `Physician` 정보, 검토일 표시
-- 카톡 공유 이미지 `assets/og-image.png`, 아이콘 `assets/favicon.svg`, 404 페이지
+- 카톡 공유 이미지 `assets/og-banner.jpg`, 아이콘 `assets/favicon.svg`, 404 페이지
 
 ## 의료광고 때문에 일부러 안 넣은 것
 - 네이버 리뷰·치료 후기, "최초·최고·완치" 같은 말
