@@ -294,7 +294,7 @@ def main():
     ap.add_argument("out", nargs="?", default="output")
     ap.add_argument("--seed", type=int, default=82)
     ap.add_argument("--bpm", type=float, default=None)
-    ap.add_argument("--style", choices=["trap", "chaos", "rage"], default="trap")
+    ap.add_argument("--style", choices=["trap", "chaos", "rage", "wall"], default="trap")
     args = ap.parse_args()
     os.makedirs(args.out, exist_ok=True)
 
@@ -303,6 +303,10 @@ def main():
         args.bpm = args.bpm or 160
         audio, notes = build_chaos(args.bpm, args.seed)
         write_midi(os.path.join(args.out, "vox_chops.mid"), notes["vox"], args.bpm, 3, "Vox")
+    elif args.style == "wall":
+        from wall import build_wall
+        args.bpm = args.bpm or 152
+        audio, notes = build_wall(args.bpm, args.seed)
     elif args.style == "rage":
         from rage import build_rage
         args.bpm = args.bpm or 152
