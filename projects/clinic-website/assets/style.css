@@ -160,3 +160,5 @@ footer .kw { margin-top: 24px; color: #8b96aa; font-size: 13px; }
 .gallery.two { grid-template-columns: repeat(2, 1fr); max-width: 560px; }
 .gallery img { width: 100%; aspect-ratio: 1/1; height: auto; object-fit: cover; border-radius: 4px; }
 @media (max-width: 700px) { .gallery { grid-template-columns: repeat(2, 1fr); } }
+.gallery.three { grid-template-columns: repeat(3, 1fr); max-width: 840px; }
+@media (max-width: 700px) { .gallery.three { grid-template-columns: repeat(2, 1fr); } }
