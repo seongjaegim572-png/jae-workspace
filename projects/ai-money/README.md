@@ -51,4 +51,5 @@
 ## 상태
 - 완료: 이 계획 문서
 - 초안: `threads-draft-01.md`
+- 초안: `discharge-plan.md` (전역까지 164일 플랜), `threads-drafts-week1.md` (스레드 7개)
 - 계획: 포트폴리오 페이지, 상품 소개 페이지
