@@ -154,3 +154,9 @@ footer .kw { margin-top: 24px; color: #8b96aa; font-size: 13px; }
 .mobile-cta a { padding: 13px 4px; font-size: 15px; white-space: nowrap; }
 .mobile-cta .tel2 { background: var(--red); color: #fff; }
 .split figure img { width: 100%; }
+
+/* 사진 모음 */
+.gallery { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin-top: 20px; }
+.gallery.two { grid-template-columns: repeat(2, 1fr); max-width: 560px; }
+.gallery img { width: 100%; aspect-ratio: 1/1; height: auto; object-fit: cover; border-radius: 4px; }
+@media (max-width: 700px) { .gallery { grid-template-columns: repeat(2, 1fr); } }
