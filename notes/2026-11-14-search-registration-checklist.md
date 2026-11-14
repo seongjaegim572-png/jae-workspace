@@ -56,3 +56,8 @@ Jae가 직접 하는 일. 위에서부터 순서대로. 코드를 받으면 Clau
 - 남은 Jae 일: 플레이스 사진 순서, 구글 비즈니스 인증(11-15), 원장님 투석 안내지 확인(바쁘셔서 다음에)
 - 새 초안: `projects/creator-career/2026-11-14-resume-and-creatus-update.md`, `notes/2026-11-14-nyc-transfer.md`
 - 결정 대기: 이 브랜치(`claude/keen-ritchie-mre05r`)를 main 에 합칠지 (CLAUDE.md 새 규칙 포함)
+
+## 이어서 (11-14 오후)
+- Jae 큰 그림 정리: `notes/2026-11-14-north-star-roadmap.md` (초안). 결정 대기: 편입 Fall 2027 vs 2028
+- NYC 편입 확인 2개 (Clive Davis 3/1 마감 확인, Columbia GS 마감 후보) → `notes/2026-11-14-nyc-transfer.md`
+- 병원 쪽 남은 Jae 일은 그대로: 플레이스 사진 순서, 구글 인증(11-15), 카카오맵 확인(11-20)

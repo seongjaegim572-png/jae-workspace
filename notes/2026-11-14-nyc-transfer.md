@@ -27,6 +27,9 @@
 - Fall 2028: 전역 후 1년 일하며 돈·포트폴리오 쌓고 지원. GS는 이런 사람에게 더 잘 맞음.
 
 ## 계획 (확인할 것 3개, 각 5분)
-- [ ] Clive Davis 편입 마감·포트폴리오 요구사항 (NYU Tisch 공식 페이지)
-- [ ] Columbia GS 지원 자격·마감·유학생 학비 지원 (GS 공식 페이지)
+- [x] Clive Davis 편입 (11-14, 공식 FAQ·요구사항 페이지): 지원서 + 포트폴리오 모두 **3월 1일** 마감, SlideRoom($10, 늦으면 안 받음). Statement of Intent + Creative Sample. 봄 입학 없음. 최소 5학기 재학. Common App은 학과가 안 봄 → 포트폴리오가 핵심
+  - https://tisch.nyu.edu/clive-davis-institute/application-requirements/faqs
+- [~] Columbia GS (11-14, 검색만. 공식 페이지는 접속 막힘 → 다시 확인): 가을 입학 1/15(우선 조기), 3/1(조기), 5/15 또는 6/1(정시, 페이지마다 다름). 수시 심사(6~8주). 유학생(F-1 비자)은 조기 마감 권장. 입학 연기 규정은 못 찾음
+  - https://gs.columbia.edu/admissions
+- (11-14) 크리투스(서울)와 시기가 겹침 → `notes/2026-11-14-north-star-roadmap.md` 에서 Fall 2028(B안) 추천
 - [ ] 두 학교 1년 총비용(Cost of Attendance) 숫자
