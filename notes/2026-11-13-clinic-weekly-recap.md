@@ -31,6 +31,7 @@
 - `projects/clinic-content/drafts/2026-11-13-smartplace-intro.md` 스마트플레이스 소개글
 - `projects/clinic-content/drafts/2026-11-13-blog-inpatient.md` 입원 블로그 글
 - `projects/clinic-content/print/visit-source-tally.pdf` 접수용 "어떻게 알고 오셨어요?" 기록표
+- (11-14 추가) `projects/clinic-content/print/dialysis-referral.pdf` 큰 병원·기관용 투석 환자 연계 안내지 (원장님 확인 필요)
 
 ## 가장 먼저 할 일 하나
 - 접수에 기록표를 인쇄해 두고 2주 동안 세기. 어디서 환자가 오는지 알아야 다음에 힘쓸 곳이 정해진다.
