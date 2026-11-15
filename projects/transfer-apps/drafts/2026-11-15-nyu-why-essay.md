@@ -10,7 +10,7 @@
 - [x] 지원 전공 (Jae, 11-15 바꿈): **Tisch — Recorded Music (Clive Davis)**, Fall 2027. 포트폴리오 3/1 (SlideRoom)
   - 대체 1: Gallatin Individualized Major / 대체 2: Steinhardt Media, Culture, and Communication (Jae, 11-15)
   - SPS(Division of Applied Undergraduate Studies) 고려: Yes
-- [ ] 이 에세이를 Recorded Music(만드는 사람) 쪽으로 다시 쓰기. 아래는 아직 Music Business 버전
+- [x] Recorded Music 버전은 `2026-11-15-nyu-recorded-music-essay.md`. 아래는 옛 Music Business 버전 (참고용)
 - [ ] Lauv: Steinhardt Music Technology 졸업 맞는지
 - [ ] 케이팝 데몬 헌터스 가수 NYU 출신 맞는지 → 맞으면 Lauv 옆에 한 줄
 - [ ] 숫자 다시 확인: Spotify 200,000, Threads 258,000 (30일), Reels 100만 x2
