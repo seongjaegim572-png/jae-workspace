@@ -8,8 +8,8 @@
 
 ## 확인할 것
 - [x] 지원 전공 (Jae, 11-15 바꿈): **Tisch — Recorded Music (Clive Davis)**, Fall 2027. 포트폴리오 3/1 (SlideRoom)
-  - 대체 목록에 Steinhardt Music Business 없음. 지금: 대체 1 Tandon Business & Tech Management, 대체 2 Stern
-  - [ ] 대체 칸에서 "Gallatin", "Music" 검색해 보기
+  - 대체 1: Gallatin Individualized Major / 대체 2: Steinhardt Media, Culture, and Communication (Jae, 11-15)
+  - SPS(Division of Applied Undergraduate Studies) 고려: Yes
 - [ ] 이 에세이를 Recorded Music(만드는 사람) 쪽으로 다시 쓰기. 아래는 아직 Music Business 버전
 - [ ] Lauv: Steinhardt Music Technology 졸업 맞는지
 - [ ] 케이팝 데몬 헌터스 가수 NYU 출신 맞는지 → 맞으면 Lauv 옆에 한 줄
