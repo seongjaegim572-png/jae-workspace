@@ -31,5 +31,6 @@
   - https://tisch.nyu.edu/clive-davis-institute/application-requirements/faqs
 - [~] Columbia GS (11-14, 검색만. 공식 페이지는 접속 막힘 → 다시 확인): 가을 입학 1/15(우선 조기), 3/1(조기), 5/15 또는 6/1(정시, 페이지마다 다름). 수시 심사(6~8주). 유학생(F-1 비자)은 조기 마감 권장. 입학 연기 규정은 못 찾음
   - https://gs.columbia.edu/admissions
+- (11-15) Columbia GS 지원 시작 12/1 (Jae 확인). 목표 1/15 우선 조기. NYU 일반 편입 마감 3/15, Clive Davis는 3/1 (Common App)
 - (11-14) 크리투스(서울)와 시기가 겹침 → `notes/2026-11-14-north-star-roadmap.md` 에서 Fall 2028(B안) 추천
 - [ ] 두 학교 1년 총비용(Cost of Attendance) 숫자
