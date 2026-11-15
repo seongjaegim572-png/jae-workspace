@@ -7,7 +7,7 @@
 현재 약 2,100자 (괄호 칸 포함). [ ] 칸은 Jae가 NYU 사이트에서 찾아 채우기.
 
 ## 확인할 것
-- [ ] 지원 전공: Steinhardt Music Technology로 할지 (Clive Davis는 3/1 따로)
+- [x] 지원 전공 (Jae, 11-15): Steinhardt **Music Business (B.S.)**. 대체 1: Business and Technology Management (Tandon), 대체 2: Stern Business. Clive Davis는 3/1 따로
 - [ ] Lauv: Steinhardt Music Technology 졸업 맞는지
 - [ ] 케이팝 데몬 헌터스 가수 NYU 출신 맞는지 → 맞으면 Lauv 옆에 한 줄
 - [ ] 숫자 다시 확인: Spotify 200,000, Threads 258,000 (30일), Reels 100만 x2
@@ -20,10 +20,10 @@ That year taught me two things. First, music is what I want to study. At the Uni
 
 So I studied the other half. As a University Growth Specialist at Suno, I made content showing students how AI tools can help them create music. Later I took over social media for my family's clinic in Korea, grew its Threads to 258,000 views in 30 days, and built its website myself. Two of my own Instagram Reels passed one million views each. I learned what makes people stop scrolling, and what makes them come back.
 
-Now I have hit the limit of learning alone. I can produce and I can market, but I want to understand sound more deeply, like mixing, synthesis, and audio programming, and I want to learn how the music business really works, from rights to touring.
+Now I have hit the limit of learning alone. I know how to make a song and how to get views, but I don't yet understand the system behind a music career: rights, royalties, labels, data, and touring.
 
-NYU Steinhardt's Music Technology program is where I can do both. [Course 1] and [Course 2] would give me the technical depth my bedroom productions are missing, and Music Business electives like [Course 3] would show me how the industry works. I want to learn from [Professor name], whose work on [topic] connects to [what you want to make].
+NYU Steinhardt's Music Business program is where I can learn that system. [Course 1] and [Course 2] would show me how the industry really works, and I want to learn from [Professor name], whose work on [topic] connects to my goal of [goal]. Because the program sits next to Music Technology, I can also take production electives like [Course 3] and keep growing as an artist.
 
-NYU has already shown me what is possible. Lauv began writing and producing as a Music Technology student at Steinhardt and built a global career as an independent artist. That is the path I want: make the music myself, find the audience myself, and grow from there. And New York is the place to do it, with live shows, studios, and other young artists to work with every week.
+NYU has already shown me what is possible. Lauv began writing and producing as a student at Steinhardt and built a global career as an independent artist. That is the path I want: make the music myself, find the audience myself, and grow from there. And New York is the place to do it, with live shows, studios, and other young artists to work with every week.
 
 At NYU, I want to bring my two halves together: an artist who can make the song and a marketer who can get it heard.
