@@ -238,6 +238,8 @@ def render(src: Path):
         verify += f'<meta name="naver-site-verification" content="{esc(S["naver_verification"])}">\n'
     if S.get("google_verification"):
         verify += f'<meta name="google-site-verification" content="{esc(S["google_verification"])}">\n'
+    if S.get("bing_verification"):
+        verify += f'<meta name="msvalidate.01" content="{esc(S["bing_verification"])}">\n'
 
     crumb = "" if path == "/" else f'<div class="wrap breadcrumb"><a href="/">홈</a> › {esc(meta["crumb"])}</div>'
     faq_block = faq_html(faq, meta.get("faq_title", "자주 묻는 질문")) if faq else ""
@@ -304,6 +306,8 @@ def main():
     robots = "User-agent: *\nAllow: /\n\n# AI 검색·네이버·다음: 답변에 인용될 수 있게 허용\n"
     robots += "".join(f"User-agent: {b}\nAllow: /\n" for b in bots)
     robots += f"\nSitemap: {D}/sitemap.xml\n"
+    if S.get("daum_webmaster"):  # 다음 웹마스터도구가 준 줄 그대로 (예: #DaumWebMasterTool:...)
+        robots += f"\n{S['daum_webmaster'].strip()}\n"
     (ROOT / "robots.txt").write_text(robots, encoding="utf-8")
 
     d = S["doctor"]
