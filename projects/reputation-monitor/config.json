@@ -1,0 +1,22 @@
+{
+  "keywords": [
+    "\"미래연합의원\"",
+    "\"양윤정\" 남원"
+  ],
+  "channels": [
+    "blog",
+    "cafe",
+    "news",
+    "kin"
+  ],
+  "own_sources": [
+    "blog.naver.com/mirae_yeonhap",
+    "instagram.com/namwon_miraeyeonhap",
+    "namwonmiraeyeonhap.com"
+  ],
+  "seen_keep_days": 365,
+  "must_contain": [
+    "미래연합",
+    "양윤정"
+  ]
+}
