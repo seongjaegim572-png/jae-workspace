@@ -36,9 +36,13 @@
 
 ---
 
-Loneliness has followed me for most of my life, mostly because I never stayed in one place for long. I went to middle and high school in Korea, then to a small public high school in Canute, Oklahoma, and to Bellevue Christian School near Seattle. [gap year 한 줄 — Jae가 직접 넣기], then started at the University of Washington. I am Korean, but not Korean American, and I have never felt fully at home in either country. Making friends never came naturally to me, so I learned it slowly, like a skill. At UW, far from my family, most nights I sat alone with FL Studio. Then I joined the Electronic Music Producers club and met a friend, the producer Flaaroni, who felt the same way. Together we turned that feeling into "Loneliness Epidemic," the title track of my 2024 album.
+Loneliness has followed me for most of my life, mostly because I never stayed in one place for long. I went to middle and high school in Korea, then to a small public high school in Canute, Oklahoma, and to Bellevue Christian School near Seattle. [gap year 한 줄 — Jae가 직접 넣기], then started at the University of Washington.
 
-That song taught me why I make music: to turn something heavy into something other people can feel with me. Releasing it taught me the other half of the job. I shot and edited my own promo Reels; one reached 1,360 views from an account with only 150 followers. In 2024 I released a new song every Friday for two months and passed 200,000 Spotify streams with no label and no team. "With You With You," my best-made song, is built around vocal samples, warm piano, and smooth drums. I also worked as a University Growth Specialist at Suno, and two of my Reels have passed one million views each.
+I am Korean, but not Korean American, and I have never felt fully at home in either country. Making friends never came naturally to me, so I learned it slowly, like a skill. At UW, far from my family, most nights I sat alone with FL Studio. Then I joined the Electronic Music Producers club and met a friend, the producer Flaaroni, who felt the same way. Together we turned that feeling into "Loneliness Epidemic," the title track of my 2024 album.
+
+That song taught me why I make music: to turn something heavy into something other people can feel with me. Releasing it taught me the other half of the job. I shot and edited my own promo Reels; one reached 1,360 views from an account with only 150 followers. In 2024 I released a new song every Friday for two months and passed 200,000 Spotify streams with no label and no team.
+
+"With You With You," my best-made song, is built around vocal samples, warm piano, and smooth drums. I also worked as a University Growth Specialist at Suno, and two of my Reels have passed one million views each.
 
 I learned to make friends the way I learned to make music: by practicing. But my real bottleneck is not ideas. It is consistency. When I released a song every Friday, I grew fast. Every time I moved, that routine broke, and I started over alone.
 
