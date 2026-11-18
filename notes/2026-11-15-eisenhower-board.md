@@ -62,5 +62,12 @@
 - [x] 카톡방 챗봇 환영 메시지 질문 — 필요 없음. 홈페이지 주소를 공지로 올림 (Jae)
 - [x] 스마트플레이스 소개글·키워드·진료시간·휴무 (11-14)
 
+## 진행 (11-18)
+- [x] NYU 에세이 (Recorded Music) 초안 완성 → 구글 문서: https://docs.google.com/document/d/1eZFsBu2kgOTnCUKkR63YZq0ZcXynNaJXwAQHwgcnjPE/edit
+  - 남은 것: 과목 이름·Maggie Rogers 확인, 소리 내어 읽기, Common App에 붙여 넣기 (Jae)
+- [x] NYU 지원 화면 점검: Tisch Recorded Music / 대체 Gallatin, MCC
+- [ ] NYU STARS, Clive Davis SlideRoom 포트폴리오 (3/1)
+- [ ] 다음: UC 지원서 (11/30), USC Thornton (12/1)
+
 ## ⏱️ 다음 5분
 영어 영상 1개 훅 한 줄 정하기. 음악 주제로. 예) "I made this beat in 5 minutes with AI. Then I fixed it by hand."
