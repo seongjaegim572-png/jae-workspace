@@ -3,7 +3,7 @@
 상태: 초안. 제출은 Jae가 직접. 마감: Clive Davis 3/1, NYU 3/15.
 프롬프트: How have your academic and/or personal experiences shaped your chosen field of study, and why is transferring to NYU the ideal way to continue your academic pursuits? (2,500자)
 
-현재 약 2436자 (gap year 줄 포함) (괄호 칸 포함).
+현재 약 2241자 (gap year 줄 포함) (괄호 칸 포함).
 
 ## 쓴 곡
 - Loneliness Epidemic: https://open.spotify.com/track/5su9Xu5GfrLSLR2rd3fgcc (UW EMP 친구와, 대학 시절 외로움 / 프로모 릴스)
@@ -16,18 +16,19 @@
 - [x] With You With You: 보컬 샘플 + 피아노 + 부드러운 드럼 (Jae, 11-18)
 - [x] 프로모 릴스 1,360 조회 (팔로워 150명일 때, 약 9배) https://www.instagram.com/reel/C73TrHCO-NS/ (Jae, 11-18)
 - [ ] Maggie Rogers Clive Davis 출신 맞는지 (2016 졸업, Pharrell 수업 영상으로 유명 — 확인)
+- [x] Audrey Nuna: Clive Davis 1학년 다니고 나와서 음악 (위키·NME). 케이팝 데몬 헌터스 Mira 노래
+- [x] Cafuné: Clive Davis 졸업생 듀오 (Tisch 뉴스 2025-09). Pharrell 수업 참가는 블로그 기억뿐 → 에세이엔 안 씀
+- [x] 새 주제 (Jae, 11-18): 한국인이지만 한국계 미국인은 아님 → 두 세계 사이. 데몬 헌터스 주인공처럼
 - [ ] [Course]/[Faculty] 칸: Clive Davis 사이트에서
 
 ---
 
-Loneliness has followed me for most of my life, mostly because I never stayed in one place for long. I went to middle and high school in Korea, then to a small public high school in Canute, Oklahoma, and to Bellevue Christian School near Seattle. [gap year 한 줄 — Jae가 직접 넣기], then started at the University of Washington. Making friends never came naturally to me, so I learned it slowly, like a skill. At UW, far from my family, the loneliness was at its worst, and most nights I sat alone with FL Studio. Then I joined the Electronic Music Producers club and met a friend, the producer Flaaroni, who felt the same way. Together we turned that feeling into "Loneliness Epidemic," the title track of my 2024 album.
+Loneliness has followed me for most of my life, mostly because I never stayed in one place for long. I went to middle and high school in Korea, then to a small public high school in Canute, Oklahoma, and to Bellevue Christian School near Seattle. [gap year 한 줄 — Jae가 직접 넣기], then started at the University of Washington. I am Korean, but not Korean American, and I have never felt fully at home in either country. Making friends never came naturally to me, so I learned it slowly, like a skill. At UW, far from my family, most nights I sat alone with FL Studio. Then I joined the Electronic Music Producers club and met a friend, the producer Flaaroni, who felt the same way. Together we turned that feeling into "Loneliness Epidemic," the title track of my 2024 album.
 
-Making the song taught me why I make music: to turn something heavy into something other people can feel with me. Releasing it taught me the second half of the job. A song does not find its audience by itself. I shot and edited my own promo Reels for it. One reached 1,360 views from an account with only 150 followers. In 2024 I released a new song every Friday for two months, and my music passed 200,000 Spotify streams with no label and no team.
+That song taught me why I make music: to turn something heavy into something other people can feel with me. Releasing it taught me the other half of the job. I shot and edited my own promo Reels; one reached 1,360 views from an account with only 150 followers. In 2024 I released a new song every Friday for two months and passed 200,000 Spotify streams with no label and no team. "With You With You," my best-made song, is built around vocal samples, warm piano, and smooth drums. I also worked as a University Growth Specialist at Suno, and two of my Reels have passed one million views each.
 
-"With You With You" is the best-made song I have written. It is one of the few tracks I built around vocal samples, and they came together with warm piano and smooth drums. I also worked as a University Growth Specialist at Suno, making content about AI music tools. Two of my own Reels have passed one million views each.
+I learned to make friends the way I learned to make music: by practicing. But I have reached the limit of learning alone. I want my songs to go from good to great, and I want a real career, not just a viral moment.
 
-I learned to make friends the same way I learned to make music: by practicing. But I have reached the limit of learning alone. I want my songs to go from good to great, and I want to build a real career around them, not just a viral moment.
+The Clive Davis Institute is the only program I have found that treats making music and building a business around it as one skill. In [Course 1] I could push my production further, and in [Course 2] I could learn how artists own their work. And New York would give me artists to work with every week and stages to test new songs on.
 
-That is why the Clive Davis Institute is the right place for me. It is the only program I have found that treats making music and building a business around it as one skill. In [Course 1] I could push my production and songwriting further, and in [Course 2] I could learn how artists own their work and grow a team. I want to learn from [Faculty name], whose work on [topic] connects to [my goal]. And New York would give me artists to work with every week and stages to test new songs on.
-
-Clive Davis students like Maggie Rogers have shown that a song made in a classroom can reach the world. I want to be the next artist who makes the song and knows how to get it heard.
+Clive Davis artists like Maggie Rogers, Cafuné, and Audrey Nuna have shown that songs made in a classroom can reach the world. Audrey sings in KPop Demon Hunters, a story about a girl caught between two worlds who finds her voice. That is my story too, and I want to finish writing it at NYU.
