@@ -5,7 +5,7 @@
 상태: 초안. 제출은 Jae가 직접. 마감: Clive Davis 3/1, NYU 3/15.
 프롬프트: How have your academic and/or personal experiences shaped your chosen field of study, and why is transferring to NYU the ideal way to continue your academic pursuits? (2,500자)
 
-현재 약 2443자 (gap year 줄 포함) (괄호 칸 포함).
+현재 약 2452자 (gap year 줄 포함) (괄호 칸 포함).
 
 ## 쓴 곡
 - Loneliness Epidemic: https://open.spotify.com/track/5su9Xu5GfrLSLR2rd3fgcc (UW EMP 친구와, 대학 시절 외로움 / 프로모 릴스)
@@ -17,9 +17,9 @@
 - [ ] gap year 한 줄은 저장소에 안 적음 (가족 건강 정보). Jae가 직접 넣기
 - [x] With You With You: 보컬 샘플 + 피아노 + 부드러운 드럼 (Jae, 11-18)
 - [x] 프로모 릴스 1,360 조회 (팔로워 150명일 때, 약 9배) https://www.instagram.com/reel/C73TrHCO-NS/ (Jae, 11-18)
-- [ ] Maggie Rogers Clive Davis 출신 맞는지 (2016 졸업, Pharrell 수업 영상으로 유명 — 확인)
+- [x] Maggie Rogers: Clive Davis 2016년 5월 졸업, Pharrell 수업에서 "Alaska" (Jae 확인, 11-19)
 - [x] Audrey Nuna: Clive Davis 1학년 다니고 나와서 음악 (위키·NME). 케이팝 데몬 헌터스 Mira 노래
-- [x] Cafuné: Clive Davis 졸업생 듀오 (Tisch 뉴스 2025-09). Pharrell 수업 참가는 블로그 기억뿐 → 에세이엔 안 씀
+- [x] Cafuné: Clive Davis 졸업생 듀오 (Tisch 뉴스 2025-09). Pharrell 수업 영상에 Noah Yoo & Sedona Schat 나옴 (Jae 확인, https://youtu.be/G0u7lXy7pDg) → 에세이에 다시 넣음
 - [x] 새 주제 (Jae, 11-18): 한국인이지만 한국계 미국인은 아님 → 두 세계 사이. 데몬 헌터스 주인공처럼
 - [x] 과목 (11-18): The Virtual Producer: Beats & Beatmaking / The Foundations of the Music Business — 이름은 NYU 사이트에서 한 번 확인
 - [x] 핵심 주제 (Jae, 11-18): 병목은 꾸준함 → 환경(시간·장소·사람)이 필요 → Clive Davis
@@ -51,4 +51,4 @@ My real bottleneck is consistency. Every time I moved, my routine broke and I st
 
 I become like the people I spend my time with. At the Clive Davis Institute, those people would be obsessed with music. In The Virtual Producer: Beats & Beatmaking I would finish a beat every week, and in The Foundations of the Music Business I would learn to turn that into a full-time career.
 
-Clive Davis artists like Maggie Rogers and Audrey Nuna show that songs made in a classroom can reach the world. Audrey sings in KPop Demon Hunters, a story about a girl caught between two worlds who finds her voice. That is my story too, and I want to finish writing it at NYU.
+Clive Davis artists like Maggie Rogers, Cafuné, and Audrey Nuna show that songs made in a classroom can reach the world. Audrey sings in KPop Demon Hunters, a story about a girl caught between two worlds who finds her voice. That is my story too, and I want to finish writing it at NYU.
