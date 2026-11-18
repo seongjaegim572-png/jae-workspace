@@ -64,7 +64,9 @@
 
 ## 진행 (11-18)
 - [x] NYU 에세이 (Recorded Music) 초안 완성 → 구글 문서: https://docs.google.com/document/d/1eZFsBu2kgOTnCUKkR63YZq0ZcXynNaJXwAQHwgcnjPE/edit
-  - 남은 것: 과목 이름·Maggie Rogers 확인, 소리 내어 읽기, Common App에 붙여 넣기 (Jae)
+  - 과목 이름·Maggie Rogers 확인 완료 (11-19)
+  - 구글 문서 = 개요(AI 도움). Common App AI 규칙 때문에 "My version" 칸에 Jae가 자기 말로 다시 쓰기 → Claude는 피드백만
+  - 남은 것: My version 6문단 쓰기, Common App에 붙여 넣기 (Jae)
 - [x] NYU 지원 화면 점검: Tisch Recorded Music / 대체 Gallatin, MCC
 - [ ] NYU STARS, Clive Davis SlideRoom 포트폴리오 (3/1)
 - [ ] 다음: UC 지원서 (11/30), USC Thornton (12/1)
