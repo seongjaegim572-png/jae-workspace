@@ -21,6 +21,16 @@
 - [x] 새 주제 (Jae, 11-18): 한국인이지만 한국계 미국인은 아님 → 두 세계 사이. 데몬 헌터스 주인공처럼
 - [ ] [Course]/[Faculty] 칸: Clive Davis 사이트에서
 
+## NYU Common App 질문 화면 확인 (Jae 스크린샷, 11-18)
+- Fall 2027 / Tisch / Recorded Music / 대체: Gallatin, MCC / SPS: Yes — 맞음
+- NY 지원 프로그램: Not Applicable — 맞음
+- 학위 상태: In Progress Bachelor's, 고교: US diploma — 맞음
+- 재정 지원: 안 받음 체크 — 11-14 결정과 같음 (편입생은 원래 학교 장학금 없음)
+- 원서비 면제: None — 맞음
+- [ ] **STARS** (자기 보고 성적표) 따로 내야 함 — UW 과목·성적 입력. 성적표 보면서 30분쯤
+- [ ] Clive Davis는 이 화면과 별개로 SlideRoom (Statement of Intent + Creative Sample) **3/1**
+- 에세이 칸 2,500자 = 이 초안 길이와 맞음
+
 ---
 
 Loneliness has followed me for most of my life, mostly because I never stayed in one place for long. I went to middle and high school in Korea, then to a small public high school in Canute, Oklahoma, and to Bellevue Christian School near Seattle. [gap year 한 줄 — Jae가 직접 넣기], then started at the University of Washington. I am Korean, but not Korean American, and I have never felt fully at home in either country. Making friends never came naturally to me, so I learned it slowly, like a skill. At UW, far from my family, most nights I sat alone with FL Studio. Then I joined the Electronic Music Producers club and met a friend, the producer Flaaroni, who felt the same way. Together we turned that feeling into "Loneliness Epidemic," the title track of my 2024 album.
