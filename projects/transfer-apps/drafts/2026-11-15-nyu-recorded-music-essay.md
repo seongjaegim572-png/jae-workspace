@@ -36,10 +36,10 @@
 
 
 ## 11-18 최종 초안 (Jae OK)
-- 전체 글은 구글 문서에만 있음 (가족 건강·복무 내용은 저장소에 안 넣음)
-- 추가: 복무(영어 언어병), 기초군사훈련 때 교회 성가대 지휘, "타고나진 않았지만 연습으로 배움", Suno
+- 전체 글은 구글 문서에만 있음 (개인 내용은 저장소에 안 넣음)
+- 추가: 개인 경험 2줄 (구글 문서에만), "타고나진 않았지만 연습으로 배움", Suno
 - 뺌: With You With You (포트폴리오에서 들으면 됨), 100만 릴스, Cafuné
-- 11-19: Release Radar 줄, "2024 82 Jae 20개 넘게 → 2025 2개" 줄 추가 (jAe_I AI 실험 계정은 안 셈). 우울증은 에세이 대신 Common App Additional Information 에 따로 (Jae 결정)
+- 11-19: Release Radar 줄, "2024 82 Jae 20개 넘게 → 2025 2개" 줄 추가 (jAe_I AI 실험 계정은 안 셈). 개인 사정 설명은 에세이 대신 Common App Additional Information 에 따로 (Jae 결정)
 ---
 
 Loneliness has followed me for most of my life, mostly because I never stayed in one place for long. I went to middle and high school in Korea, then to a small public high school in Canute, Oklahoma, and to Bellevue Christian School near Seattle. [gap year 한 줄 — Jae가 직접], then started at the University of Washington. [복무 한 줄 — 구글 문서에 있음]
