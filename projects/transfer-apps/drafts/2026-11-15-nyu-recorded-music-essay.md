@@ -3,7 +3,7 @@
 상태: 초안. 제출은 Jae가 직접. 마감: Clive Davis 3/1, NYU 3/15.
 프롬프트: How have your academic and/or personal experiences shaped your chosen field of study, and why is transferring to NYU the ideal way to continue your academic pursuits? (2,500자)
 
-현재 약 2434자 (gap year 줄 포함) (괄호 칸 포함).
+현재 약 2436자 (gap year 줄 포함) (괄호 칸 포함).
 
 ## 쓴 곡
 - Loneliness Epidemic: https://open.spotify.com/track/5su9Xu5GfrLSLR2rd3fgcc (UW EMP 친구와, 대학 시절 외로움 / 프로모 릴스)
@@ -14,7 +14,7 @@
 - [x] 외로움은 거의 평생, 이사를 많이 다님 → 첫 문단 고침 (Jae, 11-18)
 - [ ] gap year 한 줄은 저장소에 안 적음 (가족 건강 정보). Jae가 직접 넣기
 - [x] With You With You: 보컬 샘플 + 피아노 + 부드러운 드럼 (Jae, 11-18)
-- [ ] 프로모 릴스 정확한 조회수 → [N] 칸 (팔로워 150명일 때 2,000 미만)
+- [x] 프로모 릴스 1,360 조회 (팔로워 150명일 때, 약 9배) https://www.instagram.com/reel/C73TrHCO-NS/ (Jae, 11-18)
 - [ ] Maggie Rogers Clive Davis 출신 맞는지 (2016 졸업, Pharrell 수업 영상으로 유명 — 확인)
 - [ ] [Course]/[Faculty] 칸: Clive Davis 사이트에서
 
@@ -22,7 +22,7 @@
 
 Loneliness has followed me for most of my life, mostly because I never stayed in one place for long. I went to middle and high school in Korea, then to a small public high school in Canute, Oklahoma, and to Bellevue Christian School near Seattle. [gap year 한 줄 — Jae가 직접 넣기], then started at the University of Washington. Making friends never came naturally to me, so I learned it slowly, like a skill. At UW, far from my family, the loneliness was at its worst, and most nights I sat alone with FL Studio. Then I joined the Electronic Music Producers club and met a friend, the producer Flaaroni, who felt the same way. Together we turned that feeling into "Loneliness Epidemic," the title track of my 2024 album.
 
-Making the song taught me why I make music: to turn something heavy into something other people can feel with me. Releasing it taught me the second half of the job. A song does not find its audience by itself. I shot and edited my own promo Reels for it. One reached [N] views from an account with only 150 followers. In 2024 I released a new song every Friday for two months, and my music passed 200,000 Spotify streams with no label and no team.
+Making the song taught me why I make music: to turn something heavy into something other people can feel with me. Releasing it taught me the second half of the job. A song does not find its audience by itself. I shot and edited my own promo Reels for it. One reached 1,360 views from an account with only 150 followers. In 2024 I released a new song every Friday for two months, and my music passed 200,000 Spotify streams with no label and no team.
 
 "With You With You" is the best-made song I have written. It is one of the few tracks I built around vocal samples, and they came together with warm piano and smooth drums. I also worked as a University Growth Specialist at Suno, making content about AI music tools. Two of my own Reels have passed one million views each.
 
