@@ -5,7 +5,7 @@
 상태: 초안. 제출은 Jae가 직접. 마감: Clive Davis 3/1, NYU 3/15.
 프롬프트: How have your academic and/or personal experiences shaped your chosen field of study, and why is transferring to NYU the ideal way to continue your academic pursuits? (2,500자)
 
-현재 약 2456자 (gap year 줄 포함) (괄호 칸 포함).
+현재 약 2487자 (gap year 줄 포함) (괄호 칸 포함).
 
 ## 쓴 곡
 - Loneliness Epidemic: https://open.spotify.com/track/5su9Xu5GfrLSLR2rd3fgcc (UW EMP 친구와, 대학 시절 외로움 / 프로모 릴스)
@@ -39,15 +39,16 @@
 - 전체 글은 구글 문서에만 있음 (가족 건강·복무 내용은 저장소에 안 넣음)
 - 추가: 복무(영어 언어병), 기초군사훈련 때 교회 성가대 지휘, "타고나진 않았지만 연습으로 배움", Suno
 - 뺌: With You With You (포트폴리오에서 들으면 됨), 100만 릴스, Cafuné
+- 11-19: Release Radar 줄, "2024 82 Jae 20개 넘게 → 2025 2개" 줄 추가 (jAe_I AI 실험 계정은 안 셈). 우울증은 에세이 대신 Common App Additional Information 에 따로 (Jae 결정)
 ---
 
 Loneliness has followed me for most of my life, mostly because I never stayed in one place for long. I went to middle and high school in Korea, then to a small public high school in Canute, Oklahoma, and to Bellevue Christian School near Seattle. [gap year 한 줄 — Jae가 직접], then started at the University of Washington. [복무 한 줄 — 구글 문서에 있음]
 
 I am Korean, but not Korean American, and I have never felt fully at home in either country. I was never a natural at making friends or making music. I learned both by practicing. At UW, most nights I sat alone with FL Studio. Then I joined the Electronic Music Producers club and met a friend, the producer Flaaroni, who felt the same way. Together we turned that feeling into "Loneliness Epidemic," the title track of my 2024 album.
 
-That song taught me why I make music: to turn something heavy into something others can feel with me. I shot my own promo Reels; one reached 1,360 views from an account with 150 followers. In 2024 I released a song every Friday for two months and reached 232,536 Spotify streams with no label. I also worked with Suno as a University Growth Specialist, creating content about AI music tools.
+That song taught me why I make music: to turn something heavy into something others can feel with me. My own promo Reel reached 1,360 views from an account with 150 followers. That summer I released a song almost every week, on Fridays to land in my followers' Release Radar. In 2024 I reached 232,536 Spotify streams with no label. I also worked with Suno as a University Growth Specialist, creating content about AI music tools.
 
-My real bottleneck is consistency. Every time I moved, my routine broke and I started over alone. [성가대 지휘 경험 — 구글 문서에 있음]
+My real bottleneck is consistency. After more than 20 releases in 2024, I released only two in 2025. [성가대 지휘 경험 — 구글 문서에 있음]
 
 I become like the people I spend my time with. At the Clive Davis Institute, those people would be obsessed with music. In The Virtual Producer: Beats & Beatmaking I would finish a beat every week, and in How the Contemporary Music Business Works I would learn to turn that into a full-time career.
 
