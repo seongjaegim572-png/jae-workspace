@@ -65,11 +65,18 @@
 ## 진행 (11-18)
 - [x] NYU 에세이 (Recorded Music) 초안 완성 → 구글 문서: https://docs.google.com/document/d/1eZFsBu2kgOTnCUKkR63YZq0ZcXynNaJXwAQHwgcnjPE/edit
   - 과목 이름·Maggie Rogers 확인 완료 (11-19)
-  - 구글 문서 = 개요(AI 도움). Common App AI 규칙 때문에 "My version" 칸에 Jae가 자기 말로 다시 쓰기 → Claude는 피드백만
-  - 남은 것: My version 6문단 쓰기, Common App에 붙여 넣기 (Jae)
+  - 구글 문서 = 개요(AI 도움). Common App AI 규칙 때문에 "My version" 칸에 Jae가 자기 말로 쓰기
+  - 방식: Jae가 거친 초안 (한국어 OK) → Claude가 가벼운 편집 (문법·반복·길이). 새 문장·아이디어는 안 씀
+  - [x] 1문단 완료 (11-19): "I don't feel I fully belong anywhere." 로 시작, 여동생 일화·MAONO 마이크, 약 720자
+  - [ ] 2문단: Flaaroni, 프로듀서 클럽, 연습으로 배움 ← 다음은 여기부터
+  - [ ] 3~6문단, 아버지·갭이어·복무를 어느 문단에 넣을지 정하기
+  - [ ] 다 쓰면 개요 지우기, Common App에 붙여 넣고 글자 수 확인
 - [x] NYU 지원 화면 점검: Tisch Recorded Music / 대체 Gallatin, MCC
-- [ ] NYU STARS, Clive Davis SlideRoom 포트폴리오 (3/1)
+- [ ] NYU STARS (UW 과목·성적 입력, 약 30분)
+- [ ] NYU Additional Information: 2025년 초 UW 휴학 짧게 설명 (Jae가 쓰기)
+- [ ] Clive Davis SlideRoom (3/1): Statement of Intent + Creative Sample (82 Jae 곡만, jAe_I 제외)
 - [ ] 다음: UC 지원서 (11/30), USC Thornton (12/1)
 
-## ⏱️ 다음 5분
-영어 영상 1개 훅 한 줄 정하기. 음악 주제로. 예) "I made this beat in 5 minutes with AI. Then I fixed it by hand."
+## ⏱️ 다음 5분 (다시 시작할 때)
+- NYU 에세이 2문단 거친 초안 쓰기 (Flaaroni, 클럽, 연습). 엉망이어도 OK → Claude에 붙여 넣기
+- 또는 더 급한 것: UC 포털 열고 남은 칸 적기 (11/30 마감)
