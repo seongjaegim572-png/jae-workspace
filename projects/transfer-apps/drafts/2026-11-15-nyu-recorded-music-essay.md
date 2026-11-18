@@ -1,5 +1,7 @@
 # NYU 편입 에세이 — Recorded Music (Clive Davis) 초안 (2026-11-15)
 
+구글 문서 (전체 글, 11-18): https://docs.google.com/document/d/1eZFsBu2kgOTnCUKkR63YZq0ZcXynNaJXwAQHwgcnjPE/edit
+
 상태: 초안. 제출은 Jae가 직접. 마감: Clive Davis 3/1, NYU 3/15.
 프롬프트: How have your academic and/or personal experiences shaped your chosen field of study, and why is transferring to NYU the ideal way to continue your academic pursuits? (2,500자)
 
