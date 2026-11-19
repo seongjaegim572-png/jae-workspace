@@ -22,3 +22,5 @@ User-agent: Daum
 Allow: /
 
 Sitemap: https://namwonmiraeyeonhap.com/sitemap.xml
+
+#DaumWebMasterTool:9fecf6d33774cc14301e8ecc85c222e28415d01a0db391480814b29bd0b74c2a:RZ8CZaAHG5iclrE8NK3QqA==
