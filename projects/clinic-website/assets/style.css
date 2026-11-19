@@ -112,8 +112,22 @@ th { width: 30%; font-weight: 700; color: var(--navy-dark); background: transpar
 .doctor .photo, .doctor img.photo { width: 100%; aspect-ratio: 4/5; object-fit: cover; object-position: top; border-radius: 4px; background: var(--bg-soft); display: grid; place-items: center; color: var(--muted); font-size: 14px; text-align: center; }
 .doctor h3 { font-size: 26px; color: var(--navy-dark); margin-bottom: 4px; }
 .doctor .role { color: var(--red); font-weight: 700; margin: 0 0 18px; }
-.badge { display: inline-flex; align-items: center; gap: 10px; border: 1px solid var(--line); padding: 10px 14px; border-radius: 4px; margin-top: 18px; font-size: 15px; }
-.badge img { width: 34px; height: 100px; object-fit: cover; object-position: top; }
+.badge { display: flex; align-items: flex-start; gap: 18px; border: 1px solid var(--line); padding: 14px; border-radius: 6px; margin-top: 22px; font-size: 15px; color: var(--ink); text-decoration: none; max-width: 520px; background: #fff; }
+.badge:hover { border-color: var(--navy); }
+.badge img { width: 140px; height: auto; flex: none; border-radius: 4px; box-shadow: 0 2px 10px rgba(18,41,79,.15); }
+.badge b { color: var(--navy-dark); font-size: 16px; }
+@media (max-width: 700px) { .badge img { width: 110px; } }
+.badge u { color: var(--navy); font-weight: 700; text-decoration: none; }
+/* 인증서 (인공신장실) */
+.cert { margin: 0; text-align: center; }
+.cert img { width: 100%; max-width: 300px; height: auto; margin: 0 auto; border-radius: 6px; box-shadow: 0 4px 24px rgba(18,41,79,.18); }
+.cert figcaption { margin-top: 10px; font-size: 14px; color: var(--muted); }
+.cert-split { align-items: center; }
+#doctor-kidney .eyebrow { color: var(--red); font-weight: 700; font-size: 15px; margin: 0 0 6px; }
+/* 바닥글 채널 아이콘 */
+footer a.social { display: inline-flex; align-items: center; gap: 8px; text-decoration: none; }
+footer a.social svg { width: 22px; height: 22px; flex: none; }
+footer a.social:hover span { text-decoration: underline; }
 @media (max-width: 700px) { .doctor { grid-template-columns: 1fr; } .doctor .photo, .doctor img.photo { max-width: 260px; } }
 
 /* FAQ */
