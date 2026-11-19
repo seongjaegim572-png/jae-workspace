@@ -144,6 +144,29 @@ def header(active):
 </header>"""
 
 
+# 바깥 채널 아이콘 (단순화한 모양, 글자와 함께 보여서 그림은 읽지 않게 aria-hidden)
+ICONS = {
+    "blog": '<svg viewBox="0 0 24 24" aria-hidden="true"><rect width="24" height="24" rx="6" fill="#03C75A"/><path d="M8 6.5h2.4v4.1a3.4 3.4 0 1 1-2.4 3.2Zm4.4 7.3a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0Z" fill="#fff" transform="translate(1 0)"/></svg>',
+    "instagram": '<svg viewBox="0 0 24 24" aria-hidden="true"><defs><linearGradient id="ig" x1="0" y1="1" x2="1" y2="0"><stop offset="0" stop-color="#FEDA75"/><stop offset=".35" stop-color="#FA7E1E"/><stop offset=".6" stop-color="#D62976"/><stop offset="1" stop-color="#4F5BD5"/></linearGradient></defs><rect width="24" height="24" rx="6" fill="url(#ig)"/><rect x="5.5" y="5.5" width="13" height="13" rx="4" fill="none" stroke="#fff" stroke-width="1.8"/><circle cx="12" cy="12" r="3.1" fill="none" stroke="#fff" stroke-width="1.8"/><circle cx="16.1" cy="7.9" r="1" fill="#fff"/></svg>',
+    "threads": '<svg viewBox="0 0 24 24" aria-hidden="true"><rect width="24" height="24" rx="6" fill="#000"/><text x="12" y="17" text-anchor="middle" font-size="15" font-weight="700" fill="#fff" font-family="Arial,sans-serif">@</text></svg>',
+    "facebook": '<svg viewBox="0 0 24 24" aria-hidden="true"><rect width="24" height="24" rx="6" fill="#1877F2"/><path d="M13.4 20v-6.3h2.1l.3-2.5h-2.4V9.7c0-.7.2-1.2 1.2-1.2h1.3V6.3a17 17 0 0 0-1.9-.1c-1.9 0-3.2 1.2-3.2 3.3v1.8H8.7v2.5h2.1V20Z" fill="#fff"/></svg>',
+    "place": '<svg viewBox="0 0 24 24" aria-hidden="true"><rect width="24" height="24" rx="6" fill="#03C75A"/><path d="M12 4.8a5 5 0 0 0-5 5c0 3.7 5 9.4 5 9.4s5-5.7 5-9.4a5 5 0 0 0-5-5Zm0 6.9a1.9 1.9 0 1 1 0-3.8 1.9 1.9 0 0 1 0 3.8Z" fill="#fff"/></svg>',
+}
+
+
+def social_links():
+    items = [
+        ("blog", S["blog"], "네이버 블로그"),
+        ("instagram", S["instagram"], "인스타그램"),
+        ("threads", S["threads"], "스레드"),
+        ("facebook", S["facebook_doctor"], "원장님 페이스북"),
+        ("place", S["naver_place"], "네이버 플레이스"),
+    ]
+    return "".join(
+        f'<p><a class="social" href="{href}" rel="noopener">{ICONS[k]}<span>{label}</span></a></p>' for k, href, label in items
+    )
+
+
 def footer():
     menu = "".join(f'<p><a href="{href}">{label}</a></p>' for _, href, label in NAV[:5])
     return f"""<footer>
@@ -159,11 +182,7 @@ def footer():
       <div><h4>진료 안내</h4>{menu}</div>
       <div>
         <h4>소식</h4>
-        <p><a href="{S['blog']}" rel="noopener">네이버 블로그</a></p>
-        <p><a href="{S['instagram']}" rel="noopener">인스타그램</a></p>
-        <p><a href="{S['threads']}" rel="noopener">스레드</a></p>
-        <p><a href="{S['facebook_doctor']}" rel="noopener">원장님 페이스북</a></p>
-        <p><a href="{S['naver_place']}" rel="noopener">네이버 플레이스</a></p>
+        {social_links()}
       </div>
     </div>
     <p class="kw">남원 병원 · 남원 의원 · 남원 투석 · 남원 인공신장실 · 남원 소아과 · 남원 소아청소년과 · 남원 내과 · 남원 고혈압 · 남원 당뇨 · 남원 도수치료 · 남원 물리치료 · 남원 입원 · 남원 교통사고 입원 · 남원 예방접종 · 임실 투석 · 순창 투석 · 장수 투석 · 구례 투석 · 곡성 투석 · 함양 투석 · 남원 인근 입원</p>
@@ -192,6 +211,12 @@ def fill(text):
         "{{address}}": S["road_address"], "{{hours_table}}": hours_table(), "{{location_table}}": location_table(),
         "{{doctor_list}}": doctor_list(), "{{equipment_list}}": equipment_list(), "{{parking}}": S["parking"],
         "{{doctor_name}}": S["doctor"]["name"],
+        "{{certificate}}": (
+            '<figure class="cert"><a href="/assets/img/certificate.jpg" target="_blank" rel="noopener">'
+            '<img src="/assets/img/certificate.jpg" alt="대한소아신장학회 정회원 인증서. 성명 양윤정 원장, 소속 남원 미래연합의원, 문서번호 대소신-2025-007" '
+            'width="340" height="1020" loading="lazy"></a>'
+            '<figcaption>대한소아신장학회 정회원 인증서 (눌러서 크게 보기)</figcaption></figure>'
+        ),
         "{{doctor_photo}}": (
             f'<img class="photo" src="/assets/img/doctor.jpg" alt="{S["name"]} {S["doctor"]["name"]} 원장" width="860" height="830" loading="lazy">'
             if (ROOT / "assets/img/doctor.jpg").exists() else '<div class="photo">원장님 사진<br>(assets/img/doctor.jpg)</div>'
