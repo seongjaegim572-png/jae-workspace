@@ -57,6 +57,8 @@ HTML/CSS만 써서 무료 호스팅(Cloudflare Pages, Netlify, GitHub Pages)에 
 - 서치콘솔 메일 (2026-11-19) "리디렉션 페이지 / 표준 태그 대체 페이지": http·www 주소가 원래 주소로 넘어가서 생기는 정상 알림일 가능성 높음. 보고서 URL 목록 확인 필요 (Jae).
   - 확인 (2026-11-19, 실제 사이트): 6개 페이지 200, canonical 정상, 사이트맵 6개. http→https 301, `/dialysis`→`/dialysis/` 307 (정상). `www.` 는 넘어가지 않고 200 → "표준 태그 대체 페이지" 원인. 서치콘솔: 색인 5, 미색인 4 (리디렉션·대체·발견됨·크롤링됨).
   - 계획 (Jae): "크롤링됨/발견됨" 목록 속 진짜 페이지를 URL 검사 → 색인 생성 요청. Cloudflare Redirect Rules 에서 "Redirect from WWW to Root" 켜기 (선택).
+  - 완료 (2026-11-19, 브랜치만): 저장소 맨 위 `worker/index.js` + `wrangler.jsonc` 에 www → www 없는 주소 301 넘기기 추가 (로컬 wrangler dev 로 확인). main 에 합치면 반영되어 Cloudflare Redirect Rules 는 따로 안 해도 됨.
+  - 서치콘솔 (2026-11-19): "크롤링됨" 0개, "발견됨" 2개 (처음 감지 11-17). 사이트 생긴 지 얼마 안 돼 대기 중인 상태.
 
 ## 결정 대기 (2026-11-11)
 - 아임웹(`miraenamwon.imweb.me`) 유지 vs 새 사이트로 이전 → 아버지께 확인 중
