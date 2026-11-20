@@ -67,4 +67,5 @@ Jae가 직접 하는 일. 위에서부터 순서대로. 코드를 받으면 Clau
 - 우편번호 55773 (영문 주소 3, Sicheong-ro, Namwon-si, Jeonbuk-do / 건물명 남원미래연합의원, dorojuso.kr 확인 2026-11-20)
 - 넣을 값: 이름 미래연합의원 / 영문 Mirae Yeonhap Clinic / 분류 의원(Medical Clinic) + 투석 / 전화 063-636-7500 / 주소 전북특별자치도 남원시 시청로 3 / 홈페이지 https://namwonmiraeyeonhap.com / 진료시간 평일 08:40~17:50, 토 08:30~13:00, 일·공휴일 휴진
 - 사진: 건물 정면, 인공신장실 입구, 인공신장실 내부, 입원실, 원장님 (홈페이지 assets/img 에 있음)
-- [ ] Jae: business.apple.com 로그인 → 회사 만들기 → 장소 찾아서 소유 확인 → 이름·사진 수정
+- [x] 2026-11-20: Apple Business 계정(병원 지메일, 이름 양윤정) 만들고 인증 신청 (사업자등록증 + 도메인 TXT, DNS 반영 확인). 검토 최대 영업일 5일.
+- [ ] 승인 메일 오면: 장소 찾아서 가져오기 → 이름 미래연합의원("Children's Medical Clinic" 빼기) → 사진 바꾸기. Cloudflare TXT 레코드(apple-domain-verification)는 지우지 말 것.
