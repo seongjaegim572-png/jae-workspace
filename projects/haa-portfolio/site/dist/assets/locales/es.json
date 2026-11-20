@@ -403,5 +403,8 @@
   "clinic_build.visit": "Visitar el sitio web",
   "clinic_build.case_link": "Leer los detalles del proyecto",
   "clinic_build.nav": "Creación del sitio web",
-  "clinic_build.currency_note": "Los importes en USD son estimaciones redondeadas a un tipo de cambio aproximado de 1.336 KRW por US$1, según los <a href=\"https://www.ecb.europa.eu/stats/exchange/eurofxref/shared/pdf/2026/11/20261117.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">tipos de referencia del BCE del 17 de noviembre de 2026</a>."
+  "clinic_build.currency_note": "Los importes en USD son estimaciones redondeadas a un tipo de cambio aproximado de 1.336 KRW por US$1, según los <a href=\"https://www.ecb.europa.eu/stats/exchange/eurofxref/shared/pdf/2026/11/20261117.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">tipos de referencia del BCE del 17 de noviembre de 2026</a>.",
+  "growth.suno_video_title": "Un video que creé para Suno",
+  "growth.suno_video_caption": "Publicado en el Instagram de Suno.",
+  "growth.suno_video_watch": "Ver en Instagram"
 }

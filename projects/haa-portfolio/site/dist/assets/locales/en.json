@@ -403,5 +403,8 @@
   "clinic_build.visit": "Visit the live website",
   "clinic_build.case_link": "Read the project details",
   "clinic_build.nav": "Website build",
-  "clinic_build.currency_note": "USD figures are rounded estimates at approximately KRW 1,336 per US$1, using the <a href=\"https://www.ecb.europa.eu/stats/exchange/eurofxref/shared/pdf/2026/11/20261117.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">17 November 2026 ECB reference rates</a>."
+  "clinic_build.currency_note": "USD figures are rounded estimates at approximately KRW 1,336 per US$1, using the <a href=\"https://www.ecb.europa.eu/stats/exchange/eurofxref/shared/pdf/2026/11/20261117.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">17 November 2026 ECB reference rates</a>.",
+  "growth.suno_video_title": "A video I created for Suno",
+  "growth.suno_video_caption": "Published on Suno’s Instagram.",
+  "growth.suno_video_watch": "Watch on Instagram"
 }

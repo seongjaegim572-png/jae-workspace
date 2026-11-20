@@ -1621,6 +1621,18 @@
       "clinic_build.currency_note": {
         "sourceHash": "0960497214bdb3473d50320cb0643b67c446a670bd312587b6c227fcda12014d",
         "translationHash": "7db4afd52db19b36a6840449485b14998bf4d66de3304dfdcf51994a79f32422"
+      },
+      "growth.suno_video_title": {
+        "sourceHash": "863bd55e07aca4c49dfcc589b57ec02aaff89f1512e3dc74634a78eaecf72fb5",
+        "translationHash": "74c7176a95ebfb84056632e76043924b2824e46288403a42f944be72a7134f0c"
+      },
+      "growth.suno_video_caption": {
+        "sourceHash": "a9ffcecb40b03df981eef40b5063ea7716d45bb1750b71ed76b513c98dc37347",
+        "translationHash": "ded9060b5e447d995f25ba3a54fa962d621fba2bc5c5305e8f1697ea5a25c92a"
+      },
+      "growth.suno_video_watch": {
+        "sourceHash": "0396035dfec2417c095f3eb3d0ece8a72562f16b7d1f96ece3339ae75b04e2dc",
+        "translationHash": "6992a418184d3ed2f7b31ee3b58cdc7fcb6615129f799872d72698c2bed92d26"
       }
     },
     "es": {
@@ -3243,6 +3255,18 @@
       "clinic_build.currency_note": {
         "sourceHash": "0960497214bdb3473d50320cb0643b67c446a670bd312587b6c227fcda12014d",
         "translationHash": "d5f814988463c05388f53aae99a1458414bf3435e2bcf7434c3eb6458b24e747"
+      },
+      "growth.suno_video_title": {
+        "sourceHash": "863bd55e07aca4c49dfcc589b57ec02aaff89f1512e3dc74634a78eaecf72fb5",
+        "translationHash": "18cfdf60823474c437bf15b3a742f1e41cc234055f6c3478e12dff6dbcf0b8cb"
+      },
+      "growth.suno_video_caption": {
+        "sourceHash": "a9ffcecb40b03df981eef40b5063ea7716d45bb1750b71ed76b513c98dc37347",
+        "translationHash": "cc176444bab312c0b3ff4357ea391553d4b5d52c3e5010ed100c50df758d201b"
+      },
+      "growth.suno_video_watch": {
+        "sourceHash": "0396035dfec2417c095f3eb3d0ece8a72562f16b7d1f96ece3339ae75b04e2dc",
+        "translationHash": "ceb1c6dfaa7e87b2efe7cd9474a2f6d84895c6d549fd2ca94587c443e9c629c4"
       }
     },
     "ja": {
@@ -4865,6 +4889,18 @@
       "clinic_build.currency_note": {
         "sourceHash": "0960497214bdb3473d50320cb0643b67c446a670bd312587b6c227fcda12014d",
         "translationHash": "5f8da6220ffb9f9b538b80fe4f4fa669e391cc4bc766da7a471ac86e09da81ce"
+      },
+      "growth.suno_video_title": {
+        "sourceHash": "863bd55e07aca4c49dfcc589b57ec02aaff89f1512e3dc74634a78eaecf72fb5",
+        "translationHash": "99960134b7ee166787fa0d41ed49b4c53724ab651cda2ca143e43e2f83260080"
+      },
+      "growth.suno_video_caption": {
+        "sourceHash": "a9ffcecb40b03df981eef40b5063ea7716d45bb1750b71ed76b513c98dc37347",
+        "translationHash": "d39f10cccc0b5e41b880e99ef355076e637a4486d4e571e9a6a6a611c444b5b7"
+      },
+      "growth.suno_video_watch": {
+        "sourceHash": "0396035dfec2417c095f3eb3d0ece8a72562f16b7d1f96ece3339ae75b04e2dc",
+        "translationHash": "02bfa3efdbb763d6580faebc2ca2333cf4037fd74fbfbe2e74d8a5d0014e6880"
       }
     },
     "zh": {
@@ -6487,6 +6523,18 @@
       "clinic_build.currency_note": {
         "sourceHash": "0960497214bdb3473d50320cb0643b67c446a670bd312587b6c227fcda12014d",
         "translationHash": "668b423c7bd851d575e70918d9b92dc58215615d05d5050bdbb1a49397c7c54e"
+      },
+      "growth.suno_video_title": {
+        "sourceHash": "863bd55e07aca4c49dfcc589b57ec02aaff89f1512e3dc74634a78eaecf72fb5",
+        "translationHash": "76ba5c68bd2fc7f4ea270e9ceb3e1904aab733b9c0d60e3aaf42dc017b7e9538"
+      },
+      "growth.suno_video_caption": {
+        "sourceHash": "a9ffcecb40b03df981eef40b5063ea7716d45bb1750b71ed76b513c98dc37347",
+        "translationHash": "20a508d5f768be1673b902c50e6f4f4a342806596128218548f5ab0b922be386"
+      },
+      "growth.suno_video_watch": {
+        "sourceHash": "0396035dfec2417c095f3eb3d0ece8a72562f16b7d1f96ece3339ae75b04e2dc",
+        "translationHash": "ed9f5598efa4006116a708f145e31efa31d8d24c75c261cfc8c6bc32be3455e0"
       }
     }
   }

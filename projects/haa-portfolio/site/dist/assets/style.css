@@ -238,3 +238,11 @@ html:has(#theme-toggle:checked) ::selection{background:#42668f;color:#fff}
 @media(max-width:950px){.questions-opening{grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr);gap:30px}.page-hero.questions-hero .questions-opening h1,.questions-hero .founder-question{font-size:clamp(29px,3.8vw,40px)}}
 @media(max-width:700px){.questions-opening{grid-template-columns:1fr;gap:8px}.page-hero.questions-hero .questions-opening h1,.questions-hero .founder-question{font-size:clamp(29px,7.5vw,40px)}.question-reference{margin-top:18px}.questions-hero .founder-prompts p{font-size:16px}.instagram-placeholder{min-height:280px}}
 @media print{.questions-opening{display:block}.question-reference{break-inside:avoid;max-width:400px}.instagram-frame{display:none}.instagram-original{border:0;padding:0}}
+
+/* Suno work sample, with a persistent link outside Instagram's embed. */
+.suno-video{margin:28px 0 0;max-width:540px;width:100%;min-width:0}
+.suno-video figcaption{margin-bottom:16px}
+.suno-video figcaption strong{font-size:18px}
+.suno-video figcaption p{font-size:16px;margin:6px 0 0}
+.suno-video .instagram-media,.suno-video iframe{min-width:0!important;max-width:100%!important;width:100%!important;margin:0!important}
+.suno-video-original{margin-top:17px;font-size:14px}

@@ -403,5 +403,8 @@
   "clinic_build.visit": "访问已上线的网站",
   "clinic_build.case_link": "阅读项目详情",
   "clinic_build.nav": "网站搭建",
-  "clinic_build.currency_note": "美元金额为按1美元约合1,336韩元换算并取整的估算值，依据为<a href=\"https://www.ecb.europa.eu/stats/exchange/eurofxref/shared/pdf/2026/11/20261117.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">欧洲央行2026年11月17日的参考汇率</a>。"
+  "clinic_build.currency_note": "美元金额为按1美元约合1,336韩元换算并取整的估算值，依据为<a href=\"https://www.ecb.europa.eu/stats/exchange/eurofxref/shared/pdf/2026/11/20261117.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">欧洲央行2026年11月17日的参考汇率</a>。",
+  "growth.suno_video_title": "我为Suno制作的视频",
+  "growth.suno_video_caption": "发布于Suno的Instagram账号。",
+  "growth.suno_video_watch": "在Instagram观看"
 }

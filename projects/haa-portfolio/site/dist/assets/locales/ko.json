@@ -403,5 +403,8 @@
   "clinic_build.visit": "실제 웹사이트 보기",
   "clinic_build.case_link": "프로젝트 자세히 보기",
   "clinic_build.nav": "웹사이트 제작",
-  "clinic_build.currency_note": "달러 금액은 <a href=\"https://www.ecb.europa.eu/stats/exchange/eurofxref/shared/pdf/2026/11/20261117.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">2026년 11월 17일 ECB 기준 환율</a>에 따라 1달러당 약 1,336원으로 환산하고 반올림한 추정치입니다."
+  "clinic_build.currency_note": "달러 금액은 <a href=\"https://www.ecb.europa.eu/stats/exchange/eurofxref/shared/pdf/2026/11/20261117.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">2026년 11월 17일 ECB 기준 환율</a>에 따라 1달러당 약 1,336원으로 환산하고 반올림한 추정치입니다.",
+  "growth.suno_video_title": "Suno를 위해 직접 만든 영상",
+  "growth.suno_video_caption": "Suno의 Instagram에 게시된 영상입니다.",
+  "growth.suno_video_watch": "Instagram에서 보기"
 }

@@ -12,6 +12,8 @@ November 20, 2026 update: the homepage and Audience Growth case study now featur
 
 USD equivalents are rounded estimates using the ECB reference rates dated November 17, 2026 (KRW 1,468.36 and USD 1.0989 per EUR; approximately KRW 1,336 per USD): about US$270 every two years before, or US$135/year, versus about US$15/year now. Estimated annual savings are about US$120. The original won figures remain authoritative. Both project sections link to the dated reference rate.
 
+The Suno section of the Audience Growth case study includes Jae's video at https://www.instagram.com/reel/DD0FeDDxj5h/ with Instagram's native embed and a persistent direct link. The title and caption are localized in all five supported languages. Attribution is based on Jae's supplied link and screenshot; no new view-count claim is added. Embed rendering depends on Instagram availability and visitor settings.
+
 Browser visual QA was unavailable in this environment. Local assets, cross-page anchors, metadata, and JavaScript behavior are verified before publication.
 
 Visual identity: deep navy, cool white, and slate. The supplied smiling portrait introduces Jae on the homepage; the supplied violin portrait appears in the music card and case study. The color-assessment photos were used as design references.
