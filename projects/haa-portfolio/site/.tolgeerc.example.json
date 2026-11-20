@@ -1,0 +1,7 @@
+{
+  "$schema": "https://docs.tolgee.io/cli-schema.json",
+  "projectId": "YOUR_TOLGEE_PROJECT_ID",
+  "format": "JSON_TOLGEE",
+  "push": {"filesTemplate": "./locales/{languageTag}.json", "languages": ["en"]},
+  "pull": {"path": "./translation-import", "languages": ["ko", "es", "ja", "zh"], "delimiter": "", "emptyDir": false, "fileStructureTemplate": "{languageTag}.{extension}"}
+}

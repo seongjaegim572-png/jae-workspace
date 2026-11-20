@@ -1,0 +1,23 @@
+{
+  "revision": "25b522677e986a",
+  "sourceLanguage": "en",
+  "secondaryLanguage": "ko",
+  "issues": {
+    "ko": {
+      "missing": [],
+      "stale": []
+    },
+    "es": {
+      "missing": [],
+      "stale": []
+    },
+    "ja": {
+      "missing": [],
+      "stale": []
+    },
+    "zh": {
+      "missing": [],
+      "stale": []
+    }
+  }
+}

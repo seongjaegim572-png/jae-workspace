@@ -1,0 +1,15 @@
+
+.tolgeerc
+translation-export/
+translation-import/
+
+__pycache__/
+*.pyc
+
+# Local credentials and development-only files
+.env
+.env.*
+!.env.example
+node_modules/
+*.log
+.DS_Store

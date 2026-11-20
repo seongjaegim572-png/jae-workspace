@@ -1,0 +1,10 @@
+{
+  "sourceLanguage": "en",
+  "secondaryLanguage": "ko",
+  "defaultLanguage": "en",
+  "fallbackLanguage": "en",
+  "autoDetect": true,
+  "languages": ["en", "ko", "es", "ja", "zh"],
+  "languageTags": {"en": "en", "ko": "ko", "es": "es", "ja": "ja", "zh": "zh-Hans"},
+  "storageKey": "jae-portfolio-language"
+}
