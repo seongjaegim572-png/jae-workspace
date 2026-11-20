@@ -61,3 +61,9 @@ Jae가 직접 하는 일. 위에서부터 순서대로. 코드를 받으면 Clau
 - Jae 큰 그림 정리: `notes/2026-11-14-north-star-roadmap.md` (초안). 결정 대기: 편입 Fall 2027 vs 2028
 - NYC 편입 확인 2개 (Clive Davis 3/1 마감 확인, Columbia GS 마감 후보) → `notes/2026-11-14-nyc-transfer.md`
 - 병원 쪽 남은 Jae 일은 그대로: 플레이스 사진 순서, 구글 인증(11-15), 카카오맵 확인(11-20)
+
+## Apple 지도 (Apple Business, 2026-11-20 시작)
+- 왜: ChatGPT 병원 카드가 Apple 지도 정보를 씀. 지금 이름 "미래연합의원 Children's Medical Clinic", 투석 카드에 다른 건물(윤일용내과) 사진 → 투석 검색에 불리.
+- 넣을 값: 이름 미래연합의원 / 영문 Mirae Yeonhap Clinic / 분류 의원(Medical Clinic) + 투석 / 전화 063-636-7500 / 주소 전북특별자치도 남원시 시청로 3 / 홈페이지 https://namwonmiraeyeonhap.com / 진료시간 평일 08:40~17:50, 토 08:30~13:00, 일·공휴일 휴진
+- 사진: 건물 정면, 인공신장실 입구, 인공신장실 내부, 입원실, 원장님 (홈페이지 assets/img 에 있음)
+- [ ] Jae: business.apple.com 로그인 → 회사 만들기 → 장소 찾아서 소유 확인 → 이름·사진 수정
