@@ -23,7 +23,7 @@
 ## 3. 큰 그림 (2027년 5월 이후 계획)
 - 목표: NYU 또는 HAA에서 잠재력을 최대로 쓰기. 1순위는 NYU (여자친구가 있고, 음악하는 사람이 많아서)
 - 그 전에 하려는 것:
-  - Light Anchor: Jae가 구상한 사업을 이미 잘 실행하고 있는 회사. 2026-11-20 DM 보냄. 기록: `notes/2026-11-20-light-anchor-outreach.md` (브랜치 claude/keen-archimedes-1ojkgb)
+  - Light Anchor: Jae가 구상한 사업을 이미 잘 실행하고 있는 회사. 2026-11-20 DM 보냄. 기록: `notes/2026-11-20-light-anchor-outreach.md`
   - 크리투스
   - 메루치 양식장, 이후 바디 프로필
   - 스머글러스 아카데미 음악 공부
