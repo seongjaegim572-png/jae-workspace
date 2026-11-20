@@ -397,10 +397,11 @@
   "clinic_build.eyebrow": "出願後に制作",
   "clinic_build.title": "Claude Codeで作り直したクリニックのウェブサイト。",
   "clinic_build.description": "HAAへの出願後、Claude Codeを使って南原未来連合医院のウェブサイトを作り直しました。",
-  "clinic_build.savings": "以前のウェブサイトには2年で360,000ウォンかかっていました。自分で作り直すことで、継続的な費用を年間約20,000ウォンに抑え、年額換算で約89%削減しました。",
-  "clinic_build.cost_before": "以前 · 年間180,000ウォン",
-  "clinic_build.cost_after": "現在 · 年間約20,000ウォン",
+  "clinic_build.savings": "以前のウェブサイトには2年で360,000ウォン（約270米ドル）かかっていました。自分で作り直すことで、継続的な費用を年間約20,000ウォン（約15米ドル）に抑えました。年額換算で約89%の削減となり、年間約120米ドルの節約です。",
+  "clinic_build.cost_before": "以前 · 年間180,000ウォン（約135米ドル）",
+  "clinic_build.cost_after": "現在 · 年間約20,000ウォン（15米ドル）",
   "clinic_build.visit": "公開中のサイトを見る",
   "clinic_build.case_link": "プロジェクトの詳細を読む",
-  "clinic_build.nav": "ウェブサイト制作"
+  "clinic_build.nav": "ウェブサイト制作",
+  "clinic_build.currency_note": "米ドル表示は、<a href=\"https://www.ecb.europa.eu/stats/exchange/eurofxref/shared/pdf/2026/11/20261117.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">2026年11月17日のECB参考為替レート</a>に基づき、1米ドル＝約1,336ウォンで換算した概算額です。"
 }

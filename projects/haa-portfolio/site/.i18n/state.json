@@ -1595,16 +1595,16 @@
         "translationHash": "5095546c241a83a2d0934fec8ef38dbf88bbd584071cbf6d26b9edaef88404fd"
       },
       "clinic_build.savings": {
-        "sourceHash": "a2a5b7520417cc55fa1c10b9556bc48720e7a953729cc32b07aa2140e2e9f8db",
-        "translationHash": "62861edbf36dd10152b6ca800c9234c21877c0d8293845c7bc9421024a3edaf4"
+        "sourceHash": "9d2b84db53ddea4f0571f28d770324f2711be5a09313677edf781a2a51440fdb",
+        "translationHash": "ebb9bca17ea29b3c7c0a02fd6cb29c15e6696d504d748bff0f3afd57dbb0cf88"
       },
       "clinic_build.cost_before": {
-        "sourceHash": "f53cdc973136f50b2cb9fdf631153989bac38e5e2be5b0aa77b38aa8a327a60a",
-        "translationHash": "6b223fa8380d67a1bddce4d6feae643ac23931a3a67a836063fd526372a7736f"
+        "sourceHash": "9225967f2d100958b1ff75959d0e6dcc1f89e90626f9a161b7b22681ba6bf117",
+        "translationHash": "06984dc1f83cd96d6513915efab3186040b9cc01ae28c5178db1679156a303ca"
       },
       "clinic_build.cost_after": {
-        "sourceHash": "6933922486d6b2d37d66a4fe035566c58367488a2e7cd02910043c734c1c8fb4",
-        "translationHash": "32ff1cdc99ac130ae60da668daf5f856f767eae997f78ca730825be59c99f005"
+        "sourceHash": "c718787b79d950cce51c4eb3d4f6e5cca93aa7840c64dfabe275ba586313887e",
+        "translationHash": "0f93641e7054ed2d34579f7a0141aab8f0fca015c787c829d4060fcb77dc4286"
       },
       "clinic_build.visit": {
         "sourceHash": "3ea2d4d90ba4dcea8af24dee0da1ca1954fc45653f7aad69300987d24352a7e3",
@@ -1617,6 +1617,10 @@
       "clinic_build.nav": {
         "sourceHash": "8d86d27f1ffd785809753814e09479da45c466e4cb3adf9b36448fdb492c9fc9",
         "translationHash": "48061057347178ea80b3965ecde58a125cb4ae840dd7e12d194867156af3ddd6"
+      },
+      "clinic_build.currency_note": {
+        "sourceHash": "0960497214bdb3473d50320cb0643b67c446a670bd312587b6c227fcda12014d",
+        "translationHash": "7db4afd52db19b36a6840449485b14998bf4d66de3304dfdcf51994a79f32422"
       }
     },
     "es": {
@@ -3213,16 +3217,16 @@
         "translationHash": "d600cc527b5217c89532cf114d984fbfa927e2370a8d7d9bce64e635e261f9da"
       },
       "clinic_build.savings": {
-        "sourceHash": "a2a5b7520417cc55fa1c10b9556bc48720e7a953729cc32b07aa2140e2e9f8db",
-        "translationHash": "efc026205923ffa96c57352b502cfde36a36b80f316fe7ee5934a07611385fba"
+        "sourceHash": "9d2b84db53ddea4f0571f28d770324f2711be5a09313677edf781a2a51440fdb",
+        "translationHash": "52a3886efd3ad9c9a3f8625133b9a176a664beacc0bea3739db5374e4e1f588a"
       },
       "clinic_build.cost_before": {
-        "sourceHash": "f53cdc973136f50b2cb9fdf631153989bac38e5e2be5b0aa77b38aa8a327a60a",
-        "translationHash": "a1a9c8516248a53c77707496ec42ba4323376c4bb09504111ca511e5cad71a0a"
+        "sourceHash": "9225967f2d100958b1ff75959d0e6dcc1f89e90626f9a161b7b22681ba6bf117",
+        "translationHash": "69f8e002ce0fff0e29c4f88b036e45275de5af58462f3a1ac7b5035b54bf54e8"
       },
       "clinic_build.cost_after": {
-        "sourceHash": "6933922486d6b2d37d66a4fe035566c58367488a2e7cd02910043c734c1c8fb4",
-        "translationHash": "4c54962168ee7d331ff7190970b1f3346bae63d24f1a357c61f44c08a60c3706"
+        "sourceHash": "c718787b79d950cce51c4eb3d4f6e5cca93aa7840c64dfabe275ba586313887e",
+        "translationHash": "ed6cea8d9f0a3f7c5a95371b760c1beaef0b735b66cf00fdd8393b41eb0bb8c5"
       },
       "clinic_build.visit": {
         "sourceHash": "3ea2d4d90ba4dcea8af24dee0da1ca1954fc45653f7aad69300987d24352a7e3",
@@ -3235,6 +3239,10 @@
       "clinic_build.nav": {
         "sourceHash": "8d86d27f1ffd785809753814e09479da45c466e4cb3adf9b36448fdb492c9fc9",
         "translationHash": "d88da623e3725472ef2baeb5c316acd99c644001a803c649e3d2b7d3c7f2e653"
+      },
+      "clinic_build.currency_note": {
+        "sourceHash": "0960497214bdb3473d50320cb0643b67c446a670bd312587b6c227fcda12014d",
+        "translationHash": "d5f814988463c05388f53aae99a1458414bf3435e2bcf7434c3eb6458b24e747"
       }
     },
     "ja": {
@@ -4831,16 +4839,16 @@
         "translationHash": "232d50742e3834ef24b859f9afe3b5f47aff3ef8a8ac1eca845d5a47a7f0e42c"
       },
       "clinic_build.savings": {
-        "sourceHash": "a2a5b7520417cc55fa1c10b9556bc48720e7a953729cc32b07aa2140e2e9f8db",
-        "translationHash": "f75e16d874e061f0eba64e8667528b871c0d857959ccedd235c7fcd3fc050a24"
+        "sourceHash": "9d2b84db53ddea4f0571f28d770324f2711be5a09313677edf781a2a51440fdb",
+        "translationHash": "2ab1778cecb79a3fcfbc41069c6c1507f8f9f1858c4ccd52a85a45aa61200949"
       },
       "clinic_build.cost_before": {
-        "sourceHash": "f53cdc973136f50b2cb9fdf631153989bac38e5e2be5b0aa77b38aa8a327a60a",
-        "translationHash": "3195cf22443b1f167b79d82d23b85f8a4b867ea0c153447f8d14a8e973fdb1ac"
+        "sourceHash": "9225967f2d100958b1ff75959d0e6dcc1f89e90626f9a161b7b22681ba6bf117",
+        "translationHash": "a266883cb13e82b1bb2884acdbffb36191c47dc3ac483ff4bc736e111a530d32"
       },
       "clinic_build.cost_after": {
-        "sourceHash": "6933922486d6b2d37d66a4fe035566c58367488a2e7cd02910043c734c1c8fb4",
-        "translationHash": "8e288bb4cf0e791b0d668df300ca7291229a4b1163e2016f1c0c3166cd3f7794"
+        "sourceHash": "c718787b79d950cce51c4eb3d4f6e5cca93aa7840c64dfabe275ba586313887e",
+        "translationHash": "425ba75671b0d3db9d5bf96ce788a49cd0b87e8b424d22431f0a8065e9af87e7"
       },
       "clinic_build.visit": {
         "sourceHash": "3ea2d4d90ba4dcea8af24dee0da1ca1954fc45653f7aad69300987d24352a7e3",
@@ -4853,6 +4861,10 @@
       "clinic_build.nav": {
         "sourceHash": "8d86d27f1ffd785809753814e09479da45c466e4cb3adf9b36448fdb492c9fc9",
         "translationHash": "a5ca8a188bab1d9d6bc0476e6c2c7fa5eadbaa6ce9ab8e373cacdf34c92e8c7c"
+      },
+      "clinic_build.currency_note": {
+        "sourceHash": "0960497214bdb3473d50320cb0643b67c446a670bd312587b6c227fcda12014d",
+        "translationHash": "5f8da6220ffb9f9b538b80fe4f4fa669e391cc4bc766da7a471ac86e09da81ce"
       }
     },
     "zh": {
@@ -6449,16 +6461,16 @@
         "translationHash": "bbdcf3cc498855326f611f0417e3e10619c1233367216275045cd36c5bbb2149"
       },
       "clinic_build.savings": {
-        "sourceHash": "a2a5b7520417cc55fa1c10b9556bc48720e7a953729cc32b07aa2140e2e9f8db",
-        "translationHash": "0a5c0610fd06287c57bf781745822d3ff36fef647e979ebb791512dd1475683f"
+        "sourceHash": "9d2b84db53ddea4f0571f28d770324f2711be5a09313677edf781a2a51440fdb",
+        "translationHash": "ff7dd28a608c2a73b9ca4ec773a7082ad22da6fb0ff547eb00ad82d5e4347531"
       },
       "clinic_build.cost_before": {
-        "sourceHash": "f53cdc973136f50b2cb9fdf631153989bac38e5e2be5b0aa77b38aa8a327a60a",
-        "translationHash": "9f843b86f864aad694b3921ac391c65499a673ec6470645952ff0734a193bddb"
+        "sourceHash": "9225967f2d100958b1ff75959d0e6dcc1f89e90626f9a161b7b22681ba6bf117",
+        "translationHash": "34212d85cde6e25424fb39eb320a71f571d6e13a68ab3f7e5fbb07bbbe4f4d3a"
       },
       "clinic_build.cost_after": {
-        "sourceHash": "6933922486d6b2d37d66a4fe035566c58367488a2e7cd02910043c734c1c8fb4",
-        "translationHash": "622658006e11b8d37f12cff74fd3027fdb80b8aebaf11f824a1300e64935d184"
+        "sourceHash": "c718787b79d950cce51c4eb3d4f6e5cca93aa7840c64dfabe275ba586313887e",
+        "translationHash": "50b023b443f402336d562242354312ada801159ca7b2f689e8f3b403a46e3694"
       },
       "clinic_build.visit": {
         "sourceHash": "3ea2d4d90ba4dcea8af24dee0da1ca1954fc45653f7aad69300987d24352a7e3",
@@ -6471,6 +6483,10 @@
       "clinic_build.nav": {
         "sourceHash": "8d86d27f1ffd785809753814e09479da45c466e4cb3adf9b36448fdb492c9fc9",
         "translationHash": "141648ecf0be75293131a07efac201e3a200f5e996d350d96c1e7608d6b5b88d"
+      },
+      "clinic_build.currency_note": {
+        "sourceHash": "0960497214bdb3473d50320cb0643b67c446a670bd312587b6c227fcda12014d",
+        "translationHash": "668b423c7bd851d575e70918d9b92dc58215615d05d5050bdbb1a49397c7c54e"
       }
     }
   }

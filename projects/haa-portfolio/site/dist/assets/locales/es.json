@@ -397,10 +397,11 @@
   "clinic_build.eyebrow": "CREADO DESPUÉS DE PRESENTAR MI SOLICITUD",
   "clinic_build.title": "El sitio web de una clínica, reconstruido con Claude Code.",
   "clinic_build.description": "Después de presentar mi solicitud a HAA, reconstruí el sitio web de la clínica Namwon Miraeyeonhap con Claude Code.",
-  "clinic_build.savings": "El sitio anterior costaba 360.000 KRW cada dos años. Al reconstruirlo yo mismo, reduje el costo de mantenimiento a unos 20.000 KRW al año: aproximadamente un 89 % menos en términos anuales.",
-  "clinic_build.cost_before": "Antes · 180.000 KRW/año",
-  "clinic_build.cost_after": "Ahora · aprox. 20.000 KRW/año",
+  "clinic_build.savings": "El sitio anterior costaba 360.000 KRW (unos US$270) cada dos años. Al reconstruirlo yo mismo, reduje el costo de mantenimiento a unos 20.000 KRW (unos US$15) al año: aproximadamente un 89 % menos, con un ahorro anual de unos US$120.",
+  "clinic_build.cost_before": "Antes · 180.000 KRW (unos US$135)/año",
+  "clinic_build.cost_after": "Ahora · aprox. 20.000 KRW (US$15)/año",
   "clinic_build.visit": "Visitar el sitio web",
   "clinic_build.case_link": "Leer los detalles del proyecto",
-  "clinic_build.nav": "Creación del sitio web"
+  "clinic_build.nav": "Creación del sitio web",
+  "clinic_build.currency_note": "Los importes en USD son estimaciones redondeadas a un tipo de cambio aproximado de 1.336 KRW por US$1, según los <a href=\"https://www.ecb.europa.eu/stats/exchange/eurofxref/shared/pdf/2026/11/20261117.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">tipos de referencia del BCE del 17 de noviembre de 2026</a>."
 }

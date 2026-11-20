@@ -10,6 +10,8 @@ The deployed Site is public. Updates preserve its existing audience.
 
 November 20, 2026 update: the homepage and Audience Growth case study now feature the Namwon Miraeyeonhap Clinic website rebuilt with Claude Code, linked at https://namwonmiraeyeonhap.com/. The brief cost comparison uses Jae's reported figures: KRW 360,000 every two years (KRW 180,000/year) versus approximately KRW 20,000/year, an approximately 89% annual reduction. The new section is available in all five supported languages.
 
+USD equivalents are rounded estimates using the ECB reference rates dated November 17, 2026 (KRW 1,468.36 and USD 1.0989 per EUR; approximately KRW 1,336 per USD): about US$270 every two years before, or US$135/year, versus about US$15/year now. Estimated annual savings are about US$120. The original won figures remain authoritative. Both project sections link to the dated reference rate.
+
 Browser visual QA was unavailable in this environment. Local assets, cross-page anchors, metadata, and JavaScript behavior are verified before publication.
 
 Visual identity: deep navy, cool white, and slate. The supplied smiling portrait introduces Jae on the homepage; the supplied violin portrait appears in the music card and case study. The color-assessment photos were used as design references.

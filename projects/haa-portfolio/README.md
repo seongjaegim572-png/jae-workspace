@@ -54,8 +54,8 @@ When the Site is edited directly through ChatGPT, copy those changes back to thi
 ## Snapshot and scope
 
 - Exported: November 20, 2026
-- Sites source commit: `48154404f069784e4bdfa578ae63a8da51570c49`
-- Published Site version at export: 10
+- Sites source commit: `b3c54860445aad410fae8a46412a2b580c7825df`
+- Published Site version at export: 11
 - Source: 48 tracked files, including all six pages and five supported languages.
 - The copy contains published portfolio material. It contains no Git credentials or Gmail correspondence.
 - Jae explicitly authorized including the already-public military-service portfolio page, photo, and related biography in this export. That narrow exception does not authorize adding other military information to this repository.

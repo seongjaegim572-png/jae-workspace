@@ -397,10 +397,11 @@
   "clinic_build.eyebrow": "BUILT SINCE APPLYING",
   "clinic_build.title": "A clinic website, rebuilt with Claude Code.",
   "clinic_build.description": "Since submitting my HAA application, I rebuilt Namwon Miraeyeonhap Clinic’s website using Claude Code.",
-  "clinic_build.savings": "The previous website cost KRW 360,000 every two years. Rebuilding it myself brought the ongoing cost to approximately KRW 20,000 per year—about 89% lower on an annual basis.",
-  "clinic_build.cost_before": "Before · KRW 180,000/year",
-  "clinic_build.cost_after": "Now · approx. KRW 20,000/year",
+  "clinic_build.savings": "The previous website cost KRW 360,000 (about US$270) every two years. Rebuilding it myself brought the ongoing cost to approximately KRW 20,000 (about US$15) per year—about 89% lower, saving roughly US$120 annually.",
+  "clinic_build.cost_before": "Before · KRW 180,000 (about US$135)/year",
+  "clinic_build.cost_after": "Now · approx. KRW 20,000 (US$15)/year",
   "clinic_build.visit": "Visit the live website",
   "clinic_build.case_link": "Read the project details",
-  "clinic_build.nav": "Website build"
+  "clinic_build.nav": "Website build",
+  "clinic_build.currency_note": "USD figures are rounded estimates at approximately KRW 1,336 per US$1, using the <a href=\"https://www.ecb.europa.eu/stats/exchange/eurofxref/shared/pdf/2026/11/20261117.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">17 November 2026 ECB reference rates</a>."
 }
