@@ -406,5 +406,17 @@
   "clinic_build.currency_note": "Los importes en USD son estimaciones redondeadas a un tipo de cambio aproximado de 1.336 KRW por US$1, según los <a href=\"https://www.ecb.europa.eu/stats/exchange/eurofxref/shared/pdf/2026/11/20261117.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">tipos de referencia del BCE del 17 de noviembre de 2026</a>.",
   "growth.suno_video_title": "Un video que creé para Suno",
   "growth.suno_video_caption": "Publicado en el Instagram de Suno.",
-  "growth.suno_video_watch": "Ver en Instagram"
+  "growth.suno_video_watch": "Ver en Instagram",
+  "view.human": "Human",
+  "view.machine": "Machine",
+  "view.label": "Vista de lectura",
+  "machine.title": "Jae Kim — Vista Machine",
+  "machine.description": "Una versión en texto de mi portafolio, con detalles de los proyectos, resultados y enlaces a las fuentes.",
+  "machine.download": "Descargar Markdown",
+  "machine.contents": "Índice",
+  "machine.source": "Página de origen",
+  "machine.language": "Idioma",
+  "machine.updated": "Versión del contenido",
+  "machine.profile": "Portafolio",
+  "machine.contact": "Perfiles públicos y contacto"
 }

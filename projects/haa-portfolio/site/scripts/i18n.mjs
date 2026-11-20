@@ -65,7 +65,7 @@ function build(){
   const unusable=new Set([...(issues[lang]?.missing||[]),...(issues[lang]?.stale||[])]);
   compiled[lang]=Object.fromEntries(Object.keys(source).map(key=>[key,unusable.has(key)?source[key]:catalogs[lang][key]??source[key]]));
  }
- const assetInputs=['preferences.js','site.js','theme.js','style.css'].map(file=>fs.readFileSync(path.join(root,'dist/assets',file),'utf8'));
+ const assetInputs=['preferences.js','site.js','theme.js','style.css','view-switch.js','view-switch.css','machine.css'].map(file=>fs.readFileSync(path.join(root,'dist/assets',file),'utf8'));
  const revision=hash(JSON.stringify({config,compiled,issues,assetInputs})).slice(0,14);
  const manifest={revision,sourceLanguage:config.sourceLanguage,secondaryLanguage:config.secondaryLanguage,issues};
  const destination=path.join(root,'dist/assets/locales');
@@ -77,6 +77,9 @@ function build(){
  const rendered=spawnSync('python',['scripts/render-pages.py'],{cwd:root,encoding:'utf8'});
  if(rendered.status!==0)throw Error(rendered.stderr||rendered.stdout);
  process.stdout.write(rendered.stdout);
+ const machine=spawnSync('python',['scripts/build-machine-view.py'],{cwd:root,encoding:'utf8'});
+ if(machine.status!==0)throw Error(machine.stderr||machine.stdout);
+ process.stdout.write(machine.stdout);
  console.log(`${Object.keys(source).length} source keys; catalog revision ${revision}.`);
  for(const [lang,issue]of Object.entries(issues))if(issue.missing.length||issue.stale.length)console.log(`${lang}: ${issue.missing.length} missing, ${issue.stale.length} stale (English fallback).`);
  return result;

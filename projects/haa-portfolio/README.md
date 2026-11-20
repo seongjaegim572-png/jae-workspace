@@ -3,6 +3,7 @@
 This folder contains the editable source of Jae's published personal portfolio, including the November 20, 2026 clinic website project update.
 
 - Live website: https://jae-kim-haa-portfolio.seong-jae-kim.chatgpt.site/
+- Machine view: https://jae-kim-haa-portfolio.seong-jae-kim.chatgpt.site/machine/
 - Complete website source: [`site/`](site/)
 - Prior clinic project update: [`2026-11-20-clinic-website-update.md`](2026-11-20-clinic-website-update.md)
 
@@ -20,7 +21,9 @@ Read `README.md` and `I18N.md` in that directory. The site needs Node.js and Pyt
 - Edit copy in `locales/en.json` and its four translated catalogs. Keep existing translation keys stable.
 - Edit styles and browser behavior in `dist/assets/style.css`, `preferences.js`, `site.js`, and `theme.js`.
 - Images and other static assets live in `dist/assets/`.
-- Do not directly edit generated HTML or generated translation files inside `dist/`; build them from the sources.
+- Do not directly edit generated HTML, translation files, or `dist/machine/` text exports; build them from the sources.
+- `scripts/build-machine-view.py` generates Machine HTML and Markdown from the same templates/catalogs as the Human pages.
+- The Human / Machine control is in `dist/assets/view-switch.js` and `view-switch.css`; Machine typography is in `machine.css`.
 
 Build and validate:
 
@@ -29,6 +32,7 @@ node scripts/i18n.mjs build
 node scripts/i18n.mjs check
 node tests/i18n-runtime.test.cjs
 node tests/i18n-workflow.test.mjs
+node tests/machine-view.test.mjs
 ```
 
 For a local preview:
@@ -54,8 +58,8 @@ When the Site is edited directly through ChatGPT, copy those changes back to thi
 ## Snapshot and scope
 
 - Exported: November 20, 2026
-- Sites source commit: `51b3e1d72b10d16046b7236717e894a3660db1aa`
-- Published Site version at export: 12
-- Source: 48 tracked files, including all six pages and five supported languages.
+- Sites source commit: `39b0e988bedc9d97608624557792d175dcf322f1`
+- Published Site version at export: 13
+- Source: 65 tracked files, including six Human pages, five localized Machine views, Markdown downloads, and their shared build scripts.
 - The copy contains published portfolio material. It contains no Git credentials or Gmail correspondence.
 - Jae explicitly authorized including the already-public military-service portfolio page, photo, and related biography in this export. That narrow exception does not authorize adding other military information to this repository.

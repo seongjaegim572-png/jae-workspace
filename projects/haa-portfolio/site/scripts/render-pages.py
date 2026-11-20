@@ -50,6 +50,6 @@ if __name__=='__main__':
   raw=materialize(source.read_text(),catalog,blank)
   if blank:source.write_text(raw);continue
   # Content-derived URLs refresh the catalogs and scripts only when inputs actually change.
-  raw=re.sub(r'(assets/(?:style\.css|preferences\.js|site\.js|theme\.js|i18n-source\.js))(?:\?v=[^"\s>]*)?',lambda m:m[1]+'?v='+revision,raw)
+  raw=re.sub(r'(assets/(?:style\.css|preferences\.js|site\.js|theme\.js|i18n-source\.js|view-switch\.js|view-switch\.css))(?:\?v=[^"\s>]*)?',lambda m:m[1]+'?v='+revision,raw)
   target=ROOT/'dist'/source.relative_to(ROOT/'src/pages');target.parent.mkdir(parents=True,exist_ok=True);target.write_text(raw)
  print('Prepared blank templates.' if blank else 'Rendered six pages from the English catalog.')

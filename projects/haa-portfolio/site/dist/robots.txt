@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://jae-kim-haa-portfolio.seong-jae-kim.chatgpt.site/sitemap.xml

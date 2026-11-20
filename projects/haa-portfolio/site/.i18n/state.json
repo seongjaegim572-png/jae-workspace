@@ -1633,6 +1633,54 @@
       "growth.suno_video_watch": {
         "sourceHash": "0396035dfec2417c095f3eb3d0ece8a72562f16b7d1f96ece3339ae75b04e2dc",
         "translationHash": "6992a418184d3ed2f7b31ee3b58cdc7fcb6615129f799872d72698c2bed92d26"
+      },
+      "view.human": {
+        "sourceHash": "9ffa865f2bc6e850157bb454ef3e00fa789e3f8cc631552941a99ba3fcddde51",
+        "translationHash": "9ffa865f2bc6e850157bb454ef3e00fa789e3f8cc631552941a99ba3fcddde51"
+      },
+      "view.machine": {
+        "sourceHash": "8f1cc42d7c1ceb0c41a2ae900de606db6f694d94a409ad362d5fbfa5e84e3d71",
+        "translationHash": "8f1cc42d7c1ceb0c41a2ae900de606db6f694d94a409ad362d5fbfa5e84e3d71"
+      },
+      "view.label": {
+        "sourceHash": "bc34ad4a9d8c97bbfe879f9eb3cf2cf9a085b05342c864e2e38a2a90b50b8a48",
+        "translationHash": "1941fa1f6edf2bcccf4ee96316289a0385aca7475d44a89ed7679573860fdad8"
+      },
+      "machine.title": {
+        "sourceHash": "a116f8a918949a5b6a8e9bd3fd93b176cc0c1779a6bea6a74811e9c1feac5e3a",
+        "translationHash": "b402867b6623a809926d2aff920d96111a474302f63a7a925f63775572ba3c18"
+      },
+      "machine.description": {
+        "sourceHash": "951d4af3a0e05daeff84d9f7527fe65c77d7076159e40e7e946cf4bba96bdcd3",
+        "translationHash": "19586f61ec77ebff9a3cf8bffba81d56beb888a75725961312af66b7013559e4"
+      },
+      "machine.download": {
+        "sourceHash": "9689b03e932d6edc12be10eb2ed06e8e7a2dc52bd028300585ba257667016488",
+        "translationHash": "0686935032bb5336df41544308fc686d30e84a2b3c75bf5c9237a81394189775"
+      },
+      "machine.contents": {
+        "sourceHash": "437aea62a5bd6ad4762e494c81b88532809a231477c82bdecf6fd6636908b7ab",
+        "translationHash": "843bf1cad06adf9d952e1c0ab1a9b35168556ecb70bb1604bde322b258d89493"
+      },
+      "machine.source": {
+        "sourceHash": "af45940023cd4d24abbcacaba0f2e9fa22c5d8365aa59ca83e92a83bbd1a58b1",
+        "translationHash": "c2c72949c05585782523c5891c916bf5b693c9f67b50845b4059dd899b55d0e3"
+      },
+      "machine.language": {
+        "sourceHash": "a4fe65264ef7dbb38d104b1e81eb3350f3142f3d16f32bdec39b1d9b42c1b8d1",
+        "translationHash": "d870406c5d15f996b16737726445bd00d5a310d3a366264b530672be770513bf"
+      },
+      "machine.updated": {
+        "sourceHash": "578bd30910f3669ec91d55a22b691da6ecb37e9614c703876bf4ee659a44a820",
+        "translationHash": "41a9d463ae5b0a187ad8e7015a4abaa5e620934e80e85d0de8c52e78f5cc9d81"
+      },
+      "machine.profile": {
+        "sourceHash": "1853eb2e9e5ed2bcc1d03b5a49cf407f2e43851363a8ffd0ce5ab7aa37ca8309",
+        "translationHash": "4103f8c4074f1e0244914ec95f573f90594b4d839da72a550bfa8b4c4c7a22d0"
+      },
+      "machine.contact": {
+        "sourceHash": "fa5ca8bed4d7a6514811f58eff365cc61e2859c1952c6cc1c78555653072a5d5",
+        "translationHash": "f1f090bcc5e8b4e946b3a1dd7f2a6592cbbd2666d69baad1f7c20e504ce4e7e5"
       }
     },
     "es": {
@@ -3267,6 +3315,54 @@
       "growth.suno_video_watch": {
         "sourceHash": "0396035dfec2417c095f3eb3d0ece8a72562f16b7d1f96ece3339ae75b04e2dc",
         "translationHash": "ceb1c6dfaa7e87b2efe7cd9474a2f6d84895c6d549fd2ca94587c443e9c629c4"
+      },
+      "view.human": {
+        "sourceHash": "9ffa865f2bc6e850157bb454ef3e00fa789e3f8cc631552941a99ba3fcddde51",
+        "translationHash": "9ffa865f2bc6e850157bb454ef3e00fa789e3f8cc631552941a99ba3fcddde51"
+      },
+      "view.machine": {
+        "sourceHash": "8f1cc42d7c1ceb0c41a2ae900de606db6f694d94a409ad362d5fbfa5e84e3d71",
+        "translationHash": "8f1cc42d7c1ceb0c41a2ae900de606db6f694d94a409ad362d5fbfa5e84e3d71"
+      },
+      "view.label": {
+        "sourceHash": "bc34ad4a9d8c97bbfe879f9eb3cf2cf9a085b05342c864e2e38a2a90b50b8a48",
+        "translationHash": "fb78d60232399ffaaf70246500b6661eff3da0d0c4f2fe2244cc234be4617c9f"
+      },
+      "machine.title": {
+        "sourceHash": "a116f8a918949a5b6a8e9bd3fd93b176cc0c1779a6bea6a74811e9c1feac5e3a",
+        "translationHash": "a7bdfcec4edcacc4f78870375d4fa42bea5a386e8543610970b7943c05c3fd46"
+      },
+      "machine.description": {
+        "sourceHash": "951d4af3a0e05daeff84d9f7527fe65c77d7076159e40e7e946cf4bba96bdcd3",
+        "translationHash": "ff1382884a2629c6da7fd6625633f5cf901a6c290ebfe298bb4be1e1d9288624"
+      },
+      "machine.download": {
+        "sourceHash": "9689b03e932d6edc12be10eb2ed06e8e7a2dc52bd028300585ba257667016488",
+        "translationHash": "b817454f35174255818dae53a50a810eb612fa481dd2bf86535532ee36c84fa6"
+      },
+      "machine.contents": {
+        "sourceHash": "437aea62a5bd6ad4762e494c81b88532809a231477c82bdecf6fd6636908b7ab",
+        "translationHash": "5145b3d5d7b9d782197c537419598f2dbe3ba30a5ccfeed1df9bb805557f7db8"
+      },
+      "machine.source": {
+        "sourceHash": "af45940023cd4d24abbcacaba0f2e9fa22c5d8365aa59ca83e92a83bbd1a58b1",
+        "translationHash": "5d4312f3b1d7f4cdf61c49543f03782306d40511dad0695fb23bd963c6458272"
+      },
+      "machine.language": {
+        "sourceHash": "a4fe65264ef7dbb38d104b1e81eb3350f3142f3d16f32bdec39b1d9b42c1b8d1",
+        "translationHash": "7ae9d418353b399fa1d9404c5187943c0be487ffa9c952b6dbb7dee8d17610d5"
+      },
+      "machine.updated": {
+        "sourceHash": "578bd30910f3669ec91d55a22b691da6ecb37e9614c703876bf4ee659a44a820",
+        "translationHash": "8102f9c9cc7fcc2dbff3db8f79a343d20508feb093c596ee9e0f0b32e6fecfbb"
+      },
+      "machine.profile": {
+        "sourceHash": "1853eb2e9e5ed2bcc1d03b5a49cf407f2e43851363a8ffd0ce5ab7aa37ca8309",
+        "translationHash": "ee098f935fc9fff496c8f5f8eb7fe95c7751844d2a9cc6ca49fef28e70089bd6"
+      },
+      "machine.contact": {
+        "sourceHash": "fa5ca8bed4d7a6514811f58eff365cc61e2859c1952c6cc1c78555653072a5d5",
+        "translationHash": "03e237d81989329be5dce57758bb0ae37b1f9330e4b7bc79c6dbaa2db1de60ab"
       }
     },
     "ja": {
@@ -4901,6 +4997,54 @@
       "growth.suno_video_watch": {
         "sourceHash": "0396035dfec2417c095f3eb3d0ece8a72562f16b7d1f96ece3339ae75b04e2dc",
         "translationHash": "02bfa3efdbb763d6580faebc2ca2333cf4037fd74fbfbe2e74d8a5d0014e6880"
+      },
+      "view.human": {
+        "sourceHash": "9ffa865f2bc6e850157bb454ef3e00fa789e3f8cc631552941a99ba3fcddde51",
+        "translationHash": "9ffa865f2bc6e850157bb454ef3e00fa789e3f8cc631552941a99ba3fcddde51"
+      },
+      "view.machine": {
+        "sourceHash": "8f1cc42d7c1ceb0c41a2ae900de606db6f694d94a409ad362d5fbfa5e84e3d71",
+        "translationHash": "8f1cc42d7c1ceb0c41a2ae900de606db6f694d94a409ad362d5fbfa5e84e3d71"
+      },
+      "view.label": {
+        "sourceHash": "bc34ad4a9d8c97bbfe879f9eb3cf2cf9a085b05342c864e2e38a2a90b50b8a48",
+        "translationHash": "76a3fd73cf9c65fec400bc84198a6bb2feeb5542dad7fbed2ef0d4a789096d94"
+      },
+      "machine.title": {
+        "sourceHash": "a116f8a918949a5b6a8e9bd3fd93b176cc0c1779a6bea6a74811e9c1feac5e3a",
+        "translationHash": "057a7d51e93556d635eadd08efac7a60474141047e8c04582fae7d39c1d9ce37"
+      },
+      "machine.description": {
+        "sourceHash": "951d4af3a0e05daeff84d9f7527fe65c77d7076159e40e7e946cf4bba96bdcd3",
+        "translationHash": "cf3065cde21ce5be8145bcae6a665b7c2235737de9989e9654eb86d9898ed026"
+      },
+      "machine.download": {
+        "sourceHash": "9689b03e932d6edc12be10eb2ed06e8e7a2dc52bd028300585ba257667016488",
+        "translationHash": "11914a68e0b574be1dfac8193c2936f6e1d8e758dd323631671057764cdcd325"
+      },
+      "machine.contents": {
+        "sourceHash": "437aea62a5bd6ad4762e494c81b88532809a231477c82bdecf6fd6636908b7ab",
+        "translationHash": "6763aa62211b44a20c71505eed18421683192c2f2f37668012e8aaa008367120"
+      },
+      "machine.source": {
+        "sourceHash": "af45940023cd4d24abbcacaba0f2e9fa22c5d8365aa59ca83e92a83bbd1a58b1",
+        "translationHash": "3ec6bd5ee61c1eaff8578b4da7c08d268c0fc270a3a1fa9cd82432865d474181"
+      },
+      "machine.language": {
+        "sourceHash": "a4fe65264ef7dbb38d104b1e81eb3350f3142f3d16f32bdec39b1d9b42c1b8d1",
+        "translationHash": "9682ba3b92f7a96122201caf4478d6d4c414d7d3bbc16cf10101b8df883621d8"
+      },
+      "machine.updated": {
+        "sourceHash": "578bd30910f3669ec91d55a22b691da6ecb37e9614c703876bf4ee659a44a820",
+        "translationHash": "d9b459632d1adf3e199e7e84c44f604fcd857228094558fde8e791f334bf9625"
+      },
+      "machine.profile": {
+        "sourceHash": "1853eb2e9e5ed2bcc1d03b5a49cf407f2e43851363a8ffd0ce5ab7aa37ca8309",
+        "translationHash": "21c357ea47a71e116e2352e516e752c3f4f04abc2c38706df49ca81d899aff59"
+      },
+      "machine.contact": {
+        "sourceHash": "fa5ca8bed4d7a6514811f58eff365cc61e2859c1952c6cc1c78555653072a5d5",
+        "translationHash": "7cdedeed2ead8a828564eeaaca8b71354c5e601481633231f2c30edf752353d7"
       }
     },
     "zh": {
@@ -6535,6 +6679,54 @@
       "growth.suno_video_watch": {
         "sourceHash": "0396035dfec2417c095f3eb3d0ece8a72562f16b7d1f96ece3339ae75b04e2dc",
         "translationHash": "ed9f5598efa4006116a708f145e31efa31d8d24c75c261cfc8c6bc32be3455e0"
+      },
+      "view.human": {
+        "sourceHash": "9ffa865f2bc6e850157bb454ef3e00fa789e3f8cc631552941a99ba3fcddde51",
+        "translationHash": "9ffa865f2bc6e850157bb454ef3e00fa789e3f8cc631552941a99ba3fcddde51"
+      },
+      "view.machine": {
+        "sourceHash": "8f1cc42d7c1ceb0c41a2ae900de606db6f694d94a409ad362d5fbfa5e84e3d71",
+        "translationHash": "8f1cc42d7c1ceb0c41a2ae900de606db6f694d94a409ad362d5fbfa5e84e3d71"
+      },
+      "view.label": {
+        "sourceHash": "bc34ad4a9d8c97bbfe879f9eb3cf2cf9a085b05342c864e2e38a2a90b50b8a48",
+        "translationHash": "fd92fb5439dcf69634111ab0e0e1fde1f5e9c595eb788fb7fbb313134408c2b3"
+      },
+      "machine.title": {
+        "sourceHash": "a116f8a918949a5b6a8e9bd3fd93b176cc0c1779a6bea6a74811e9c1feac5e3a",
+        "translationHash": "9ab95623bf4e639116f599cdab4f4cbc826e714d13af4e0d6203ad59d58d6dd7"
+      },
+      "machine.description": {
+        "sourceHash": "951d4af3a0e05daeff84d9f7527fe65c77d7076159e40e7e946cf4bba96bdcd3",
+        "translationHash": "fa92c6b975c01d93ebf63a1d262e4b41a55efb2b1b14418ddc2667ebb3f79ed3"
+      },
+      "machine.download": {
+        "sourceHash": "9689b03e932d6edc12be10eb2ed06e8e7a2dc52bd028300585ba257667016488",
+        "translationHash": "6aa9c09687c9f7f8be3b2e28fc627f94289247531f3cae820462519afee4e903"
+      },
+      "machine.contents": {
+        "sourceHash": "437aea62a5bd6ad4762e494c81b88532809a231477c82bdecf6fd6636908b7ab",
+        "translationHash": "52daa71ebc31058156b21dc21c01ed18eb4e9a723749259cacd1558afe32dfea"
+      },
+      "machine.source": {
+        "sourceHash": "af45940023cd4d24abbcacaba0f2e9fa22c5d8365aa59ca83e92a83bbd1a58b1",
+        "translationHash": "f819cbd331d20e9b655441100702d524741a821e34e5cd2eb16c8969909d3244"
+      },
+      "machine.language": {
+        "sourceHash": "a4fe65264ef7dbb38d104b1e81eb3350f3142f3d16f32bdec39b1d9b42c1b8d1",
+        "translationHash": "9f6fee1aba17a56586bf16a77b07b1a76d8c4e867430c6ee6abfa3128b55fa98"
+      },
+      "machine.updated": {
+        "sourceHash": "578bd30910f3669ec91d55a22b691da6ecb37e9614c703876bf4ee659a44a820",
+        "translationHash": "32776e0a9a8d4840af99f0e80fc3e3565c3bee63c0af04faf96c6cd631a5d769"
+      },
+      "machine.profile": {
+        "sourceHash": "1853eb2e9e5ed2bcc1d03b5a49cf407f2e43851363a8ffd0ce5ab7aa37ca8309",
+        "translationHash": "a53292ee24d6b6d12144d31aa8fe6bbe47d53cfb3230bead56e4e2cd4aec13e0"
+      },
+      "machine.contact": {
+        "sourceHash": "fa5ca8bed4d7a6514811f58eff365cc61e2859c1952c6cc1c78555653072a5d5",
+        "translationHash": "2df36289f1fefe24c811a4a3b8a2964111c2c4caf90e2267767c89cc2f2a769a"
       }
     }
   }

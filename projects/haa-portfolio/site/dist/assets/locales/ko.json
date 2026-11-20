@@ -406,5 +406,17 @@
   "clinic_build.currency_note": "달러 금액은 <a href=\"https://www.ecb.europa.eu/stats/exchange/eurofxref/shared/pdf/2026/11/20261117.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">2026년 11월 17일 ECB 기준 환율</a>에 따라 1달러당 약 1,336원으로 환산하고 반올림한 추정치입니다.",
   "growth.suno_video_title": "Suno를 위해 직접 만든 영상",
   "growth.suno_video_caption": "Suno의 Instagram에 게시된 영상입니다.",
-  "growth.suno_video_watch": "Instagram에서 보기"
+  "growth.suno_video_watch": "Instagram에서 보기",
+  "view.human": "Human",
+  "view.machine": "Machine",
+  "view.label": "읽기 방식",
+  "machine.title": "Jae Kim — Machine 보기",
+  "machine.description": "프로젝트 설명, 성과, 출처 링크를 담은 포트폴리오의 텍스트 버전입니다.",
+  "machine.download": "마크다운 다운로드",
+  "machine.contents": "목차",
+  "machine.source": "원본 페이지",
+  "machine.language": "언어",
+  "machine.updated": "콘텐츠 버전",
+  "machine.profile": "포트폴리오",
+  "machine.contact": "공개 프로필 및 연락처"
 }

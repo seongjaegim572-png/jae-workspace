@@ -406,5 +406,17 @@
   "clinic_build.currency_note": "米ドル表示は、<a href=\"https://www.ecb.europa.eu/stats/exchange/eurofxref/shared/pdf/2026/11/20261117.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">2026年11月17日のECB参考為替レート</a>に基づき、1米ドル＝約1,336ウォンで換算した概算額です。",
   "growth.suno_video_title": "Sunoのために制作した動画",
   "growth.suno_video_caption": "SunoのInstagramに掲載。",
-  "growth.suno_video_watch": "Instagramで見る"
+  "growth.suno_video_watch": "Instagramで見る",
+  "view.human": "Human",
+  "view.machine": "Machine",
+  "view.label": "閲覧形式",
+  "machine.title": "Jae Kim — Machineビュー",
+  "machine.description": "プロジェクトの詳細、成果、参照元リンクをまとめたポートフォリオのテキスト版です。",
+  "machine.download": "Markdownをダウンロード",
+  "machine.contents": "目次",
+  "machine.source": "元のページ",
+  "machine.language": "言語",
+  "machine.updated": "コンテンツのバージョン",
+  "machine.profile": "ポートフォリオ",
+  "machine.contact": "公開プロフィール・連絡先"
 }

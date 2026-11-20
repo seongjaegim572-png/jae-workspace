@@ -406,5 +406,17 @@
   "clinic_build.currency_note": "美元金额为按1美元约合1,336韩元换算并取整的估算值，依据为<a href=\"https://www.ecb.europa.eu/stats/exchange/eurofxref/shared/pdf/2026/11/20261117.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">欧洲央行2026年11月17日的参考汇率</a>。",
   "growth.suno_video_title": "我为Suno制作的视频",
   "growth.suno_video_caption": "发布于Suno的Instagram账号。",
-  "growth.suno_video_watch": "在Instagram观看"
+  "growth.suno_video_watch": "在Instagram观看",
+  "view.human": "Human",
+  "view.machine": "Machine",
+  "view.label": "阅读视图",
+  "machine.title": "Jae Kim — Machine 视图",
+  "machine.description": "我的作品集文本版，包含项目详情、成果和来源链接。",
+  "machine.download": "下载 Markdown",
+  "machine.contents": "目录",
+  "machine.source": "原始页面",
+  "machine.language": "语言",
+  "machine.updated": "内容版本",
+  "machine.profile": "作品集",
+  "machine.contact": "公开个人资料与联系方式"
 }

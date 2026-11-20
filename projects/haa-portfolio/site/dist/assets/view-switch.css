@@ -1,0 +1,8 @@
+/* Shared Human / Machine navigation, independent of scripts and localization. */
+.view-switch{position:fixed;right:max(18px,env(safe-area-inset-right));bottom:max(18px,env(safe-area-inset-bottom));z-index:40;display:inline-flex;gap:4px;padding:5px;border:1px solid var(--line,#364252);border-radius:999px;background:var(--white,#101722);color:var(--ink,#e7edf6);box-shadow:0 5px 24px #0002;font-family:system-ui,-apple-system,'Segoe UI',sans-serif;font-size:14px;line-height:1.2}
+.view-switch>a,.view-switch>span{display:inline-flex;align-items:center;justify-content:center;min-height:38px;min-width:78px;padding:9px 14px;border-radius:999px;text-decoration:none;font-weight:650;color:inherit;white-space:nowrap}
+.view-switch>[aria-current="page"]{background:var(--ink,#e7edf6);color:var(--white,#101722)}
+.view-switch>a:hover{background:var(--sand,#243044)}
+.view-switch>a:focus-visible{outline:3px solid var(--accent,#a7c7ff);outline-offset:3px}
+body:has(.view-switch){padding-bottom:84px}
+@media print{.view-switch{display:none}body:has(.view-switch){padding-bottom:0}}
