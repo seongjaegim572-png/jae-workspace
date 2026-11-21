@@ -29,3 +29,12 @@
 
 ## 이미 본 것 (다시 제안하지 않음)
 - 라이트 앵커
+
+## 왜 직접 창업 대신 합류도 답이 되는가 (Zero to One, 멱법칙 챕터)
+> "You could have 100% of the equity if you fully fund your own venture, but if it fails you'll have 100% of nothing. Owning just 0.01% of Google, by contrast, is incredibly valuable."
+
+> "Too many people are starting their own companies today. People who understand the power law will hesitate more than others when it comes to founding a new venture: they know how tremendously successful they could become by joining the very best company while it's growing fast."
+
+> "For the startup world, this means you should not necessarily start your own company, even if you are extraordinarily talented."
+
+(출처: Derek Sivers 독서 노트 sive.rs/book/ZeroToOne, futurestartup.com 인용 모음. 종이책과 직접 대조는 못 함.)
