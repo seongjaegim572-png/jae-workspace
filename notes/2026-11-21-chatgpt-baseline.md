@@ -15,3 +15,4 @@
 - site: 검색 = 3페이지만 색인 (메인, 만성질환, 도수치료). /inpatient/ /dialysis/ /pediatrics/ 빠짐
 - 세 페이지 모두 200, index 허용, canonical 정상 (Claude 확인). IndexNow는 11-13·11-19에 이미 보냄 → 다시 보내지 않고 웹마스터 도구 수동 요청으로
 - 다음: Jae가 빙 웹마스터 URL 제출 (/inpatient/ /dialysis/), Bing Places 등록 (구글 비즈니스 프로필 가져오기)
+- (11-21) Jae: 빙 웹마스터에서 /inpatient/ /dialysis/ 색인 요청 완료. 상태는 '검색됨(11-13), 크롤링 안 됨'. robots.txt 허용, bingbot으로 열어도 200 (Claude 확인). 11-28에 다시 URL 검사
