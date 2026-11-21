@@ -7,6 +7,10 @@
 | LinkedIn | https://www.linkedin.com/in/seongjae-kim-5608521a4 |
 | Instagram (개인) | https://www.instagram.com/seong_jae_kim |
 
+| 릴스 300만 뷰 | https://www.instagram.com/reel/DVaq8uakWoT/ |
+| 릴스 100만 뷰 | https://www.instagram.com/reel/DR11wwEESwx/ |
+| 병원 홈페이지 (Claude Code 제작) | https://namwonmiraeyeonhap.com |
+
 ## 나중에 채울 것
 - 음악 인스타:
 - Spotify (82 Jae):
