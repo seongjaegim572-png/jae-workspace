@@ -9,3 +9,9 @@
 - ChatGPT가 쓴 출처: HIRA(심평원), 어디병원, 병원찾기. 지도는 Apple Maps로 표시 (별점·사진 칸)
 - Apple Business: 11-21 "Not Qualified"로 거절됨 (yangped7 계정). 어떤 병원이 나올지는 지도가 정하지 않음. 사진·별점 칸에만 영향
 - 다시 잴 날: 12-05 무렵, 같은 질문 2개, 임시 채팅
+
+## Bing 확인 (11-21, Jae 폰)
+- "남원 입원 가능한 병원": 홈페이지가 일반 결과 2번째 (광고 제외). 지도 칸엔 남원병원·남원의료원만, 미래연합의원 없음
+- site: 검색 = 3페이지만 색인 (메인, 만성질환, 도수치료). /inpatient/ /dialysis/ /pediatrics/ 빠짐
+- 세 페이지 모두 200, index 허용, canonical 정상 (Claude 확인). IndexNow는 11-13·11-19에 이미 보냄 → 다시 보내지 않고 웹마스터 도구 수동 요청으로
+- 다음: Jae가 빙 웹마스터 URL 제출 (/inpatient/ /dialysis/), Bing Places 등록 (구글 비즈니스 프로필 가져오기)
