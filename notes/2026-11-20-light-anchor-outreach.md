@@ -39,7 +39,7 @@
 ## 샘플 브랜드: Anuko (2026-11-20 결정)
 - 이유: 슬라이드 4번 첫 카드에 대표 사례로 나옴 (아마존 일매출 54배). 슬라이드 6번 색상표에서 첫 번호 "LA-001 · HAIR".
 - 확인 못 한 점: 라이트 앵커가 직접 만든 브랜드인지는 인터넷으로 확인 안 됨.
-- 참고: nooni, I Dew Care는 MBX 브랜드, Lion Pose는 별개 YC 회사. 라이트 앵커가 판매만 하는 브랜드일 가능성이 높아서 제외함.
+- 정정 (2026-11-21): 사례 페이지(The brands we grow)에 nooni, Lion Pose 사례도 있음. 판매만 하는 게 아니라 라이트 앵커가 키워 주는 파트너 브랜드임 (nooni는 MBX, Lion Pose는 별개 YC 회사 소유). Anuko는 사례 목록 맨 위에 있어서 샘플 브랜드로 그대로 유지.
 - YC 페이지상 공동창업자: Chase Kim, Sangha Park. 인스타 댓글을 단 chasingjohnn이 Chase Kim일 가능성 있음.
 
 ## 채용 페이지 정리 (2026-11-21, Jae가 준 스크린샷)
@@ -70,6 +70,6 @@
 - Gmail 초안 만듦 (영어, 5개 항목 순서대로). 발송은 Jae가 직접.
 - 작업 증거: 릴스 100만 뷰 2회 + 병원 홈페이지(Claude Code로 제작, https://namwonmiraeyeonhap.com) + Anuko 샘플 릴스 3개(아직 안 만듦)
 - 보내기 전 체크리스트
-  - [ ] 받는 사람: 채용 페이지 "Apply by email" 버튼의 주소 확인
+  - [x] 받는 사람: founders@lightanchor.ai, 제목 "Founding Member" (지원 버튼 양식 그대로)
   - [ ] 릴스 링크 2개 넣기
   - [ ] Anuko 샘플 3개 만들고 링크 넣기 (없으면 이 줄 지우고 먼저 보내기)
