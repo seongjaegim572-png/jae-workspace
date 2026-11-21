@@ -73,3 +73,6 @@
   - [x] 받는 사람: founders@lightanchor.ai, 제목 "Founding Member" (지원 버튼 양식 그대로)
   - [x] 릴스 링크 2개 넣기 (300만 뷰, 100만 뷰)
   - [x] Anuko 샘플 줄 삭제 (휴가 전까지 못 만듦 → 샘플 없이 먼저 보냄. 나중에 만들면 같은 스레드로 후속 메일)
+
+- 2026-11-21: Founding Member 지원 메일 발송 완료 (Jae가 직접, founders@lightanchor.ai). 샘플 없이 보냄.
+- 다음: Anuko 샘플이 생기면 같은 스레드에 후속 메일. 커피챗 슬롯 열리면 예약.
