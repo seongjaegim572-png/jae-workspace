@@ -8,6 +8,9 @@
 - [ ] 병원: 접수용 "어떻게 알고 오셨어요?" 기록표 인쇄 → 2주 세기
 - [ ] 크리투스 Lv1: @coolkoreanboy_jae 영어 영상 12/1까지 3개 (로드맵)
 - [ ] UC (UCLA + UCSD) 11/30 — 로드맵 추천대로 "보험": 이미 준비한 만큼만 내기
+  - (11-22 추천) UCLA: **Music Industry** (Herb Alpert). 추가 지원서 Acceptd **12/4 11:59pm PST** 마감 (검색 결과, 학교 사이트에서 확인 필요)
+  - (11-22 추천) UCSD: 1지망 **ICAM–Music**, 대체 전공 Music. 포트폴리오는 선택 → 82 Jae 곡 넣기
+  - 확인: UW 학점이 90 quarter units(3학년) 되는지, 영어 작문 2개 + 수학 1개 들었는지
 - [ ] **USC Thornton (음악) 12/1** — 음악·BFA·공연 예술 전공은 12/1이 최종 마감 (구글 AI 요약, USC 출처, 11-15). Common App 화면의 2/15는 다른 전공 마감. admission.usc.edu에서 한 번 확인
 - [ ] CalArts 마감 확인 (보통 12/1 얼리 또는 1/5) — 낼지 말지 정하기
 
