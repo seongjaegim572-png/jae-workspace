@@ -12,6 +12,12 @@
   - (11-22 추천) UCSD: 1지망 **ICAM–Music**, 대체 전공 Music. 포트폴리오는 선택 → 82 Jae 곡 넣기
   - 확인: UW 학점이 90 quarter units(3학년) 되는지, 영어 작문 2개 + 수학 1개 들었는지
   - (11-22) UC 지원서에서 UC Berkeley·UCSD·UCSB 선택 안 됨 (Fall 2027, Safari·Chrome 둘 다). UC Application Center에 문의 보냄 (요청 #614347). 답 없으면 11/25에 전화 (미국 밖: +1 925-298-6856)
+  - (11-23 진행) UC 고등학교 성적 입력 규칙: Honor = NH (AP 과목만 AP), 한 학기 과목은 빈 학기에 NO, 한국 과목은 PS(Pass), +/- 없음 (A-→A). 체육·보건·Tech&Home은 안 받음 → 빼기
+    - [x] 11학년 Canute (13과목) 입력 완료
+    - [ ] 12학년 BCS 2021–22 (11과목), BCS 학년·시작일 고치기 (11학년 칸 2021–22 중복)
+    - [ ] 10학년 Canute 8과목 (NO·A), 논산대건 (PS, 성적표 가려진 줄 확인 필요)
+    - [ ] 9학년 화산중 8과목 (PS)
+    - [ ] UW 과목·성적, 활동, PIQ 4개
   - UCSD 계속 막히면 대신 UC Santa Cruz (Music) 추가할지 11/28까지 정하기. 기다리는 동안 UCLA로 나머지 칸 채우기
 - [ ] **USC Thornton (음악) 12/1** — 음악·BFA·공연 예술 전공은 12/1이 최종 마감 (구글 AI 요약, USC 출처, 11-15). Common App 화면의 2/15는 다른 전공 마감. admission.usc.edu에서 한 번 확인
 - [ ] CalArts 마감 확인 (보통 12/1 얼리 또는 1/5) — 낼지 말지 정하기
