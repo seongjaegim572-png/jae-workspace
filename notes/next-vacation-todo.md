@@ -14,7 +14,6 @@ Added 2026-11-25. Status: plan (nothing started yet).
   - Spring/fall example: allergies, fine dust, mycoplasma
 
 ## 3. Goal (numbers)
-- [ ] 25 people → ? (to confirm)
-- [ ] 50 people → ? (to confirm)
-
-> Jae: what are the 25 and 50? (e.g. 25 new patients / 50 Carrot followers?)
+The marketing system in #2 exists to reach these:
+- [ ] Dialysis patients: 50+ (투석 50명 이상)
+- [ ] Inpatients: 25+ (입원 환자 25명 이상)
