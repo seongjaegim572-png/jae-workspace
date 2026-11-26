@@ -6,7 +6,8 @@
 - 2026-11-20: 커피챗 슬롯 마감. founders@lightanchor.ai로 소개+링크드인 보내 달라는 답 받음 → Gmail 초안 준비
 - 2026-11-20: 이메일 발송 완료 (Jae가 직접)
 - 2026-11-25: Sangha 답장. Reels 수백만 뷰 + Claude Code로 만든 병원 사이트가 눈에 띄었다고 함. 커피챗 슬롯은 마감이지만 따로 만나자며 예약 링크 줌: cal.com/team/light-anchor/founding-member-chat. 장소: 스타벅스 아크플레이스(테헤란로). Chase 또는 Sangha가 나옴.
-- 예약: 확인 안 됨
+- 예약: 12/23(수) 예정, 확인 안 됨
+- 2026-11-26: Sangha에게 미팅 확인서 요청 메일 Gmail 초안 준비 (발송은 Jae가 직접)
 
 ## 다음 할 일 (계획)
 - [ ] 답장 오면 24시간 안에 답하기
